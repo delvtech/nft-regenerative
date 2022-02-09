@@ -2,7 +2,6 @@
 
 ## Installation
 
-npm install
 ```
 node index.js
 
@@ -25,5 +24,8 @@ For instance, if you have three images in a layer folder and want to pick one of
 Finally when the parameters are set we can run:
 
 ```sh
+
+npm install
+
 npm run build
 ```
