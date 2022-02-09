@@ -7,9 +7,6 @@
 npm install
 ```
 
-```
-node index.js
-
 ## Layer Organization
 
 const layersOrder = [
