@@ -1,0 +1,15 @@
+{
+  "name": "elfi-nfts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tina Haibodi",
+  "license": "Apache License",
+  "dependencies": {
+    "canvas": "^2.8.0"
+  }
+}
