@@ -73,7 +73,7 @@ const buildSetup = () => {
   if (fs.existsSync(buildDir)) {
     fs.rmdirSync(buildDir, { recursive: true });
   }
-  fs.mkdirSync(buildDir);
+  else {fs.mkdirSync(buildDir)};
 };
 
 const saveLayer = (_canvas, _edition) => {
