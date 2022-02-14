@@ -123,35 +123,42 @@ const addAttributes = (_element, _layer) => {
   decodedHash.push({ [_layer.id]: _element.id });
 };
 
-const drawLayer = async (_layer, _edition) => {
-  const rand = Math.random(); // RANDOM NUMBER
+const drawLayer = async (_layer, _edition, _rarity) => {
+    if (_rarity) {
+      let element =
+      _layer.elements[_rarity] ? _layer.elements[_rarity] : null;
+      addAttributes(element, _layer);
+      const image = await loadImage(`${_layer.location}${element.fileName}`);
 
-  // pick an asset
-  let element =
-    _layer.elements[Math.floor(rand * _layer.number)] ? _layer.elements[Math.floor(rand * _layer.number)] : null;
-
-  if (element) {
-    addAttributes(element, _layer);
-    const image = await loadImage(`${_layer.location}${element.fileName}`);
-
-    ctx.drawImage(
-      image,
-      _layer.position.x,
-      _layer.position.y,
-      _layer.size.width,
-      _layer.size.height
-    );
-    saveLayer(canvas, _edition);
+      ctx.drawImage(
+        image,
+        _layer.position.x,
+        _layer.position.y,
+        _layer.size.width,
+        _layer.size.height
+      );
+      saveLayer(canvas, _edition);
   }
 };
+
+const calcRarity = async layers => {
+  // pick an asset
+  elements = [];
+    await layers.forEach(async (layer) => {
+    elements.push(Math.floor(Math.random() * layer.number))
+  })
+  return elements;
+}
 
 const createFiles = async edition => {
   const layers = layersSetup(layersOrder);
   let numDupes = 0;
   var startTime = performance.now()
  for (let i = 1; i <= edition; i++) {
+   let rarityForAll = await calcRarity(layers);
+   console.log(rarityForAll);
    await layers.forEach(async (layer) => { // for each Layer
-     await drawLayer(layer, i);
+     await drawLayer(layer, i, rarityForAll[i-1]);
    });
 
    // by now it's fully created, so we check for duplicate

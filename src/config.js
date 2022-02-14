@@ -29,6 +29,6 @@ const rarity = [
 // joint rarities
 // 2d matrix of properties (7) by assets in each property (10) = 7 rows by 10 columns
 
-const defaultEdition = 1000;
+const defaultEdition = 10;
 
 module.exports = { layersOrder, format, rarity, defaultEdition };
