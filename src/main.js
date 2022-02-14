@@ -68,7 +68,7 @@ const layersSetup = layersOrder => {
     elements: getElements(`${layersDir}/${layerObj.name}/`),
     position: { x: 0, y: 0 },
     size: { width: format.width, height: format.height },
-    number: layerObj.number
+    number: layerObj.number // their order from the back, 1 = backest
   }));
   var combinations = 0;
   layers.forEach(layer => {
@@ -123,12 +123,10 @@ const addAttributes = (_element, _layer) => {
   decodedHash.push({ [_layer.id]: _element.id });
 };
 
-const drawLayer = async (_layer, _edition, _rarity) => {
-    if (_rarity) {
-      let element =
-      _layer.elements[_rarity] ? _layer.elements[_rarity] : null;
-      addAttributes(element, _layer);
-      const image = await loadImage(`${_layer.location}${element.fileName}`);
+const drawLayer = async (_layer, _edition, _element) => {
+    if (_element) {
+
+      const image = await loadImage(`${_layer.location}${_element.fileName}`);
 
       ctx.drawImage(
         image,
@@ -145,7 +143,7 @@ const calcRarity = async layers => {
   // pick an asset
   elements = [];
     await layers.forEach(async (layer) => {
-    elements.push(Math.floor(Math.random() * layer.number))
+    elements.push(Math.floor(Math.random() * layer.numElements-1)+1)
   })
   return elements;
 }
@@ -155,10 +153,15 @@ const createFiles = async edition => {
   let numDupes = 0;
   var startTime = performance.now()
  for (let i = 1; i <= edition; i++) {
-   let rarityForAll = await calcRarity(layers);
-   console.log(rarityForAll);
-   await layers.forEach(async (layer) => { // for each Layer
-     await drawLayer(layer, i, rarityForAll[i-1]);
+   let rarities = await calcRarity(layers);
+   console.log(rarities);
+   await layers.forEach(async (layer,layerIdx) => { // for each Layer
+    // console.log(i + ' layer:')
+    // console.log(layer)
+    let element = layer.elements[rarities[layerIdx]] ? layer.elements[rarities[layerIdx]] : null;
+    // console.log(element)
+    addAttributes(element, layer);
+    await drawLayer(layer, i, element);
    });
 
    // by now it's fully created, so we check for duplicate
