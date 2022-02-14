@@ -2,9 +2,14 @@ const fs = require("fs");
 const { createCanvas, loadImage } = require("canvas");
 const console = require("console");
 const { layersOrder, format, rarity } = require("./config.js");
+const { performance } = require('perf_hooks');
 
 const canvas = createCanvas(format.width, format.height);
 const ctx = canvas.getContext("2d");
+
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 
 if (!process.env.PWD) {
   process.env.PWD = process.cwd();
@@ -56,7 +61,7 @@ const getElements = path => {
 };
 
 const layersSetup = layersOrder => {
-  const layers = layersOrder.map((layerObj, index) => ({
+  var layers = layersOrder.map((layerObj, index) => ({
     id: index,
     name: layerObj.name,
     location: `${layersDir}/${layerObj.name}/`,
@@ -65,13 +70,23 @@ const layersSetup = layersOrder => {
     size: { width: format.width, height: format.height },
     number: layerObj.number
   }));
+  var combinations = 0;
+  layers.forEach(layer => {
+    layer.numElements = layer.elements.length
+    if (combinations ==0) {
+      combinations = layer.numElements;
+    } else {
+      combinations = combinations * layer.numElements;
+    }
+  })
+  console.log('read in ' + layers.length + ' layers with ' + numberWithCommas(combinations) + ' unique combinations')
 
   return layers;
 };
 
 const buildSetup = () => {
   if (fs.existsSync(buildDir)) {
-    fs.rmdirSync(buildDir, { recursive: true });
+    fs.rmSync(buildDir, { recursive: true });
   }
   else {fs.mkdirSync(buildDir)};
 };
@@ -109,9 +124,12 @@ const addAttributes = (_element, _layer) => {
 };
 
 const drawLayer = async (_layer, _edition) => {
-  const rand = Math.random();
+  const rand = Math.random(); // RANDOM NUMBER
+
+  // pick an asset
   let element =
     _layer.elements[Math.floor(rand * _layer.number)] ? _layer.elements[Math.floor(rand * _layer.number)] : null;
+
   if (element) {
     addAttributes(element, _layer);
     const image = await loadImage(`${_layer.location}${element.fileName}`);
@@ -129,13 +147,14 @@ const drawLayer = async (_layer, _edition) => {
 
 const createFiles = async edition => {
   const layers = layersSetup(layersOrder);
-
   let numDupes = 0;
+  var startTime = performance.now()
  for (let i = 1; i <= edition; i++) {
-   await layers.forEach(async (layer) => {
+   await layers.forEach(async (layer) => { // for each Layer
      await drawLayer(layer, i);
    });
 
+   // by now it's fully created, so we check for duplicate
    let key = hash.toString();
    if (Exists.has(key)) {
      console.log(
@@ -149,7 +168,7 @@ const createFiles = async edition => {
    } else {
      Exists.set(key, i);
      addMetadata(i);
-     console.log("Creating edition " + i);
+     console.log("Created edition " + i + ' at '+i/(performance.now()-startTime)*1000*60+' Elfis/minute');
    }
  }
 };
