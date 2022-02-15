@@ -2,9 +2,14 @@ const fs = require("fs");
 const { createCanvas, loadImage } = require("canvas");
 const console = require("console");
 const { layersOrder, format, rarity } = require("./config.js");
+const { performance } = require('perf_hooks');
 
 const canvas = createCanvas(format.width, format.height);
 const ctx = canvas.getContext("2d");
+
+function numberWithCommas(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 
 if (!process.env.PWD) {
   process.env.PWD = process.cwd();
@@ -56,22 +61,32 @@ const getElements = path => {
 };
 
 const layersSetup = layersOrder => {
-  const layers = layersOrder.map((layerObj, index) => ({
+  var layers = layersOrder.map((layerObj, index) => ({
     id: index,
     name: layerObj.name,
     location: `${layersDir}/${layerObj.name}/`,
     elements: getElements(`${layersDir}/${layerObj.name}/`),
     position: { x: 0, y: 0 },
     size: { width: format.width, height: format.height },
-    number: layerObj.number
+    number: layerObj.number // their order from the back, 1 = backest
   }));
+  var combinations = 0;
+  layers.forEach(layer => {
+    layer.numElements = layer.elements.length
+    if (combinations ==0) {
+      combinations = layer.numElements;
+    } else {
+      combinations = combinations * layer.numElements;
+    }
+  })
+  console.log('read in ' + layers.length + ' layers with ' + numberWithCommas(combinations) + ' unique combinations')
 
   return layers;
 };
 
 const buildSetup = () => {
   if (fs.existsSync(buildDir)) {
-    fs.rmdirSync(buildDir, { recursive: true });
+    fs.rmSync(buildDir, { recursive: true });
   }
   else {fs.mkdirSync(buildDir)};
 };
@@ -108,34 +123,48 @@ const addAttributes = (_element, _layer) => {
   decodedHash.push({ [_layer.id]: _element.id });
 };
 
-const drawLayer = async (_layer, _edition) => {
-  const rand = Math.random();
-  let element =
-    _layer.elements[Math.floor(rand * _layer.number)] ? _layer.elements[Math.floor(rand * _layer.number)] : null;
-  if (element) {
-    addAttributes(element, _layer);
-    const image = await loadImage(`${_layer.location}${element.fileName}`);
+const drawLayer = async (_layer, _edition, _element) => {
+    if (_element) {
 
-    ctx.drawImage(
-      image,
-      _layer.position.x,
-      _layer.position.y,
-      _layer.size.width,
-      _layer.size.height
-    );
-    saveLayer(canvas, _edition);
+      const image = await loadImage(`${_layer.location}${_element.fileName}`);
+
+      ctx.drawImage(
+        image,
+        _layer.position.x,
+        _layer.position.y,
+        _layer.size.width,
+        _layer.size.height
+      );
+      saveLayer(canvas, _edition);
   }
 };
 
-const createFiles = async edition => {
-  const layers = layersSetup(layersOrder);
+const calcRarity = async layers => {
+  // pick an asset
+  elements = [];
+    await layers.forEach(async (layer) => {
+    elements.push(Math.floor(Math.random() * layer.numElements-1)+1)
+  })
+  return elements;
+}
 
+const createFiles = async (edition,to_draw) => {
+  const layers = layersSetup(layersOrder);
   let numDupes = 0;
+  var startTime = performance.now()
  for (let i = 1; i <= edition; i++) {
-   await layers.forEach(async (layer) => {
-     await drawLayer(layer, i);
+   let rarities = await calcRarity(layers);
+   console.log(rarities);
+   await layers.forEach(async (layer,layerIdx) => { // for each Layer
+    // console.log(i + ' layer:')
+    // console.log(layer)
+    let element = layer.elements[rarities[layerIdx]] ? layer.elements[rarities[layerIdx]] : null;
+    // console.log(element)
+    addAttributes(element, layer);
+    if (to_draw) {await drawLayer(layer, i, element);}
    });
 
+   // by now it's fully created, so we check for duplicate
    let key = hash.toString();
    if (Exists.has(key)) {
      console.log(
@@ -149,9 +178,10 @@ const createFiles = async edition => {
    } else {
      Exists.set(key, i);
      addMetadata(i);
-     console.log("Creating edition " + i);
+     console.log("Created edition " + i + ' at ' + numberWithCommas(i/(performance.now()-startTime)*1000*60) + ' Elfis/minute');
    }
  }
+ console.log('Created ' + edition + ' editions in '+(performance.now()-startTime)/1000+' seconds');
 };
 
 const createMetaData = () => {
