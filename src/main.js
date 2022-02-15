@@ -148,7 +148,7 @@ const calcRarity = async layers => {
   return elements;
 }
 
-const createFiles = async edition => {
+const createFiles = async (edition,to_draw) => {
   const layers = layersSetup(layersOrder);
   let numDupes = 0;
   var startTime = performance.now()
@@ -161,7 +161,7 @@ const createFiles = async edition => {
     let element = layer.elements[rarities[layerIdx]] ? layer.elements[rarities[layerIdx]] : null;
     // console.log(element)
     addAttributes(element, layer);
-    await drawLayer(layer, i, element);
+    if (to_draw) {await drawLayer(layer, i, element);}
    });
 
    // by now it's fully created, so we check for duplicate
@@ -178,9 +178,10 @@ const createFiles = async edition => {
    } else {
      Exists.set(key, i);
      addMetadata(i);
-     console.log("Created edition " + i + ' at '+i/(performance.now()-startTime)*1000*60+' Elfis/minute');
+     console.log("Created edition " + i + ' at ' + numberWithCommas(i/(performance.now()-startTime)*1000*60) + ' Elfis/minute');
    }
  }
+ console.log('Created ' + edition + ' editions in '+(performance.now()-startTime)/1000+' seconds');
 };
 
 const createMetaData = () => {
