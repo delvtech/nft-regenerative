@@ -17,7 +17,6 @@ const layersOrder = [
     { name: '05_eyebrowns', number: 1 },
     { name: '06_eyes', number: 3 },
 ];
-```
 
 The `name` of each layer object represents the name of the folder (in `/layers/`) that the images reside in. The `number` of each layer object represents the total number of image files we are exporting for the custom ELFI. 
 
@@ -25,7 +24,9 @@ For instance, if you have three images in a layer folder and want to pick one of
 
 Finally when the parameters are set we can run:
 
-```sh
+```
+sh
 
 npm run build
+
 ```
