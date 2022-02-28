@@ -6,7 +6,7 @@ const { performance } = require('perf_hooks');
 
 // (() => {
   buildSetup();
-  edition = 2500;
+  edition = 10;
   createFiles(edition,to_draw=false).then( () => {
     createMetaData();
     countRarity();

@@ -15,6 +15,16 @@ if (!process.env.PWD) {
   process.env.PWD = process.cwd();
 }
 
+function nthIndex(str, pat, n){
+  var L= str.length, i= -1;
+  while(n-- && i++<L){
+      i= str.indexOf(pat, i);
+      if (i < 0) continue
+      else besti = i;
+  }
+  return besti;
+}
+
 const buildDir = `${process.env.PWD}/build`;
 const metDataFile = '_metadata.json';
 const layersDir = `${process.env.PWD}/layers`;
@@ -155,8 +165,25 @@ async function drawLayer(_layer, _edition, _element) {
 const calcRarity = async layers => {
   // pick an asset
   elements = [];
-    await layers.forEach(async (layer) => {
-    elements.push(Math.floor(Math.random() * layer.numElements)) // from 0 to n instead of from 1 to n+1 to allow simpler indexing
+  colors = [];
+  await layers.forEach(async (layer) => {
+    let colorClash = true
+    while (colorClash) {
+    randNum = Math.floor(Math.random() * layer.numElements)
+    tempElement = layer.elements[randNum].name
+    tempColor = tempElement.substring(nthIndex(tempElement,'_',99)+1)
+    console.log(tempColor)
+    console.log(colors)
+    lkupColor = colors.indexOf(tempColor)
+    if (lkupColor > -1) {
+      console.log('**COLOR CLASH** between [' + layers[lkupColor].name + ':' + layers[lkupColor].elements[lkupColor].name + '] and [' + layer.name + ':' + tempElement + '] redrawing...')
+    }
+    else {
+      elements.push(randNum) // from 0 to n instead of from 1 to n+1 to allow simpler indexing
+      colors.push(tempColor)
+      colorClash = false
+    }
+    }
   })
   return elements;
 }
