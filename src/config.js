@@ -1,15 +1,15 @@
 const layersOrder = [
-    { name: '00_background', number: 1 },
-    { name: '01_weapons', number: 2 },
-    { name: '02_bodies', number: 12 },
-    { name: '03_clothes', number: 12 },
-    { name: '04_hair', number: 3 },
-    { name: '05_mouth', number: 1 },
-    { name: '06_eyebrows', number: 1 },
-    { name: '07_eyes', number: 1 },
-    { name: '08_hats', number: 3 },
-    { name: '09_eyewear', number: 2 },
-    { name: '10_addons', number: 1 },
+    { name: '00_background', number: 1, allowNone: true },
+    { name: '01_weapons', number: 2, allowNone: true },
+    { name: '02_bodies', number: 12, allowNone: false },
+    { name: '03_clothes', number: 12, allowNone: true },
+    { name: '04_hair', number: 3, allowNone: true },
+    { name: '05_mouth', number: 1, allowNone: true },
+    { name: '06_eyebrows', number: 1, allowNone: true },
+    { name: '07_eyes', number: 1, allowNone: false },
+    { name: '08_hats', number: 3, allowNone: true },
+    { name: '09_eyewear', number: 2, allowNone: true },
+    { name: '10_addons', number: 1, allowNone: true },
  
 ];
   
@@ -19,9 +19,9 @@ const format = {
 };
 
 const rarity = [
-    { key: "", val: "original" },
-    { key: "_r", val: "rare" },
-    { key: "_sr", val: "super rare" },
+    // { key: "", val: "original" },
+    // { key: "_r", val: "rare" },
+    // { key: "_sr", val: "super rare" },
 ];
 
 // independent rarities
