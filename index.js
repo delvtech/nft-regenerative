@@ -4,9 +4,9 @@ const { defaultEdition } = require("./src/config.js");
 var edition = myArgs.length > 0 ? Number(myArgs[0]) : defaultEdition;
 const { performance } = require('perf_hooks');
 
-// clearBuildFolder();
+clearBuildFolder();
 buildSetup();
-edition = 100;
+edition = 120;
 createFiles(edition,to_draw=true).then( () => {
   createMetaData();
   countRarity();
