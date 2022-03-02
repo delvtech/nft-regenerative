@@ -44,46 +44,28 @@ let layers = [];
 let numLayers = 0;
 const Exists = new Map();
 
-
-function addRarity(_str) {
-  let itemRarity;
-
-  rarity.forEach((r) => {
-    if (_str.includes(r.key)) {
-      itemRarity = r.val;
-    }
-  });
-
-  return itemRarity;
-}
-
-function cleanName(_str) {
-  let name = _str.slice(0, -4);
-  rarity.forEach((r) => {
-    name = name.replace(r.key, "");
-  });
-  return name;
-}
-
 function getElements(path,allowNone) {
   elements = fs
     .readdirSync(path)
     .filter((item) => !/(^|\/)\.[^\/\.]/g.test(item))
     .map((i, index) => {
-      let cleanedName = cleanName(i)
+      let cleanedName = i.substring(3,i.length-4)
+      let rarity = cleanedName.substring(nthIndex(cleanedName,'_',99)+2)
+      cleanedName = cleanedName.substring(0,nthIndex(cleanedName,'_',99))
       return {
         id: allowNone ? index + 1 : index, // from 0 to n instead of 1 to n+1 for simpler indexing
         name: cleanedName,
         fileName: i,
-        rarity: addRarity(i),
-        color: cleanedName.substring(nthIndex(cleanedName,'_',99)+1).toLowerCase()
+        color: cleanedName.substring(nthIndex(cleanedName,'_',99)+1).toLowerCase(),
+        rarity: parseInt(rarity)
       };
     });
     if (allowNone) {
       elements.unshift({
         id: 0,
         name: 'none',
-        color: 'none'
+        color: 'none',
+        rarity: allowNone
       })
     }
   return elements
@@ -112,15 +94,19 @@ function layersSetup(layersOrder) {
     numLayers = numLayers + 1;
   });
   console.log('read in ' + layers.length + ' layers with ' + numberWithCommas(combinations) + ' unique combinations');
+  console.log(layers)
 
   return layers;
 }
 
-function buildSetup() {
+function clearBuildFolder() {
   if (fs.existsSync(buildDir)) {
     fs.rmSync(buildDir, { recursive: true });
   }
   else { fs.mkdirSync(buildDir); };
+}
+
+function buildSetup() {
   layers = layersSetup(layersOrder);
 }
 
@@ -176,7 +162,7 @@ async function drawLayer(ctx, _layer, _edition, _element, _name) {
       _layer.size.width,
       _layer.size.height
     );
-    console.log(' drawing layer ' + _layer.name)
+    // console.log(' drawing layer ' + _layer.name)
     saveLayer(ctx.canvas, _edition, _name);
     return 1; // success
   }
@@ -189,17 +175,28 @@ async function calcRarity(layers) {
   await layers.forEach(async (layer) => {
     let colorClash = true;
     while (colorClash) {
-      randNum = Math.floor(Math.random() * layer.numElements);
-      tempElement = layer.elements[randNum];
+      //randNum = Math.floor(Math.random() * layer.numElements);
+      randNum = Math.random()
+      cumsum=0
+      i = 0
+      while (cumsum < randNum*100) {
+        cumsum = cumsum + layer.elements[i].rarity
+        console.log(cumsum)
+        console.log(randNum*100)
+        chosenElement=i
+        i++
+      }
+      tempElement = layer.elements[chosenElement];
+      console.log(`${cumsum} vs. ${randNum*100} gives ${layer.name}:${tempElement.name}`)
       tempColor = tempElement.color;
       console.log(tempColor);
       console.log(colors);
       lkupColor = colors.indexOf(tempColor);
-      if (lkupColor > -1) {
-        console.log('**COLOR CLASH** between [' + layers[lkupColor].name + ':' + layers[lkupColor].elements[lkupColor].name + '] and [' + layer.name + ':' + tempElement.name + '] redrawing...');
+      if (lkupColor < -1) { // ignore matches to background and weapons
+        console.log('**COLOR CLASH** between [' + layers[lkupColor].name + ':' + layers[lkupColor].elements[elements[lkupColor]].name + '] and [' + layer.name + ':' + tempElement.name + '] redrawing...');
       }
       else {
-        elements.push(randNum); // from 0 to n instead of from 1 to n+1 to allow simpler indexing
+        elements.push(chosenElement); // from 0 to n instead of from 1 to n+1 to allow simpler indexing
         colors.push(tempColor);
         colorClash = false;
       }
@@ -215,7 +212,7 @@ async function createFiles(edition, to_draw, rarity, name) {
     let tempRarities = rarity ? rarity : await calcRarity(layers);
     console.log(tempRarities);
     ctx = newCtx()
-    console.log('drawing ' + name)
+    // console.log('drawing ' + name)
     layers.forEach(async (layer, layerIdx) => {
       // console.log(i + ' layer:')
       // console.log(layer)
@@ -243,7 +240,10 @@ async function createFiles(edition, to_draw, rarity, name) {
       Exists.set(key, i);
       addMetadata(i);
       addRarities(tempRarities);
-      console.log("Created edition " + i + ' at ' + numberWithCommas(i / (performance.now() - startTime) * 1000 * 60) + ' Elfis/minute');
+      console.log(performance.now())
+      console.log(startTime)
+      console.log(performance.now() - startTime)
+      console.log("Created edition " + i + ' at ' + numberWithCommas(Math.round(i / (performance.now() - startTime) * 1000 * 60)) + ' Elfis/minute');
     }
   }
   console.log('Created ' + edition + ' editions in ' + (performance.now() - startTime) / 1000 + ' seconds\n   numDupes=' + numDupes);
@@ -320,4 +320,4 @@ async function getColors() {
   return res
 }
 
-module.exports = { buildSetup, createFiles, createMetaData, countRarity, showAllPossibleClashes, getColors };
+module.exports = { clearBuildFolder, buildSetup, createFiles, createMetaData, countRarity, showAllPossibleClashes, getColors };
