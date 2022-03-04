@@ -121,8 +121,8 @@ function addMetadata(_edition) {
   let tempMetadata = {
     hash: hash.join(""),
     decodedHash: decodedHash,
-    edition: _edition,
-    date: dateTime,
+    id: _edition,
+    // date: dateTime,
     attributes: attributes,
   };
   metadata.push(tempMetadata);
@@ -133,10 +133,12 @@ function addMetadata(_edition) {
 
 function addAttributes(_element, _layer) {
   let tempAttr = {
-    id: _element.id,
-    layer: _layer.name,
-    name: _element.name,
+    // property_id: _element.id,
+    trait_type: _layer.name,  // opensea standard
+    value: _element.name,     // opensea standard
     rarity: _element.rarity,
+    level: Math.random()*100,
+    class: 'governatooooor'
   };
   attributes.push(tempAttr);
   rarityCount[_layer.id][_element.id] += 1; // this should be done only after checking for dupes.. same with this whole function?
@@ -303,7 +305,7 @@ async function showAllPossibleClashes(to_draw=false) {
   }) // end for each layer1
 }
 
-async function getColors() {
+function getColors() {
   var res = {}
   layers.map( (l) => {
     m = [...new Set(l.elements.map( e => {
@@ -314,4 +316,15 @@ async function getColors() {
   return res
 }
 
-module.exports = { clearBuildFolder, buildSetup, createFiles, createMetaData, countRarity, showAllPossibleClashes, getColors };
+function dumpProperties() {
+  var res = {}
+  layers.map( (l) => {
+    m = [...new Set(l.elements.map( e => {
+      return e.name
+    }))]
+    res[l.name]=m
+  })
+  return res
+}
+
+module.exports = { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, countRarity, showAllPossibleClashes, getColors };
