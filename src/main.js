@@ -64,6 +64,7 @@ function getElements(path,allowNone) {
       elements.unshift({
         id: 0,
         name: 'none',
+        fileName: 'none',
         color: 'none',
         rarity: allowNone
       })
@@ -317,14 +318,29 @@ function getColors() {
 }
 
 function dumpProperties() {
-  var res = {}
+  var names = {}
+  var rows = Array()
   layers.map( (l) => {
-    m = [...new Set(l.elements.map( e => {
-      return e.name
-    }))]
-    res[l.name]=m
+    let newRow = l.elements.map( e => {
+      // console.log(e)
+      // Set(e).forEach(item => {
+      //   newRow.push(item)
+      // })
+      res = []
+      res.push(l.id)
+      res.push(...Object.values(e))
+      return res
+    })
+    names[l.name]=newRow[0]
+    rows.push(...newRow)
   })
-  return res
+  let csvContent = 'layer,' + Object.keys(layers[0].elements[0]).join(',')+'\n'
+  csvContent += rows.map(e => {return e.join(',')+'\n'})
+  csvContent = csvContent.replaceAll('\n,','\n')
+  fs.writeFileSync('layers.csv',csvContent)
+  return {names,rows}
 }
 
-module.exports = { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, countRarity, showAllPossibleClashes, getColors };
+function getLayers() {return layers}
+
+module.exports = { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, countRarity, showAllPossibleClashes, getColors , getLayers};
