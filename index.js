@@ -1,5 +1,5 @@
 const myArgs = process.argv.slice(2);
-const { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, countRarity, showAllPossibleClashes, getColors, getLayers } = require("./src/main.js");
+const { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, displayRarity, showAllPossibleClashes, getColors, getLayers } = require("./src/main.js");
 const { defaultEdition } = require("./src/config.js");
 var edition = myArgs.length > 0 ? Number(myArgs[0]) : defaultEdition;
 const { performance } = require('perf_hooks');
@@ -7,10 +7,10 @@ const fs = require('fs')
 
 clearBuildFolder();
 buildSetup();
-edition = 10;
-createFiles(edition,to_draw=false).then( () => {
+edition = 10*1000;
+createFiles(edition,to_draw=false, debug=false).then( () => {
   createMetaData();
-  countRarity();
+  displayRarity();
 });
 // showAllPossibleClashes(to_draw=true);
 
@@ -18,6 +18,6 @@ createFiles(edition,to_draw=false).then( () => {
 // c = getColors()
 // console.log(c)
 
- let {names,rows} = dumpProperties()
+// let {names,rows} = dumpProperties()
 
 console.log('break to inspect at the end')
