@@ -3,32 +3,9 @@ const { createCanvas, loadImage } = require("canvas");
 const console = require("console");
 const { layersOrder, format, rarity } = require("./config.js");
 const { performance } = require('perf_hooks');
+const { newCtx, numberWithCommas, nthIndex } = require('./helpers.js');
 
-// var { ctx, canvas } = newCtx();
-
-function newCtx() {
-  var canvas = createCanvas(format.width, format.height);
-  var ctx = canvas.getContext("2d");
-  return ctx;
-}
-
-function numberWithCommas(x) {
-  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
-
-if (!process.env.PWD) {
-  process.env.PWD = process.cwd();
-}
-
-function nthIndex(str, pat, n){
-  var L= str.length, i= -1;
-  while(n-- && i++<L){
-      i= str.indexOf(pat, i);
-      if (i < 0) continue
-      else besti = i;
-  }
-  return besti;
-}
+if (!process.env.PWD) { process.env.PWD = process.cwd(); }
 
 const buildDir = `${process.env.PWD}/build`;
 const metDataFile = '_metadata.json';
@@ -215,7 +192,7 @@ async function createFiles(edition, to_draw, rarity, name, debug) {
   for (let i = 1; i <= edition; i++) {
     let tempRarities = rarity ? rarity : await calcRarity(layers,debug);
     if (debug) console.log(tempRarities)
-    ctx = newCtx()
+    ctx = newCtx(format.width,format.height)
     // console.log('drawing ' + name)
     layers.forEach(async (layer, layerIdx) => {
       // console.log(i + ' layer:')

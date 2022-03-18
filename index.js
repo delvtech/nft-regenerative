@@ -18,6 +18,6 @@ createFiles(edition,to_draw=false, debug=false).then( () => {
 // c = getColors()
 // console.log(c)
 
-// let {names,rows} = dumpProperties()
+let {names,rows} = dumpProperties()
 
 console.log('break to inspect at the end')
