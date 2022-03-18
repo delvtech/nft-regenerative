@@ -3,7 +3,7 @@ const { createCanvas, loadImage } = require("canvas");
 const console = require("console");
 const { layersOrder, format, rarity } = require("./config.js");
 const { performance } = require('perf_hooks');
-const { newCtx, numberWithCommas, nthIndex } = require('./helpers.js');
+const { newCtx, numberWithCommas, nthIndex} = require('./helpers.js');
 
 if (!process.env.PWD) { process.env.PWD = process.cwd(); }
 
@@ -65,7 +65,7 @@ function layersSetup(layersOrder) {
     noneRarity = layer.elements.map(e => e.name=='none' ? e.rarity : 0).reduce((s,a)=>s+a,0); // include only 'none element
     actualRarity = layer.elements.map(e => e.name=='none' ? 0 : e.rarity).reduce((s,a)=>s+a,0); // excluding 'none' element
     layer.elements.forEach(e => {
-      e.adjustedRarity = e.rarity * (100 - noneRarity) / actualRarity
+      e.name=='none' ? e.adjustedRarity = e.rarity : e.adjustedRarity = e.rarity * (100 - noneRarity) / actualRarity
     })
     layer.numElements = layer.elements.length;
     rarityCount.push(Array(layer.numElements).fill(0));
@@ -156,14 +156,11 @@ async function calcRarity(layers) {
   await layers.forEach(async (layer) => {
     let colorClash = true;
     while (colorClash) {
-      //randNum = Math.floor(Math.random() * layer.numElements);
       randNum = Math.random()
       cumsum=0
       i = 0
       while (cumsum < randNum*100) {
-        cumsum = cumsum + layer.elements[i].rarity
-        // console.log(cumsum)
-        // console.log(randNum*100)
+        cumsum = cumsum + layer.elements[i].adjustedRarity
         chosenElement=i
         i++
       }
@@ -193,29 +190,18 @@ async function createFiles(edition, to_draw, rarity, name, debug) {
     let tempRarities = rarity ? rarity : await calcRarity(layers,debug);
     if (debug) console.log(tempRarities)
     ctx = newCtx(format.width,format.height)
-    // console.log('drawing ' + name)
     layers.forEach(async (layer, layerIdx) => {
-      // console.log(i + ' layer:')
-      // console.log(layer)
       let element = layer.elements[tempRarities[layerIdx]] ? layer.elements[tempRarities[layerIdx]] : null;
-      // console.log(element)
       addAttributes(element, layer);
-      if (to_draw) { 
-        r = await drawLayer(ctx, layer, i, element, name); 
-      }
+      if (to_draw) r = await drawLayer(ctx, layer, i, element, name)
     });
 
     // by now it's fully created, so we check for duplicate
     let key = hash.toString();
     if (Exists.has(key)) {
-      console.log(
-        `Duplicate creation for edition ${i}. Same as edition ${Exists.get(
-          key
-        )}`
-      );
+      console.log(`Duplicate creation for edition ${i}. Same as edition ${Exists.get(key)}`);
       numDupes++;
-      if (numDupes > edition)
-        break; //prevents infinite loop if no more unique items can be created
+      if (numDupes > edition) break; //prevents infinite loop if no more unique items can be created
       i--;
     } else {
       Exists.set(key, i);
@@ -234,9 +220,9 @@ function createMetaData() {
 
 function displayRarity() {
   totalNum = 0;
-  console.log('displaying rarities');
+  console.log('== displaying rarities ==');
   layers.forEach(async (layer, layerIdx) => {
-    console.log('displaying rarities for layer ' + layer.id)
+    console.log('= displaying rarities for layer ' + layer.id + ' =')
     layer.elements.forEach(async (element, elementIdx) => {
       numRarity = rarityCount[layer.id][element.id];
       if (layerIdx==0) totalNum += numRarity;
