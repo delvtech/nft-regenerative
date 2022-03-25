@@ -11,6 +11,7 @@ if (!process.env.PWD) { process.env.PWD = process.cwd(); }
 const buildDir = `${process.env.PWD}/build`;
 const metDataFile = '_metadata.json';
 const layersDir = `${process.env.PWD}/layers`;
+var rows = Array()
 
 let metadata = [];
 let attributes = [];
@@ -118,7 +119,8 @@ function addAttributes(_element, _layer) {
     value: _element.name,     // opensea standard
     rarity: _element.rarity,
     level: Math.random()*100,
-    class: 'governatooooor'
+    class: 'governatooooor',
+    description: _element.description
   };
   attributes.push(tempAttr);
   rarityCount[_layer.id][_element.id] += 1; // this should be done only after checking for dupes.. same with this whole function?
@@ -199,12 +201,12 @@ async function createFiles(edition, to_draw, rarity, name, debug) {
 
     // by now it's fully created, so we check for duplicate
     let key = hash.toString();
-    if (Exists.has(key)) {
+    if (Exists.has(key)) { // we find a duplicate
       console.log(`Duplicate creation for edition ${i}. Same as edition ${Exists.get(key)}`);
       numDupes++;
       if (numDupes > edition) break; //prevents infinite loop if no more unique items can be created
       i--;
-    } else {
+    } else { // it's unique
       Exists.set(key, i);
       addMetadata(i);
       addRarities(tempRarities);
@@ -279,7 +281,6 @@ function getColors() {
 
 function dumpProperties() {
   var names = {}
-  var rows = Array()
   layers.map( (l) => {
     let newRow = l.elements.map( e => {
       res = []
@@ -297,6 +298,25 @@ function dumpProperties() {
   return {names,rows}
 }
 
+function readProperties() {
+  var l = fs.readFileSync('layers_with_descriptions.csv').toString().split('\n')
+  l=l.splice(1,l.length-2)
+  l.forEach( (e,i) => {
+    let row = e.split(',')
+    let layer = layers.find( (l) => {return l.id==row[0]})
+    let element = layer.elements.find( (e) => {return e.id==row[1]})
+    element.description = row.splice(7,row.length-6).join(',').replaceAll('"','')
+  })
+}
+
+function listProperties() {
+  layers.forEach( (l) => {
+    l.elements.forEach( (e) => {
+      console.log(e)
+    })
+  })
+}
+
 function getLayers() {return layers}
 
-module.exports = { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, displayRarity, showAllPossibleClashes, getColors , getLayers};
+module.exports = { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, displayRarity, showAllPossibleClashes, getColors , getLayers, listProperties, readProperties };
