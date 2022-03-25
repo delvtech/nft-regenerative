@@ -4,6 +4,7 @@ const console = require("console");
 const { layersOrder, format, rarity } = require("./config.js");
 const { performance } = require('perf_hooks');
 const { newCtx, numberWithCommas, nthIndex} = require('./helpers.js');
+const jStat = require("jStat");
 
 if (!process.env.PWD) { process.env.PWD = process.cwd(); }
 
@@ -222,14 +223,17 @@ function displayRarity() {
   totalNum = 0;
   console.log('== displaying rarities ==');
   layers.forEach(async (layer, layerIdx) => {
-    console.log('= displaying rarities for layer ' + layer.id + ' =')
+    console.log(`= displaying rarities for layer ${layer.id} =`)
     layer.elements.forEach(async (element, elementIdx) => {
       numRarity = rarityCount[layer.id][element.id];
       if (layerIdx==0) totalNum += numRarity;
-      console.log(element.name + ' actual: ' + numRarity + '/' + rarities.length + '=' + numRarity/rarities.length*100 + '%, raw: ' + element.rarity + ', adjusted: ' + element.adjustedRarity);
+      z = (numRarity / rarities.length - element.adjustedRarity/100)/Math.sqrt((element.adjustedRarity/100)*(1-element.adjustedRarity/100)/rarities.length)
+      pvalue = 1 - jStat.normal.cdf(Math.abs(z),0,1);
+      res = pvalue < 0.05 ? ' *REJECT' : '';
+      console.log(`${element.name} actual: ${numRarity}/${rarities.length}=${numRarity / rarities.length * 100}%, raw: ${element.rarity}, adjusted: ${element.adjustedRarity}, pvalue: ${pvalue}${res}`);
     });
   });
-  console.log('total elements counted: ' + totalNum)
+  console.log(`total elements counted: ${totalNum}`)
 }
 
 async function showAllPossibleClashes(to_draw=false) {
