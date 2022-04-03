@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1544",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "purple_vapor",
+      "rarity": 10,
+      "level": 33.108505810176794,
+      "class": "governatooooor",
+      "description": "The skies glimmer with mysterious purple vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 91.15581293589426,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 84.6247124125242,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "partisan_golden",
+      "rarity": 7,
+      "level": 83.32570663918972,
+      "class": "governatooooor",
+      "description": "Clothes worn by nobility on diplomatic events. Yellow is both opulent and ostentatious\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 47.380274009054176,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_red",
+      "rarity": 10,
+      "level": 75.0296285391044,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_yellow",
+      "rarity": 10,
+      "level": 53.56377588024854,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_ice",
+      "rarity": 20,
+      "level": 64.58763984645071,
+      "class": "governatooooor",
+      "description": "Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 34.972255944891614,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "pointeau mask",
+      "rarity": 8,
+      "level": 88.89769461471633,
+      "class": "governatooooor",
+      "description": "Privacy is an utmost priority for all, even those who have nothing to hide\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 31.06284092966549,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

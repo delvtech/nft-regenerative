@@ -1,0 +1,93 @@
+{
+  "name": "Elf #279",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carrot_vapor",
+      "rarity": 10,
+      "level": 8.693748694919634,
+      "class": "governatooooor",
+      "description": "Soothing vapors expand into the vast ether of existence\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 45.51509382231171,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 14.974191997317066,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "leather_golden",
+      "rarity": 7,
+      "level": 88.96388641711543,
+      "class": "governatooooor",
+      "description": "This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather. It gives off a particular shine, as if emitting its own light\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 65.26706679709227,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_blue",
+      "rarity": 10,
+      "level": 38.00988373772722,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_grey",
+      "rarity": 20,
+      "level": 84.43312786935131,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_yellow",
+      "rarity": 20,
+      "level": 91.42163188125232,
+      "class": "governatooooor",
+      "description": "Yellow eyes shine with warmth that makes others more obedientambition\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_yellow",
+      "rarity": 5,
+      "level": 62.359221911112364,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Yellow represents its creator's ambition\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 65.25339869074618,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 18.093801615420556,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

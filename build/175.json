@@ -1,0 +1,93 @@
+{
+  "name": "Elf #176",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "green_vapor",
+      "rarity": 10,
+      "level": 4.224487775610175,
+      "class": "governatooooor",
+      "description": "The skies simmer with soothing green vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 82.3208039191533,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 88.37740692872846,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "robes_white",
+      "rarity": 7,
+      "level": 96.95243577887179,
+      "class": "governatooooor",
+      "description": "Infused with the magical properties of moonlight, these robes are said to improve the effects of healing magics\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_mohawk_green",
+      "rarity": 2,
+      "level": 38.50948180045475,
+      "class": "governatooooor",
+      "description": "Elven hair that grows wild and untamed is a sign of raw magical potential\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_blue",
+      "rarity": 10,
+      "level": 60.831618361041365,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_grey",
+      "rarity": 16,
+      "level": 31.656892977090266,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_ice",
+      "rarity": 20,
+      "level": 5.5910440570113185,
+      "class": "governatooooor",
+      "description": "Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 9.122971072878183,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 53.899020745619964,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 4.982812068250464,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

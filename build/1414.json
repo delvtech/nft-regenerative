@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1415",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "warm_morning",
+      "rarity": 10,
+      "level": 98.48510881489321,
+      "class": "governatooooor",
+      "description": "Sunrise across Principal Valley to signify a new light and journey\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 57.515245392428916,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 56.47435186860137,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Vitality Suit_dark",
+      "rarity": 7,
+      "level": 89.2384160247269,
+      "class": "governatooooor",
+      "description": "There’s something relaxing about submitting to decisions made by others. You feel empowered and weightless when following orders\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_grey",
+      "rarity": 20,
+      "level": 59.37776476525558,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Grey in color, often worn by those who have a way with words\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_yellow",
+      "rarity": 10,
+      "level": 91.31817322722719,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_blue",
+      "rarity": 20,
+      "level": 21.743336619333764,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_fire",
+      "rarity": 20,
+      "level": 53.40837644583316,
+      "class": "governatooooor",
+      "description": "Fire eyes that burn like the flames in the forges of the Ancient Builders\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_draconic",
+      "rarity": 9,
+      "level": 20.991737147683832,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 87.22528677012345,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 83.64104316139623,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

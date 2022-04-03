@@ -1,0 +1,93 @@
+{
+  "name": "Elf #53",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "purple_vapor",
+      "rarity": 10,
+      "level": 62.286816322825246,
+      "class": "governatooooor",
+      "description": "The skies glimmer with mysterious purple vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 87.09535449024841,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 91.91737970329517,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Vitality Suit_dark",
+      "rarity": 7,
+      "level": 43.60264959527933,
+      "class": "governatooooor",
+      "description": "There’s something relaxing about submitting to decisions made by others. You feel empowered and weightless when following orders\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 45.622264598719966,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_red",
+      "rarity": 10,
+      "level": 49.558906515186266,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_yellow",
+      "rarity": 10,
+      "level": 22.153665993261274,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_yellow",
+      "rarity": 20,
+      "level": 22.85323724672097,
+      "class": "governatooooor",
+      "description": "Yellow eyes shine with warmth that makes others more obedient\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 93.40519817373996,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 13.786756565284165,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 85.59154380499068,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

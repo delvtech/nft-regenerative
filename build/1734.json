@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1735",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blue_vapor",
+      "rarity": 10,
+      "level": 28.894337599759634,
+      "class": "governatooooor",
+      "description": "Soothing skies belie unknown futures\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Sword Dual_golden",
+      "rarity": 5,
+      "level": 55.8269919156692,
+      "class": "governatooooor",
+      "description": "Dual swords favored by the most degen tribes endlessly searching for the highest yields\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 49.29549364039665,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "robes_yellow",
+      "rarity": 7,
+      "level": 90.21271570404264,
+      "class": "governatooooor",
+      "description": "Made from a fabric of woven gold, these robes allow their wearer to channel the power of the sun much more effectively\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 49.13495653506514,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_talking_pink",
+      "rarity": 10,
+      "level": 15.87378623000646,
+      "class": "governatooooor",
+      "description": "Be wary of those who always have a story to tell\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_blue",
+      "rarity": 10,
+      "level": 30.88960770872129,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_gold",
+      "rarity": 20,
+      "level": 70.35149129394911,
+      "class": "governatooooor",
+      "description": "Eyes as gold as sunlight convey friendliness, but don’t mistake it for complacency\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "cleric_crown",
+      "rarity": 2,
+      "level": 77.60256815886225,
+      "class": "governatooooor",
+      "description": "Gem-studded crown used by high priests for ancient rituals, heightening their already impressive powers\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 77.11667678577629,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 76.68094372187346,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

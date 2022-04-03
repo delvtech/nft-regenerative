@@ -1,0 +1,93 @@
+{
+  "name": "Elf #311",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "warm_morning",
+      "rarity": 10,
+      "level": 86.79502911073462,
+      "class": "governatooooor",
+      "description": "Sunrise across Principal Valley to signify a new light and journey\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 22.744062024181776,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 50.095336335375265,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "straps_golden",
+      "rarity": 7,
+      "level": 70.97781969708706,
+      "class": "governatooooor",
+      "description": "Straps glisten as gold under the harsh sunlight, energizing those who wear them\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_green",
+      "rarity": 15,
+      "level": 98.08271893363924,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Green in color, often worn by those who experiment with farming\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_blue",
+      "rarity": 10,
+      "level": 34.643925264278685,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_yellow",
+      "rarity": 10,
+      "level": 36.61910286639591,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_big_blue",
+      "rarity": 20,
+      "level": 9.984268085423388,
+      "class": "governatooooor",
+      "description": "Big blue eyes full of wonder at the mysteries lying in wait\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_yellow",
+      "rarity": 5,
+      "level": 2.090659803794881,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Yellow represents its creator's ambition\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 29.285303790866003,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 13.23918617672546,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Elf #18",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "good_night",
+      "rarity": 10,
+      "level": 86.85670567625866,
+      "class": "governatooooor",
+      "description": "A starry night full of pinpoints of distant opportunity\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Long Sword_dark",
+      "rarity": 3,
+      "level": 72.48072856441277,
+      "class": "governatooooor",
+      "description": "Massive broadsword ready to fell anything in its path\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 14.82656310001731,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_green",
+      "rarity": 10,
+      "level": 85.84448433157401,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its green color is obtained from the peels of Yield Fruits, which thrive during the summer\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "pony_red",
+      "rarity": 3,
+      "level": 19.175717939144988,
+      "class": "governatooooor",
+      "description": "Styled in the latest fashion, the wearer’s care and attention to detail is apparent\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_red",
+      "rarity": 10,
+      "level": 67.23091931961915,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_blue",
+      "rarity": 20,
+      "level": 61.1849189577496,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_dark",
+      "rarity": 20,
+      "level": 31.428365446241592,
+      "class": "governatooooor",
+      "description": "Dark eyes are better for not drawing attention and capture more detail in the night\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_yellow",
+      "rarity": 5,
+      "level": 67.05643420514096,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Yellow represents its creator's ambition\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 78.39185238997406,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 17.276457661959554,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

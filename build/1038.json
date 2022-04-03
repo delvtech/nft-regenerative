@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1039",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "clean_clouds",
+      "rarity": 10,
+      "level": 27.11356353161285,
+      "class": "governatooooor",
+      "description": "Clear skies signal peace and tranquility\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Sword Dual_red",
+      "rarity": 5,
+      "level": 83.55982812421907,
+      "class": "governatooooor",
+      "description": "Dual swords favored by the most degen tribes endlessly searching for the highest yields\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 87.20255866981165,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_green",
+      "rarity": 10,
+      "level": 70.3165977652129,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its green color is obtained from the peels of Yield Fruits, which thrive during the summer\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 30.557395751670757,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_blue",
+      "rarity": 10,
+      "level": 33.107253116373684,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_blue",
+      "rarity": 20,
+      "level": 35.158100769701385,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_red",
+      "rarity": 20,
+      "level": 68.4776262171723,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_draconic",
+      "rarity": 9,
+      "level": 78.88509317964547,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 94.0235803857188,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 46.78436883367518,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

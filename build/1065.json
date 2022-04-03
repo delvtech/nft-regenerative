@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1066",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carrot_vapor",
+      "rarity": 10,
+      "level": 56.060367990032574,
+      "class": "governatooooor",
+      "description": "Soothing vapors expand into the vast ether of existence\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 33.21498775283145,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 37.166065239800176,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_green",
+      "rarity": 10,
+      "level": 63.37676831107997,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its green color is obtained from the peels of Yield Fruits, which thrive during the summer\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_grey",
+      "rarity": 20,
+      "level": 83.89647211254545,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Grey in color, often worn by those who have a way with words\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_sad_pink",
+      "rarity": 10,
+      "level": 71.87577248410464,
+      "class": "governatooooor",
+      "description": "Those who don’t smile are their own harshest critics\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_blue",
+      "rarity": 20,
+      "level": 42.81539932659548,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_left",
+      "rarity": 20,
+      "level": 41.81726866340099,
+      "class": "governatooooor",
+      "description": "Some elves are always suspicious of their surroundings, and can’t be fooled\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 85.78889207133611,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 53.10755033989296,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 12.42072897260389,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

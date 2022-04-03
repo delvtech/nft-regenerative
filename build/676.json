@@ -1,0 +1,93 @@
+{
+  "name": "Elf #677",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blood_river",
+      "rarity": 10,
+      "level": 11.742631592495535,
+      "class": "governatooooor",
+      "description": "Blood river that is shown to those with a future of battle or strife\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Staff_jade",
+      "rarity": 3,
+      "level": 89.9938028080157,
+      "class": "governatooooor",
+      "description": "Only the finest tribes of artisans ever possessed the ability to craft such opulent weapons\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 54.59367575514229,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_blue",
+      "rarity": 20,
+      "level": 78.6913233263078,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its blue color is obtained from Liquidity Flowers, found near all kinds of shores\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_green",
+      "rarity": 15,
+      "level": 46.7416430403522,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Green in color, often worn by those who experiment with farming\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_red",
+      "rarity": 10,
+      "level": 93.30747500173185,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_blue",
+      "rarity": 20,
+      "level": 23.28381105006445,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_fire",
+      "rarity": 20,
+      "level": 93.85849409769307,
+      "class": "governatooooor",
+      "description": "Fire eyes that burn like the flames in the forges of the Ancient Builders\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_dark",
+      "rarity": 9,
+      "level": 74.03418376838017,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 46.70517716158577,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 62.31478851137035,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

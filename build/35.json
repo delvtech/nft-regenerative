@@ -1,0 +1,93 @@
+{
+  "name": "Elf #36",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "clean_clouds",
+      "rarity": 10,
+      "level": 59.16106550563516,
+      "class": "governatooooor",
+      "description": "Clear skies signal peace and tranquility\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Lance_golden",
+      "rarity": 2,
+      "level": 12.926252001393145,
+      "class": "governatooooor",
+      "description": "Lances dripping with gold leaf lull opponents into a false sense of security\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 45.58585597404503,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "partisan_golden",
+      "rarity": 7,
+      "level": 98.21202376777845,
+      "class": "governatooooor",
+      "description": "Clothes worn by nobility on diplomatic events. Yellow is both opulent and ostentatious\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_yellow",
+      "rarity": 20,
+      "level": 11.083013727332624,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Yellow in color, often worn by those adept at precision work\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_sad_red",
+      "rarity": 10,
+      "level": 77.44816697513359,
+      "class": "governatooooor",
+      "description": "Those who don’t smile are their own harshest critics\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_yellow",
+      "rarity": 10,
+      "level": 92.40910068809013,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_red",
+      "rarity": 20,
+      "level": 21.071089764228113,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_golden",
+      "rarity": 9,
+      "level": 70.68927798365804,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 62.63350403477548,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 70.52330524525105,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

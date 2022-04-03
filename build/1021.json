@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1022",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "green_portal",
+      "rarity": 10,
+      "level": 69.95552011024613,
+      "class": "governatooooor",
+      "description": "A green portal signifies balance in all things\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 66.25689460176261,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_red",
+      "rarity": 5,
+      "level": 86.38649916654089,
+      "class": "governatooooor",
+      "description": "Red Elves are believed to be descendants of the Ancestral Degens, whose skin was tempered by the fiery forges of the Degen Inferno\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "robes_white",
+      "rarity": 7,
+      "level": 69.9131700330655,
+      "class": "governatooooor",
+      "description": "Infused with the magical properties of moonlight, these robes are said to improve the effects of healing magics\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_yellow",
+      "rarity": 20,
+      "level": 2.851038079877144,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Yellow in color, often worn by those adept at precision work\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_blue",
+      "rarity": 10,
+      "level": 27.697646027360445,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_grey",
+      "rarity": 10,
+      "level": 63.37581740631335,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "none",
+      "rarity": 1,
+      "level": 89.98532306990113,
+      "class": "governatooooor",
+      "description": "Those with no eyes sometimes see most clearly\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 42.46419858323349,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 88.75515953974393,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 14.531346163271163,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

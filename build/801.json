@@ -1,0 +1,93 @@
+{
+  "name": "Elf #802",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carmesi_portal",
+      "rarity": 10,
+      "level": 71.95947445935549,
+      "class": "governatooooor",
+      "description": "A red portal signifies strife and battle\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 27.052538784415603,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 20.29809721289808,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Vitality Suit_draconic",
+      "rarity": 7,
+      "level": 49.76604030548373,
+      "class": "governatooooor",
+      "description": "There’s something relaxing about submitting to decisions made by others. You feel empowered when following orders, and impervious to heat\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 50.88245639678224,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_blue",
+      "rarity": 10,
+      "level": 87.56244317854467,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_red",
+      "rarity": 16,
+      "level": 4.531495736464186,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_big_yellow",
+      "rarity": 20,
+      "level": 58.612531318264715,
+      "class": "governatooooor",
+      "description": "Big golden eyes shine with glee and enthusiasm\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_golden",
+      "rarity": 9,
+      "level": 21.449871896153326,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 0.3266409133037218,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 1.791980241442137,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

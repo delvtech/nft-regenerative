@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1533",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carmesi_portal",
+      "rarity": 10,
+      "level": 37.72671252431468,
+      "class": "governatooooor",
+      "description": "A red portal signifies strife and battle\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 10.869525558566151,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 21.222058547537117,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_garmet_blue",
+      "rarity": 15,
+      "level": 70.27070067777619,
+      "class": "governatooooor",
+      "description": "Ritualistic attire comes to life as individual facets intertwine both moonlight and campfire\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 98.83030022931764,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_red",
+      "rarity": 10,
+      "level": 27.515924376534826,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_blue",
+      "rarity": 20,
+      "level": 76.25548207564472,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_ice",
+      "rarity": 20,
+      "level": 81.22778286764208,
+      "class": "governatooooor",
+      "description": "Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "floating_bonet",
+      "rarity": 9,
+      "level": 3.308654052648463,
+      "class": "governatooooor",
+      "description": "Somehow lighter than a feather, the magical stones used in this cap make you feel constantly energized\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "pointeau mask",
+      "rarity": 8,
+      "level": 57.233981278400805,
+      "class": "governatooooor",
+      "description": "Privacy is an utmost priority for all, even those who have nothing to hide\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 49.58207477226764,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

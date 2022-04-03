@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1067",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "good_night",
+      "rarity": 10,
+      "level": 84.60972730787401,
+      "class": "governatooooor",
+      "description": "A starry night full of pinpoints of distant opportunity\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 30.091465712296085,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 2.3426480792121174,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Vitality Suit_draconic",
+      "rarity": 7,
+      "level": 0.1449499586925418,
+      "class": "governatooooor",
+      "description": "There’s something relaxing about submitting to decisions made by others. You feel empowered when following orders, and impervious to heat\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "long hair_red",
+      "rarity": 10,
+      "level": 21.099045296934804,
+      "class": "governatooooor",
+      "description": "Long hair worn worn loosely as if unconcerned with worldly matters. Red is favored by those quick to action\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_blue",
+      "rarity": 10,
+      "level": 55.7276215848522,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_red",
+      "rarity": 16,
+      "level": 64.85914134547481,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_dark",
+      "rarity": 20,
+      "level": 69.91008046823026,
+      "class": "governatooooor",
+      "description": "Dark eyes are better for not drawing attention and capture more detail in the night\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_golden",
+      "rarity": 9,
+      "level": 79.54933491258407,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 96.27558659597145,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 79.68209936192608,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

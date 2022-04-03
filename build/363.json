@@ -1,0 +1,93 @@
+{
+  "name": "Elf #364",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "clean_clouds",
+      "rarity": 10,
+      "level": 95.19656850889902,
+      "class": "governatooooor",
+      "description": "Clear skies signal peace and tranquility\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 92.85097118685756,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_yellow",
+      "rarity": 5,
+      "level": 68.64531867861407,
+      "class": "governatooooor",
+      "description": "Yellow elves are believed to be descendants of the Ancient Proposers, whose rules of governance still guide to this day\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_red",
+      "rarity": 15,
+      "level": 2.616810860273744,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its red color is obtained from the leaves of Copium plants, commonly found on the Bearish Mountains\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "long hair_green",
+      "rarity": 10,
+      "level": 69.01750938156887,
+      "class": "governatooooor",
+      "description": "Long hair worn worn loosely as if unconcerned with worldly matters. Green like the spoils of a fresh harvest\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_red",
+      "rarity": 10,
+      "level": 33.72367472781708,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_red",
+      "rarity": 5,
+      "level": 89.8351909127783,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_red",
+      "rarity": 20,
+      "level": 80.05813953313834,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_golden",
+      "rarity": 9,
+      "level": 95.61732848220852,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 7.396235077258373,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 3.0472026158401055,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1523",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blood_river",
+      "rarity": 10,
+      "level": 23.49481366703752,
+      "class": "governatooooor",
+      "description": "Blood river that is shown to those with a future of battle or strife\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 47.32535277180412,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 88.880582458352,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "partisan_red",
+      "rarity": 7,
+      "level": 34.019694371189544,
+      "class": "governatooooor",
+      "description": "Clothes worn by nobility on diplomatic events. Red used to represent the Degen faction, but now is worn by all\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 75.22312943138046,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_red",
+      "rarity": 10,
+      "level": 99.93778952965494,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_blue",
+      "rarity": 20,
+      "level": 88.4868486674592,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_ice",
+      "rarity": 20,
+      "level": 45.340995921859786,
+      "class": "governatooooor",
+      "description": "Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_red",
+      "rarity": 5,
+      "level": 10.348553066862909,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Red represents its creator's passion\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "pointeau mask",
+      "rarity": 8,
+      "level": 8.324593079127872,
+      "class": "governatooooor",
+      "description": "Privacy is an utmost priority for all, even those who have nothing to hide\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 30.37480427664501,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Elf #730",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blood_river",
+      "rarity": 10,
+      "level": 97.29936986317284,
+      "class": "governatooooor",
+      "description": "Blood river that is shown to those with a future of battle or strife\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 20.5593996809055,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 49.62585804705108,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Deep Sleep Vitality Suit_dark",
+      "rarity": 7,
+      "level": 0.5911503991774536,
+      "class": "governatooooor",
+      "description": "Wearing this quartz-infused suit makes you feel especially obedient. You feel lighter when wearing it, unburdened by responsbility\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 25.293233910944068,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_blue",
+      "rarity": 10,
+      "level": 53.61603237737127,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_blue",
+      "rarity": 20,
+      "level": 84.06200551897113,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_gold",
+      "rarity": 20,
+      "level": 33.568144385249845,
+      "class": "governatooooor",
+      "description": "Eyes as gold as sunlight convey friendliness, but don’t mistake it for complacency\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_red",
+      "rarity": 5,
+      "level": 33.14813180012164,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Red represents its creator's passion\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "pointeau mask",
+      "rarity": 8,
+      "level": 40.87930217254288,
+      "class": "governatooooor",
+      "description": "Privacy is an utmost priority for all, even those who have nothing to hide\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 89.76903975459074,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

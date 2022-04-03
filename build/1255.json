@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1256",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blue_vapor",
+      "rarity": 10,
+      "level": 95.8258398387975,
+      "class": "governatooooor",
+      "description": "Soothing skies belie unknown futures\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 21.889043306197852,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 73.66408639595679,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_garmet_blue",
+      "rarity": 15,
+      "level": 27.97267152948497,
+      "class": "governatooooor",
+      "description": "Ritualistic attire comes to life as individual facets intertwine both moonlight and campfire\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "long hair_red",
+      "rarity": 10,
+      "level": 52.21664303182509,
+      "class": "governatooooor",
+      "description": "Long hair worn worn loosely as if unconcerned with worldly matters. Red is favored by those quick to action\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_red",
+      "rarity": 10,
+      "level": 4.095885544074784,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_red",
+      "rarity": 16,
+      "level": 72.02605268435953,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_yellow",
+      "rarity": 20,
+      "level": 45.457813435106196,
+      "class": "governatooooor",
+      "description": "Yellow eyes shine with warmth that makes others more obedientambition\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_yellow",
+      "rarity": 5,
+      "level": 36.70222246010493,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Yellow represents its creator's ambition\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 78.24388602310653,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 47.36225514349983,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1880",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "warm_morning",
+      "rarity": 10,
+      "level": 63.390771838894146,
+      "class": "governatooooor",
+      "description": "Sunrise across Principal Valley to signify a new light and journey\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Sword Dual_red",
+      "rarity": 5,
+      "level": 3.8374280854395204,
+      "class": "governatooooor",
+      "description": "Dual swords favored by the most degen tribes endlessly searching for the highest yields\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 53.413237778579955,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "partisan_red",
+      "rarity": 7,
+      "level": 58.85107627962567,
+      "class": "governatooooor",
+      "description": "Clothes worn by nobility on diplomatic events. Red used to represent the Degen faction, but now is worn by all\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "long hair_green",
+      "rarity": 10,
+      "level": 84.07554371223314,
+      "class": "governatooooor",
+      "description": "Long hair worn worn loosely as if unconcerned with worldly matters. Green like the spoils of a fresh harvest\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_talking_blue",
+      "rarity": 10,
+      "level": 93.9808451112996,
+      "class": "governatooooor",
+      "description": "Be wary of those who always have a story to tell\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_blue",
+      "rarity": 20,
+      "level": 2.8404847212068374,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_red",
+      "rarity": 20,
+      "level": 87.76573052102697,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_golden",
+      "rarity": 9,
+      "level": 83.87834063348532,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 30.58119380676736,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 80.06956968622086,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

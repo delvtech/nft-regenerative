@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1413",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "purple_vapor",
+      "rarity": 10,
+      "level": 56.16232649609485,
+      "class": "governatooooor",
+      "description": "The skies glimmer with mysterious purple vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 2.398424102347807,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 3.838020573007772,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Vitality Suit_golden",
+      "rarity": 7,
+      "level": 95.09233220582003,
+      "class": "governatooooor",
+      "description": "There’s something relaxing about submitting to decisions made by others. You feel empowered when following orders\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "short_yellow",
+      "rarity": 5,
+      "level": 0.059020267903808765,
+      "class": "governatooooor",
+      "description": "Short hair is less frivolous and more practical, showing a focus on substance over style\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_red",
+      "rarity": 10,
+      "level": 24.047265144869947,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_red",
+      "rarity": 10,
+      "level": 97.49318082978051,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_fire",
+      "rarity": 20,
+      "level": 59.00993733850903,
+      "class": "governatooooor",
+      "description": "Fire eyes that burn like the flames in the forges of the Ancient Builders\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "floating_bonet",
+      "rarity": 9,
+      "level": 71.01524897322801,
+      "class": "governatooooor",
+      "description": "Somehow lighter than a feather, the magical stones used in this cap make you feel constantly energized\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 8.089616448296667,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "air mask_golden",
+      "rarity": 5,
+      "level": 31.108009016987182,
+      "class": "governatooooor",
+      "description": "Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness\r"
+    }
+  ]
+}

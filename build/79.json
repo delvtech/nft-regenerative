@@ -1,0 +1,93 @@
+{
+  "name": "Elf #80",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "clean_clouds",
+      "rarity": 10,
+      "level": 36.413363536580626,
+      "class": "governatooooor",
+      "description": "Clear skies signal peace and tranquility\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 58.39642707912145,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 46.93197833480656,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_yellow",
+      "rarity": 15,
+      "level": 26.71343876161543,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its yellow color is obtained from the golden sands of the deserts of Etcal\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "pony_white",
+      "rarity": 3,
+      "level": 15.126956766147392,
+      "class": "governatooooor",
+      "description": "Styled in the latest fashion, the wearer’s care and attention to detail is apparent\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_red",
+      "rarity": 10,
+      "level": 69.00777604672585,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_blue",
+      "rarity": 20,
+      "level": 29.000244856552392,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_gold",
+      "rarity": 20,
+      "level": 0.23213597254048146,
+      "class": "governatooooor",
+      "description": "Eyes as gold as sunlight convey friendliness, but don’t mistake it for complacency\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "sun_headset",
+      "rarity": 2,
+      "level": 81.80934916218672,
+      "class": "governatooooor",
+      "description": "A tribute to the life-giving sun, this heavy helmet is mostly worn by high priests at harvest festivals\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 24.716471819730977,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 24.75095770569333,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

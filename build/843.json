@@ -1,0 +1,93 @@
+{
+  "name": "Elf #844",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "clean_clouds",
+      "rarity": 10,
+      "level": 83.22968423506485,
+      "class": "governatooooor",
+      "description": "Clear skies signal peace and tranquility\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 19.611765157979644,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 31.29684586226853,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "robes_blue",
+      "rarity": 7,
+      "level": 63.19175536555437,
+      "class": "governatooooor",
+      "description": "Made from a fabric of magically-treated quartz, these robes are said to amplify their wearer’s magical output\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 17.680137892220426,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_yellow",
+      "rarity": 10,
+      "level": 93.82365330666364,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_grey",
+      "rarity": 16,
+      "level": 56.07295422688039,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_fire",
+      "rarity": 20,
+      "level": 88.36992520402774,
+      "class": "governatooooor",
+      "description": "Fire eyes that burn like the flames in the forges of the Ancient Builders\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_golden",
+      "rarity": 9,
+      "level": 52.172242488866985,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 44.339872441039475,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "nose air_white",
+      "rarity": 8,
+      "level": 33.49374093577539,
+      "class": "governatooooor",
+      "description": "Enhanced oxygen filtration conveys a distinct advantage on the battlefield\r"
+    }
+  ]
+}

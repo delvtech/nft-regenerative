@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1007",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "warm_morning",
+      "rarity": 10,
+      "level": 9.340925869256033,
+      "class": "governatooooor",
+      "description": "Sunrise across Principal Valley to signify a new light and journey\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 32.19782966983029,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 22.554622280586933,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_green",
+      "rarity": 10,
+      "level": 72.7222301988651,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its green color is obtained from the peels of Yield Fruits, which thrive during the summer\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 84.01720917383766,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_red",
+      "rarity": 10,
+      "level": 10.824280536919616,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_white",
+      "rarity": 10,
+      "level": 36.78787437045457,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_yellow",
+      "rarity": 20,
+      "level": 35.05162131692512,
+      "class": "governatooooor",
+      "description": "Yellow eyes shine with warmth that makes others more obedient\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 55.5897896107949,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "pointeau mask",
+      "rarity": 8,
+      "level": 66.53403628877757,
+      "class": "governatooooor",
+      "description": "Privacy is an utmost priority for all, even those who have nothing to hide\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 25.85049151414225,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

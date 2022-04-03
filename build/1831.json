@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1832",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carmesi_portal",
+      "rarity": 10,
+      "level": 66.43999123469166,
+      "class": "governatooooor",
+      "description": "A red portal signifies strife and battle\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 54.36755655714134,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 74.67695018642017,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "partisan_golden",
+      "rarity": 7,
+      "level": 95.77938025831325,
+      "class": "governatooooor",
+      "description": "Clothes worn by nobility on diplomatic events. Yellow is both opulent and ostentatious\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 31.116712359144216,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_sad_pink",
+      "rarity": 10,
+      "level": 76.64247149030683,
+      "class": "governatooooor",
+      "description": "Those who don’t smile are their own harshest critics\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_grey",
+      "rarity": 20,
+      "level": 47.36193356285903,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_yellow",
+      "rarity": 20,
+      "level": 72.56290934928951,
+      "class": "governatooooor",
+      "description": "Yellow eyes shine with warmth that makes others more obedientambition\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 38.86483477033165,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 21.85079964345946,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 49.18364479208499,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

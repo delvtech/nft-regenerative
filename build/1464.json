@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1465",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carrot_vapor",
+      "rarity": 10,
+      "level": 33.487403150983354,
+      "class": "governatooooor",
+      "description": "Soothing vapors expand into the vast ether of existence\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 85.09680713201502,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 13.471218111135052,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "none",
+      "rarity": 2,
+      "level": 61.534302222224404,
+      "class": "governatooooor",
+      "description": "Some elves shun the moral rigitude of society in favor of being one with nature\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_grey",
+      "rarity": 20,
+      "level": 33.15644166911624,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Grey in color, often worn by those who have a way with words\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_red",
+      "rarity": 10,
+      "level": 60.81018833402616,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_grey",
+      "rarity": 10,
+      "level": 55.558648773781584,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_gold",
+      "rarity": 20,
+      "level": 59.24058566772159,
+      "class": "governatooooor",
+      "description": "Eyes as gold as sunlight convey friendliness, but don’t mistake it for complacency\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_white",
+      "rarity": 5,
+      "level": 36.80807685732779,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. White represents its creator's power over others\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 59.71430918495595,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 67.83751748976788,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

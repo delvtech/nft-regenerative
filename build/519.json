@@ -1,0 +1,93 @@
+{
+  "name": "Elf #520",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blue_portal",
+      "rarity": 10,
+      "level": 52.17799659960958,
+      "class": "governatooooor",
+      "description": "Blue portal that transfers users across the many Valleys of Yield and Principal\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 37.65990986957328,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 26.573951634851035,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Vitality Suit_golden",
+      "rarity": 7,
+      "level": 17.997694504020313,
+      "class": "governatooooor",
+      "description": "There’s something relaxing about submitting to decisions made by others. You feel empowered when following orders\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_blue",
+      "rarity": 15,
+      "level": 96.63429993507677,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Blue in color, often worn by scholarly individuals\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_red",
+      "rarity": 10,
+      "level": 32.44951415741235,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_grey",
+      "rarity": 16,
+      "level": 75.24266712990111,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_fire",
+      "rarity": 20,
+      "level": 26.066169944514805,
+      "class": "governatooooor",
+      "description": "Fire eyes that burn like the flames in the forges of the Ancient Builders\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_white",
+      "rarity": 5,
+      "level": 69.3342113567596,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. White represents its creator's power over others\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 51.014786277132565,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 79.74932192869962,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

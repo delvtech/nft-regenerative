@@ -1,0 +1,93 @@
+{
+  "name": "Elf #465",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "green_portal",
+      "rarity": 10,
+      "level": 16.043988832486235,
+      "class": "governatooooor",
+      "description": "A green portal signifies balance in all things\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 45.95022336013641,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 11.176672586582237,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "partisan_golden",
+      "rarity": 7,
+      "level": 12.881926157426937,
+      "class": "governatooooor",
+      "description": "Clothes worn by nobility on diplomatic events. Yellow is both opulent and ostentatious\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_mohawk_green",
+      "rarity": 2,
+      "level": 50.763603931866406,
+      "class": "governatooooor",
+      "description": "Elven hair that grows wild and untamed is a sign of raw magical potential\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_yellow",
+      "rarity": 10,
+      "level": 98.69704682576806,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_blue",
+      "rarity": 20,
+      "level": 0.4538951658557666,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_left",
+      "rarity": 20,
+      "level": 69.42793485929577,
+      "class": "governatooooor",
+      "description": "Some elves are always suspicious of their surroundings, and can’t be fooled\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_yellow",
+      "rarity": 5,
+      "level": 4.206523034677501,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Yellow represents its creator's ambition\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 94.22591078604992,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 75.57364974720878,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

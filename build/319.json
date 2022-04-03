@@ -1,0 +1,93 @@
+{
+  "name": "Elf #320",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "purple_vapor",
+      "rarity": 10,
+      "level": 17.448140842434647,
+      "class": "governatooooor",
+      "description": "The skies glimmer with mysterious purple vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Bow_dark",
+      "rarity": 2,
+      "level": 75.6830702320853,
+      "class": "governatooooor",
+      "description": "Dark bows draw no attention, allowing their user to slither in the night\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 37.25010986840238,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Deep Sleep Vitality Suit_golden",
+      "rarity": 7,
+      "level": 18.900629063395115,
+      "class": "governatooooor",
+      "description": "Wearing this golden suit makes you feel especially obedient. You’ll go to any lengths to follow orders\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 96.3590216625353,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_sad_red",
+      "rarity": 10,
+      "level": 72.02598446419854,
+      "class": "governatooooor",
+      "description": "Those who don’t smile are their own harshest critics\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_yellow",
+      "rarity": 5,
+      "level": 46.39195464776758,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_dark",
+      "rarity": 20,
+      "level": 34.063692091513744,
+      "class": "governatooooor",
+      "description": "Dark eyes are better for not drawing attention and capture more detail in the night\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_draconic",
+      "rarity": 9,
+      "level": 56.90719710514058,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "pointeau mask",
+      "rarity": 8,
+      "level": 36.907989945244445,
+      "class": "governatooooor",
+      "description": "Privacy is an utmost priority for all, even those who have nothing to hide\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "necklace",
+      "rarity": 8,
+      "level": 84.91765366369712,
+      "class": "governatooooor",
+      "description": "A necklace worn by the attendants of court while plotting political plays\r"
+    }
+  ]
+}

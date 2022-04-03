@@ -1,0 +1,93 @@
+{
+  "name": "Elf #206",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "purple_vapor",
+      "rarity": 10,
+      "level": 63.70607473225689,
+      "class": "governatooooor",
+      "description": "The skies glimmer with mysterious purple vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 27.45768755228488,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 80.0171871445177,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Vitality Suit_golden",
+      "rarity": 7,
+      "level": 57.12407942303952,
+      "class": "governatooooor",
+      "description": "There’s something relaxing about submitting to decisions made by others. You feel empowered when following orders\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 16.29366238246337,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_talking_blue",
+      "rarity": 10,
+      "level": 88.71846611513492,
+      "class": "governatooooor",
+      "description": "Be wary of those who always have a story to tell\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_blue",
+      "rarity": 10,
+      "level": 50.44048184217304,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_big_yellow",
+      "rarity": 20,
+      "level": 4.047422501493103,
+      "class": "governatooooor",
+      "description": "Big golden eyes shine with glee and enthusiasm\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_draconic",
+      "rarity": 9,
+      "level": 38.885723470645075,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 4.719858140311728,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 49.27995287311755,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1789",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "warm_morning",
+      "rarity": 10,
+      "level": 17.940341638372036,
+      "class": "governatooooor",
+      "description": "Sunrise across Principal Valley to signify a new light and journey\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 52.63250631263085,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 26.563762841552418,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "straps_draconic",
+      "rarity": 7,
+      "level": 91.8759484568664,
+      "class": "governatooooor",
+      "description": "These straps aid with farming even in unwelcoming conditions, raising untapped potential from the earth\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_red",
+      "rarity": 10,
+      "level": 88.9135396423105,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Red in color, often worn by those who possess great stamina\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_talking_pink",
+      "rarity": 10,
+      "level": 26.61624311268598,
+      "class": "governatooooor",
+      "description": "Be wary of those who always have a story to tell\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_red",
+      "rarity": 16,
+      "level": 46.071098106799305,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_yellow",
+      "rarity": 20,
+      "level": 73.09791496726692,
+      "class": "governatooooor",
+      "description": "Yellow eyes shine with warmth that makes others more obedientambition\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 66.44931308911397,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 82.65057516557796,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 80.44757491370179,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

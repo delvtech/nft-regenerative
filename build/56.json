@@ -1,0 +1,93 @@
+{
+  "name": "Elf #57",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carmesi_portal",
+      "rarity": 10,
+      "level": 48.54835688798151,
+      "class": "governatooooor",
+      "description": "A red portal signifies strife and battle\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 75.80827234312093,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 61.58052850444622,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_blue",
+      "rarity": 20,
+      "level": 1.296095405559039,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its blue color is obtained from Liquidity Flowers, found near all kinds of shores\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_blue",
+      "rarity": 15,
+      "level": 22.953029173040406,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Blue in color, often worn by scholarly individuals\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_blue",
+      "rarity": 10,
+      "level": 68.63920195690419,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_blue",
+      "rarity": 10,
+      "level": 10.341817841398825,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_red",
+      "rarity": 20,
+      "level": 52.57568598438289,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "floating_bonet",
+      "rarity": 9,
+      "level": 61.80757297477524,
+      "class": "governatooooor",
+      "description": "Somehow lighter than a feather, the magical stones used in this cap make you feel constantly energized\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 6.1084281189339285,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 45.77026240053297,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

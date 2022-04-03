@@ -1,0 +1,93 @@
+{
+  "name": "Elf #278",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carrot_vapor",
+      "rarity": 10,
+      "level": 98.92646280021977,
+      "class": "governatooooor",
+      "description": "Soothing vapors expand into the vast ether of existence\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 3.6593048886562896,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 2.8577679446220694,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Deep Sleep Vitality Suit_golden",
+      "rarity": 7,
+      "level": 70.55505190801831,
+      "class": "governatooooor",
+      "description": "Wearing this golden suit makes you feel especially obedient. You’ll go to any lengths to follow orders\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_yellow",
+      "rarity": 20,
+      "level": 43.49520041568189,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Yellow in color, often worn by those adept at precision work\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_blue",
+      "rarity": 10,
+      "level": 98.50274510342378,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_yellow",
+      "rarity": 10,
+      "level": 27.1139602225843,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_yellow",
+      "rarity": 20,
+      "level": 31.627987777084243,
+      "class": "governatooooor",
+      "description": "Yellow eyes shine with warmth that makes others more obedientambition\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "floating_bonet",
+      "rarity": 9,
+      "level": 8.212494877988252,
+      "class": "governatooooor",
+      "description": "Somehow lighter than a feather, the magical stones used in this cap make you feel constantly energized\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 47.076120853761914,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 76.12045627821684,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

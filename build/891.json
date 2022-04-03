@@ -1,0 +1,93 @@
+{
+  "name": "Elf #892",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carmesi_portal",
+      "rarity": 10,
+      "level": 82.557948634079,
+      "class": "governatooooor",
+      "description": "A red portal signifies strife and battle\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 61.19427781617104,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 89.30250012418523,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "partisan_golden",
+      "rarity": 7,
+      "level": 7.145147514456718,
+      "class": "governatooooor",
+      "description": "Clothes worn by nobility on diplomatic events. Yellow is both opulent and ostentatious\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 34.991713579027596,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_blue",
+      "rarity": 10,
+      "level": 69.609212592648,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_blue",
+      "rarity": 20,
+      "level": 41.63855916112191,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_yellow",
+      "rarity": 20,
+      "level": 29.55383746941862,
+      "class": "governatooooor",
+      "description": "Yellow eyes shine with warmth that makes others more obedientambition\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_white",
+      "rarity": 5,
+      "level": 21.291316658825465,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. White represents its creator's power over others\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 57.023583949895084,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 51.24585797524057,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

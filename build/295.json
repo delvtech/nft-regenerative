@@ -1,0 +1,93 @@
+{
+  "name": "Elf #296",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "clean_clouds",
+      "rarity": 10,
+      "level": 6.528335688514453,
+      "class": "governatooooor",
+      "description": "Clear skies signal peace and tranquility\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Sword Dual_golden",
+      "rarity": 5,
+      "level": 78.3228318969881,
+      "class": "governatooooor",
+      "description": "Dual swords favored by the most degen tribes endlessly searching for the highest yields\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 51.465754023089104,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_green",
+      "rarity": 10,
+      "level": 6.543342559806686,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its green color is obtained from the peels of Yield Fruits, which thrive during the summer\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 86.51365407158174,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_talking_pink",
+      "rarity": 10,
+      "level": 83.84180195196147,
+      "class": "governatooooor",
+      "description": "Be wary of those who always have a story to tell\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_white",
+      "rarity": 10,
+      "level": 10.729468645269913,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_dark",
+      "rarity": 20,
+      "level": 63.72738401136937,
+      "class": "governatooooor",
+      "description": "Dark eyes are better for not drawing attention and capture more detail in the night\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_red",
+      "rarity": 5,
+      "level": 77.68202417321817,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Red represents its creator's passion\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 72.21139507120662,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 53.67679555936711,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

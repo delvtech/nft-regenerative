@@ -1,0 +1,93 @@
+{
+  "name": "Elf #812",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blue_portal",
+      "rarity": 10,
+      "level": 61.367722859338784,
+      "class": "governatooooor",
+      "description": "Blue portal that transfers users across the many Valleys of Yield and Principal\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 86.67870992291338,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 38.11425126307242,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Deep Sleep Vitality Suit_draconic",
+      "rarity": 7,
+      "level": 60.24328144324986,
+      "class": "governatooooor",
+      "description": "Wearing this draconic suit makes you feel especially obedient. You also feel unaffected by heat\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_red",
+      "rarity": 10,
+      "level": 61.6258828204022,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Red in color, often worn by those who possess great stamina\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_blue",
+      "rarity": 10,
+      "level": 27.804771104282587,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_grey",
+      "rarity": 16,
+      "level": 24.081729692147256,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_big_dark",
+      "rarity": 20,
+      "level": 81.10618242818887,
+      "class": "governatooooor",
+      "description": "Big dark eyes ready to take in all the world has to offer, yet give nothing back\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_golden",
+      "rarity": 9,
+      "level": 29.502364690664873,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 97.11690529836608,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 18.19442052139877,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Elf #169",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blue_vapor",
+      "rarity": 10,
+      "level": 73.61279383817147,
+      "class": "governatooooor",
+      "description": "Soothing skies belie unknown futures\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 98.20052579048992,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 58.531127253176265,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "robes_blue",
+      "rarity": 7,
+      "level": 41.085839625967324,
+      "class": "governatooooor",
+      "description": "Made from a fabric of magically-treated quartz, these robes are said to amplify their wearer’s magical output\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_red",
+      "rarity": 10,
+      "level": 9.829412671616922,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Red in color, often worn by those who possess great stamina\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_pink",
+      "rarity": 10,
+      "level": 89.89984356908084,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_white",
+      "rarity": 10,
+      "level": 60.723691885503214,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_dark",
+      "rarity": 20,
+      "level": 94.06969014210031,
+      "class": "governatooooor",
+      "description": "Dark eyes are better for not drawing attention and capture more detail in the night\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_red",
+      "rarity": 5,
+      "level": 57.80452454211225,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Red represents its creator's passion\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 99.30909411346134,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 25.63469616547016,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

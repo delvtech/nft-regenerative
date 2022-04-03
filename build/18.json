@@ -1,0 +1,93 @@
+{
+  "name": "Elf #19",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carmesi_portal",
+      "rarity": 10,
+      "level": 6.573613653125365,
+      "class": "governatooooor",
+      "description": "A red portal signifies strife and battle\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 7.999877541824563,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 40.889935754872944,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_garmet_blue",
+      "rarity": 15,
+      "level": 58.21038381319834,
+      "class": "governatooooor",
+      "description": "Ritualistic attire comes to life as individual facets intertwine both moonlight and campfire\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_grey",
+      "rarity": 20,
+      "level": 2.399933131128784,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Grey in color, often worn by those who have a way with words\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_blue",
+      "rarity": 10,
+      "level": 6.369704167840018,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_red",
+      "rarity": 5,
+      "level": 53.53004482528474,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_ice",
+      "rarity": 20,
+      "level": 93.52109982550041,
+      "class": "governatooooor",
+      "description": "Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 69.53143870353205,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 26.952995061247908,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 76.15057472385487,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Elf #481",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blood_river",
+      "rarity": 10,
+      "level": 61.29192701556374,
+      "class": "governatooooor",
+      "description": "Blood river that is shown to those with a future of battle or strife\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "right Quarz sword",
+      "rarity": 8,
+      "level": 10.340410538206047,
+      "class": "governatooooor",
+      "description": "Elves possess unparalleled quartz craftsmanship, through which they imbue their weapons with eternal sharpness\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 24.274345892783167,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Vitality Suit_draconic",
+      "rarity": 7,
+      "level": 22.948278435011392,
+      "class": "governatooooor",
+      "description": "There’s something relaxing about submitting to decisions made by others. You feel empowered when following orders, and impervious to heat\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "long hair_White",
+      "rarity": 10,
+      "level": 52.75967733679894,
+      "class": "governatooooor",
+      "description": "Long hair worn worn loosely as if unconcerned with worldly matters. White with wisdom and ancient knowledge\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_sad_red",
+      "rarity": 10,
+      "level": 62.577034422035595,
+      "class": "governatooooor",
+      "description": "Those who don’t smile are their own harshest critics\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_grey",
+      "rarity": 20,
+      "level": 94.58443918267758,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_red",
+      "rarity": 20,
+      "level": 40.85698400313533,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 62.908354200954555,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 22.62802051819577,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 20.291074136793497,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

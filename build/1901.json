@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1902",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "purple_vapor",
+      "rarity": 10,
+      "level": 99.28454050468993,
+      "class": "governatooooor",
+      "description": "The skies glimmer with mysterious purple vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 98.84811993787255,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 20.916607541936493,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_blue",
+      "rarity": 20,
+      "level": 24.289106887691013,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its blue color is obtained from Liquidity Flowers, found near all kinds of shores\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "short_white",
+      "rarity": 5,
+      "level": 85.65789241933427,
+      "class": "governatooooor",
+      "description": "Short hair is less frivolous and more practical, showing a focus on substance over style\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_sad_red",
+      "rarity": 10,
+      "level": 93.4043412322018,
+      "class": "governatooooor",
+      "description": "Those who don’t smile are their own harshest critics\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_yellow",
+      "rarity": 10,
+      "level": 44.0464170925915,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_ice",
+      "rarity": 7,
+      "level": 19.670244190707955,
+      "class": "governatooooor",
+      "description": "Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_blue",
+      "rarity": 5,
+      "level": 70.10871106231593,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Blue represents its creator's depth of knowledge\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 68.55057693836126,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 25.590996328606618,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

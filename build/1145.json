@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1146",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "green_portal",
+      "rarity": 10,
+      "level": 12.992703621702773,
+      "class": "governatooooor",
+      "description": "A green portal signifies balance in all things\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 44.56041956251568,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_red",
+      "rarity": 5,
+      "level": 21.309726213140824,
+      "class": "governatooooor",
+      "description": "Red Elves are believed to be descendants of the Ancestral Degens, whose skin was tempered by the fiery forges of the Degen Inferno\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "leather_golden",
+      "rarity": 7,
+      "level": 29.797888213748024,
+      "class": "governatooooor",
+      "description": "This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather. It gives off a particular shine, as if emitting its own light\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 35.19778404713059,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_yellow",
+      "rarity": 10,
+      "level": 57.61364126497482,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_white",
+      "rarity": 10,
+      "level": 72.09150129548563,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_dark",
+      "rarity": 20,
+      "level": 28.030376704128113,
+      "class": "governatooooor",
+      "description": "Dark eyes are better for not drawing attention and capture more detail in the night\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_dark",
+      "rarity": 9,
+      "level": 58.76660837041736,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 2.710769663164103,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 78.00661731524596,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

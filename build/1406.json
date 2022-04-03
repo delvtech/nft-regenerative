@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1407",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carrot_vapor",
+      "rarity": 10,
+      "level": 40.034875171381444,
+      "class": "governatooooor",
+      "description": "Soothing vapors expand into the vast ether of existence\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 75.95698004085563,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 58.7612771610933,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "robes_blue",
+      "rarity": 7,
+      "level": 99.74813066731194,
+      "class": "governatooooor",
+      "description": "Made from a fabric of magically-treated quartz, these robes are said to amplify their wearer’s magical output\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "pony_white",
+      "rarity": 3,
+      "level": 55.216597226841444,
+      "class": "governatooooor",
+      "description": "Styled in the latest fashion, the wearer’s care and attention to detail is apparent\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_blue",
+      "rarity": 10,
+      "level": 9.717338293594512,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_yellow",
+      "rarity": 2,
+      "level": 55.604220735114,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_big_yellow",
+      "rarity": 20,
+      "level": 15.749666044106103,
+      "class": "governatooooor",
+      "description": "Big golden eyes shine with glee and enthusiasm\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_dark",
+      "rarity": 9,
+      "level": 66.25329328579308,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 60.19231210767912,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "air mask_draconic",
+      "rarity": 10,
+      "level": 6.584204888985945,
+      "class": "governatooooor",
+      "description": "Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness\r"
+    }
+  ]
+}

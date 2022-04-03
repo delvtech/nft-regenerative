@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1621",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carmesi_portal",
+      "rarity": 10,
+      "level": 23.059829491895158,
+      "class": "governatooooor",
+      "description": "A red portal signifies strife and battle\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 55.99419877753884,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_red",
+      "rarity": 5,
+      "level": 56.90665421973657,
+      "class": "governatooooor",
+      "description": "Red Elves are believed to be descendants of the Ancestral Degens, whose skin was tempered by the fiery forges of the Degen Inferno\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_garmet_yellow",
+      "rarity": 5,
+      "level": 31.103948565990503,
+      "class": "governatooooor",
+      "description": "Traditional ritualistic attire whose yellow color symbolizes the sharing of wisdom\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 32.24855123555051,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_pink",
+      "rarity": 10,
+      "level": 42.34732916930983,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_yellow",
+      "rarity": 10,
+      "level": 47.00315327885682,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_big_yellow",
+      "rarity": 20,
+      "level": 50.85454685818238,
+      "class": "governatooooor",
+      "description": "Big golden eyes shine with glee and enthusiasm\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 59.86719593076404,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "ki sensor",
+      "rarity": 2,
+      "level": 12.279904080303417,
+      "class": "governatooooor",
+      "description": "The latest research and innovation allows the wearer to ascertain another’s power level\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 66.32395013712191,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

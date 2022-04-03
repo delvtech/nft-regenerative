@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1987",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blue_vapor",
+      "rarity": 10,
+      "level": 1.9269630615429634,
+      "class": "governatooooor",
+      "description": "Soothing skies belie unknown futures\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 13.286610832833933,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 64.81465711288325,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "robes_white",
+      "rarity": 7,
+      "level": 18.172200462591736,
+      "class": "governatooooor",
+      "description": "Infused with the magical properties of moonlight, these robes are said to improve the effects of healing magics\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_yellow",
+      "rarity": 20,
+      "level": 76.18933061067953,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Yellow in color, often worn by those adept at precision work\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_yellow",
+      "rarity": 10,
+      "level": 4.130970272870349,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_yellow",
+      "rarity": 2,
+      "level": 57.57029480175015,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_dark",
+      "rarity": 20,
+      "level": 15.732284714615297,
+      "class": "governatooooor",
+      "description": "Dark eyes are better for not drawing attention and capture more detail in the night\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 49.60496154859424,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "pointeau mask",
+      "rarity": 8,
+      "level": 56.754713597947706,
+      "class": "governatooooor",
+      "description": "Privacy is an utmost priority for all, even those who have nothing to hide\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 16.499716492459626,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

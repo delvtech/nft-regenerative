@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1276",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "green_vapor",
+      "rarity": 10,
+      "level": 40.95102077056383,
+      "class": "governatooooor",
+      "description": "The skies simmer with soothing green vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 49.166878373491855,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 37.97604386861062,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_blue",
+      "rarity": 20,
+      "level": 17.05498952667137,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its blue color is obtained from Liquidity Flowers, found near all kinds of shores\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "mohawk_red",
+      "rarity": 2,
+      "level": 58.645866659356095,
+      "class": "governatooooor",
+      "description": "Wild red hair like the color of battle makes others wary, for good reason or not\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_talking_pink",
+      "rarity": 10,
+      "level": 37.334953346093116,
+      "class": "governatooooor",
+      "description": "Be wary of those who always have a story to tell\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_blue",
+      "rarity": 20,
+      "level": 76.90060201203057,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_yellow",
+      "rarity": 20,
+      "level": 78.19391877331363,
+      "class": "governatooooor",
+      "description": "Yellow eyes shine with warmth that makes others more obedientambition\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 21.789195910875847,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 10.013543362021604,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 6.054796366828996,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

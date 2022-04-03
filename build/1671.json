@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1672",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blue_vapor",
+      "rarity": 10,
+      "level": 7.9655079489243,
+      "class": "governatooooor",
+      "description": "Soothing skies belie unknown futures\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 38.27533135556782,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 76.25851289497288,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Deep Sleep Vitality Suit_draconic",
+      "rarity": 7,
+      "level": 91.84967623552016,
+      "class": "governatooooor",
+      "description": "Wearing this draconic suit makes you feel especially obedient. You also feel unaffected by heat\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 99.84340479187948,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_blue",
+      "rarity": 10,
+      "level": 49.78708530829403,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_blue",
+      "rarity": 20,
+      "level": 67.54806246629335,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_red",
+      "rarity": 20,
+      "level": 82.81152250257222,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_draconic",
+      "rarity": 9,
+      "level": 91.25112996143285,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 17.373860912485405,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "necklace",
+      "rarity": 8,
+      "level": 24.16745388153887,
+      "class": "governatooooor",
+      "description": "A necklace worn by the attendants of court while plotting political plays\r"
+    }
+  ]
+}

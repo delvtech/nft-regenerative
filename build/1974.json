@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1975",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "good_night",
+      "rarity": 10,
+      "level": 51.728964301000225,
+      "class": "governatooooor",
+      "description": "A starry night full of pinpoints of distant opportunity\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Staff_golden",
+      "rarity": 1,
+      "level": 28.016599202247505,
+      "class": "governatooooor",
+      "description": "A gold-plated staff passed down through generations now serves as a symbol of diplomacy\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 59.57524009694879,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Breastplate_golden",
+      "rarity": 3,
+      "level": 32.27869931607421,
+      "class": "governatooooor",
+      "description": "Full-body armor made of gold and worn by elite warriors. The magical quartz infused in it makes it lighter than fabric\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "long hair_blue",
+      "rarity": 10,
+      "level": 72.87849712607957,
+      "class": "governatooooor",
+      "description": "Long hair worn worn loosely as if unconcerned with worldly matters. Blue like the depth of the Sea of Liquidity\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_sad_blue",
+      "rarity": 10,
+      "level": 25.0956017548323,
+      "class": "governatooooor",
+      "description": "Those who don’t smile are their own harshest critics\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_white",
+      "rarity": 10,
+      "level": 27.899321809563226,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_red",
+      "rarity": 20,
+      "level": 69.72561726249535,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 60.813110263092376,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 34.938018798486034,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 57.8783194981525,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

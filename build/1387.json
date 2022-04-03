@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1388",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carmesi_portal",
+      "rarity": 10,
+      "level": 59.36948030770921,
+      "class": "governatooooor",
+      "description": "A red portal signifies strife and battle\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "right Quarz sword",
+      "rarity": 8,
+      "level": 62.3861784714495,
+      "class": "governatooooor",
+      "description": "Elves possess unparalleled quartz craftsmanship, through which they imbue their weapons with eternal sharpness\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 59.37046556282803,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_blue",
+      "rarity": 20,
+      "level": 99.51121593129513,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its blue color is obtained from Liquidity Flowers, found near all kinds of shores\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "long hair_yellow",
+      "rarity": 10,
+      "level": 99.36918859671742,
+      "class": "governatooooor",
+      "description": "Long hair worn worn loosely as if unconcerned with worldly matters. Yellow is a mark of status but also of greed\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_blue",
+      "rarity": 10,
+      "level": 89.0055642942708,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_grey",
+      "rarity": 16,
+      "level": 66.63500923566312,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_big_blue",
+      "rarity": 20,
+      "level": 47.99820425386816,
+      "class": "governatooooor",
+      "description": "Big blue eyes full of wonder at the mysteries lying in wait\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_yellow",
+      "rarity": 5,
+      "level": 99.05351614109992,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Yellow represents its creator's ambition\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 89.71845371962492,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "nose air_white",
+      "rarity": 8,
+      "level": 41.43395955551365,
+      "class": "governatooooor",
+      "description": "Enhanced oxygen filtration conveys a distinct advantage on the battlefield\r"
+    }
+  ]
+}

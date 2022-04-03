@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1029",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "purple_vapor",
+      "rarity": 10,
+      "level": 19.46986615977191,
+      "class": "governatooooor",
+      "description": "The skies glimmer with mysterious purple vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 16.8148013470806,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 42.99449272451277,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "leather_draconic",
+      "rarity": 7,
+      "level": 73.96893465320602,
+      "class": "governatooooor",
+      "description": "This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 13.42879464723512,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_pink",
+      "rarity": 10,
+      "level": 47.916864118896484,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_blue",
+      "rarity": 20,
+      "level": 5.106977645618094,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_big_blue",
+      "rarity": 20,
+      "level": 1.3597900403043983,
+      "class": "governatooooor",
+      "description": "Big blue eyes full of wonder at the mysteries lying in wait\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_blue",
+      "rarity": 5,
+      "level": 30.399611766092917,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Blue represents its creator's depth of knowledge\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 16.580455231380054,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 53.42967432934691,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

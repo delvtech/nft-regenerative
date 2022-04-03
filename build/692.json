@@ -1,0 +1,93 @@
+{
+  "name": "Elf #693",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "good_night",
+      "rarity": 10,
+      "level": 38.25570959686917,
+      "class": "governatooooor",
+      "description": "A starry night full of pinpoints of distant opportunity\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Long Sword_golden",
+      "rarity": 3,
+      "level": 52.18348537581081,
+      "class": "governatooooor",
+      "description": "A golden blade wielded by someone of high status; or someone who cut them down for it\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 41.65362784912503,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "partisan_blue",
+      "rarity": 7,
+      "level": 13.57199910746305,
+      "class": "governatooooor",
+      "description": "Clothes worn by nobility on diplomatic events. Blue represents liquidity and mastery of diplomacy\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_grey",
+      "rarity": 20,
+      "level": 23.52111880509,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Grey in color, often worn by those who have a way with words\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_talking_blue",
+      "rarity": 10,
+      "level": 44.26684900444178,
+      "class": "governatooooor",
+      "description": "Be wary of those who always have a story to tell\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_grey",
+      "rarity": 20,
+      "level": 96.92411074729388,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_ice",
+      "rarity": 20,
+      "level": 15.236421602370175,
+      "class": "governatooooor",
+      "description": "Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_draconic",
+      "rarity": 9,
+      "level": 34.040350095478345,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 70.56195458985411,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "air mask_dark",
+      "rarity": 5,
+      "level": 63.12039206117244,
+      "class": "governatooooor",
+      "description": "Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness\r"
+    }
+  ]
+}

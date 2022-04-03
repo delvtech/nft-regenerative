@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1167",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "green_vapor",
+      "rarity": 10,
+      "level": 88.50044120282831,
+      "class": "governatooooor",
+      "description": "The skies simmer with soothing green vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 38.60186079125163,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 64.59237537353735,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "straps_dark",
+      "rarity": 7,
+      "level": 70.28639858614892,
+      "class": "governatooooor",
+      "description": "Dark straps provide flexibility and function for all kinds of tasks, both day and night\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "long hair_yellow",
+      "rarity": 10,
+      "level": 20.18925124331723,
+      "class": "governatooooor",
+      "description": "Long hair worn worn loosely as if unconcerned with worldly matters. Yellow is a mark of status but also of greed\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_pink",
+      "rarity": 10,
+      "level": 9.752781349751928,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_yellow",
+      "rarity": 10,
+      "level": 16.1478043559518,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_dark",
+      "rarity": 20,
+      "level": 51.99749119278643,
+      "class": "governatooooor",
+      "description": "Dark eyes are better for not drawing attention and capture more detail in the night\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 24.201924435166887,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 37.5736695179409,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 90.22626556657023,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

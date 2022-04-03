@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1319",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "green_vapor",
+      "rarity": 10,
+      "level": 33.753654528774305,
+      "class": "governatooooor",
+      "description": "The skies simmer with soothing green vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Lance_draconic",
+      "rarity": 2,
+      "level": 73.78424036925908,
+      "class": "governatooooor",
+      "description": "Draconic lances wielded by tribes of elves as fierce and wild as their prey\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 26.366837786240783,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Breastplate_golden",
+      "rarity": 3,
+      "level": 18.692944211599837,
+      "class": "governatooooor",
+      "description": "Full-body armor made of gold and worn by elite warriors. The magical quartz infused in it makes it lighter than fabric\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_green",
+      "rarity": 15,
+      "level": 55.70266108191178,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Green in color, often worn by those who experiment with farming\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_talking_blue",
+      "rarity": 10,
+      "level": 17.74701532798415,
+      "class": "governatooooor",
+      "description": "Be wary of those who always have a story to tell\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_red",
+      "rarity": 16,
+      "level": 9.393545798151838,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_red",
+      "rarity": 20,
+      "level": 87.6031736437763,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 62.46276384488143,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 10.232906303649504,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 8.755130494709661,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

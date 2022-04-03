@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1842",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carrot_vapor",
+      "rarity": 10,
+      "level": 69.53118240078082,
+      "class": "governatooooor",
+      "description": "Soothing vapors expand into the vast ether of existence\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "jade bow",
+      "rarity": 2,
+      "level": 68.90951455387409,
+      "class": "governatooooor",
+      "description": "Markings of tradition adorn this ceremonial bow\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 99.10858851521003,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_blue",
+      "rarity": 20,
+      "level": 24.31648315967849,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its blue color is obtained from Liquidity Flowers, found near all kinds of shores\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "short_red",
+      "rarity": 5,
+      "level": 13.8927802631579,
+      "class": "governatooooor",
+      "description": "Short hair is less frivolous and more practical, showing a focus on substance over style\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_red",
+      "rarity": 10,
+      "level": 19.63447553923856,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_grey",
+      "rarity": 10,
+      "level": 78.60721167806928,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_dark",
+      "rarity": 20,
+      "level": 32.5844366142229,
+      "class": "governatooooor",
+      "description": "Dark eyes are better for not drawing attention and capture more detail in the night\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_blue",
+      "rarity": 5,
+      "level": 83.4047235466409,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Blue represents its creator's depth of knowledge\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 62.524773506249254,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 38.92500503897913,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

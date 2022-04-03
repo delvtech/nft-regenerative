@@ -1,0 +1,93 @@
+{
+  "name": "Elf #803",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "green_portal",
+      "rarity": 10,
+      "level": 33.70801725085977,
+      "class": "governatooooor",
+      "description": "A green portal signifies balance in all things\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "right Quarz sword",
+      "rarity": 8,
+      "level": 90.6126533286872,
+      "class": "governatooooor",
+      "description": "Elves possess unparalleled quartz craftsmanship, through which they imbue their weapons with eternal sharpness\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 35.54325007149648,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "robes_white",
+      "rarity": 7,
+      "level": 56.97059840065999,
+      "class": "governatooooor",
+      "description": "Infused with the magical properties of moonlight, these robes are said to improve the effects of healing magics\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "none",
+      "rarity": 25,
+      "level": 60.78391451135487,
+      "class": "governatooooor",
+      "description": "The freedom of not having hair allows one to be more productive with their day\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_talking_pink",
+      "rarity": 10,
+      "level": 1.1070374673408212,
+      "class": "governatooooor",
+      "description": "Be wary of those who always have a story to tell\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_yellow",
+      "rarity": 5,
+      "level": 98.99729956528691,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_red",
+      "rarity": 20,
+      "level": 38.53359954050717,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_dark",
+      "rarity": 9,
+      "level": 0.5574538675582996,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 30.263715521714786,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "necklace",
+      "rarity": 8,
+      "level": 63.14768684504921,
+      "class": "governatooooor",
+      "description": "A necklace worn by the attendants of court while plotting political plays\r"
+    }
+  ]
+}

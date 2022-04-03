@@ -1,0 +1,93 @@
+{
+  "name": "Elf #366",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carrot_vapor",
+      "rarity": 10,
+      "level": 42.7044894846287,
+      "class": "governatooooor",
+      "description": "Soothing vapors expand into the vast ether of existence\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 34.74750212419022,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_green",
+      "rarity": 20,
+      "level": 18.66014126640747,
+      "class": "governatooooor",
+      "description": "The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "leather_draconic",
+      "rarity": 7,
+      "level": 57.814715951152415,
+      "class": "governatooooor",
+      "description": "This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "long hair_White",
+      "rarity": 10,
+      "level": 35.24868348479369,
+      "class": "governatooooor",
+      "description": "Long hair worn worn loosely as if unconcerned with worldly matters. White with wisdom and ancient knowledge\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_pink",
+      "rarity": 10,
+      "level": 72.93241566685245,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_grey",
+      "rarity": 10,
+      "level": 56.000583610982055,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_big_dark",
+      "rarity": 20,
+      "level": 99.41050762241122,
+      "class": "governatooooor",
+      "description": "Big dark eyes ready to take in all the world has to offer, yet give nothing back\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 73.99906871453258,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 68.46197751850728,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 22.110213835745984,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

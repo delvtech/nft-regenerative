@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1104",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carrot_vapor",
+      "rarity": 10,
+      "level": 9.021006125793484,
+      "class": "governatooooor",
+      "description": "Soothing vapors expand into the vast ether of existence\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 64.86858843075882,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 59.14349734672901,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "clothes_colonist_yellow",
+      "rarity": 15,
+      "level": 98.14547049910121,
+      "class": "governatooooor",
+      "description": "Light clothing, good for fast travel. Its yellow color is obtained from the golden sands of the deserts of Etcal\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "mohawk_red",
+      "rarity": 2,
+      "level": 3.542046492239037,
+      "class": "governatooooor",
+      "description": "Wild red hair like the color of battle makes others wary, for good reason or not\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_red",
+      "rarity": 10,
+      "level": 94.7383523376732,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_grey",
+      "rarity": 16,
+      "level": 89.69432255408165,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_ice",
+      "rarity": 20,
+      "level": 29.391149996885126,
+      "class": "governatooooor",
+      "description": "Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "none",
+      "rarity": 70,
+      "level": 20.589323066615563,
+      "class": "governatooooor",
+      "description": "Headwear is reserved for those with the means and desire to show off\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "ki sensor",
+      "rarity": 2,
+      "level": 68.39931982443792,
+      "class": "governatooooor",
+      "description": "The latest research and innovation allows the wearer to ascertain another’s power level\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 34.28613899355422,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

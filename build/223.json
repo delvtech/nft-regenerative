@@ -1,0 +1,93 @@
+{
+  "name": "Elf #224",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "clean_clouds",
+      "rarity": 10,
+      "level": 50.97358094881208,
+      "class": "governatooooor",
+      "description": "Clear skies signal peace and tranquility\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 41.563048820861596,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_red",
+      "rarity": 5,
+      "level": 83.29317854435901,
+      "class": "governatooooor",
+      "description": "Red Elves are believed to be descendants of the Ancestral Degens, whose skin was tempered by the fiery forges of the Degen Inferno\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "partisan_blue",
+      "rarity": 7,
+      "level": 8.492549270196136,
+      "class": "governatooooor",
+      "description": "Clothes worn by nobility on diplomatic events. Blue represents liquidity and mastery of diplomacy\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "long hair_blue",
+      "rarity": 10,
+      "level": 12.273667749356898,
+      "class": "governatooooor",
+      "description": "Long hair worn worn loosely as if unconcerned with worldly matters. Blue like the depth of the Sea of Liquidity\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_red",
+      "rarity": 10,
+      "level": 64.98337595503673,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_doubting_blue",
+      "rarity": 10,
+      "level": 43.09227277417873,
+      "class": "governatooooor",
+      "description": "Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_left",
+      "rarity": 20,
+      "level": 17.808090411860977,
+      "class": "governatooooor",
+      "description": "Some elves are always suspicious of their surroundings, and can’t be fooled\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_dark",
+      "rarity": 9,
+      "level": 0.6083757749046237,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 65.64350743214382,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 31.556665584907194,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

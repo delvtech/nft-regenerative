@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1599",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "green_portal",
+      "rarity": 10,
+      "level": 42.45471577776478,
+      "class": "governatooooor",
+      "description": "A green portal signifies balance in all things\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Bow_golden",
+      "rarity": 2,
+      "level": 62.86362212958942,
+      "class": "governatooooor",
+      "description": "Gold-plated bows wielded by those of high status\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 27.144438458405705,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "leather_dark",
+      "rarity": 7,
+      "level": 22.72758333672431,
+      "class": "governatooooor",
+      "description": "This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather. You feel weightless when wearing this\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_bun_yellow",
+      "rarity": 20,
+      "level": 33.64982798068563,
+      "class": "governatooooor",
+      "description": "Long hair tied in a bun, to combat the heat of labour. Yellow in color, often worn by those adept at precision work\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_talking_blue",
+      "rarity": 10,
+      "level": 45.22389321639917,
+      "class": "governatooooor",
+      "description": "Be wary of those who always have a story to tell\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_red",
+      "rarity": 16,
+      "level": 90.73738817398514,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_right_yellow",
+      "rarity": 20,
+      "level": 72.6159707835209,
+      "class": "governatooooor",
+      "description": "Yellow eyes shine with warmth that makes others more obedient\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "helmet_draconic",
+      "rarity": 9,
+      "level": 10.557809968895304,
+      "class": "governatooooor",
+      "description": "Battle-tested helmet that invokes fear in their opponents\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "eye_patch",
+      "rarity": 5,
+      "level": 78.69194054827449,
+      "class": "governatooooor",
+      "description": "Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 57.040396353330735,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

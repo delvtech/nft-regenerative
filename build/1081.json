@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1082",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "green_vapor",
+      "rarity": 10,
+      "level": 42.691297212715625,
+      "class": "governatooooor",
+      "description": "The skies simmer with soothing green vapors\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "Sword Dual_green",
+      "rarity": 5,
+      "level": 45.32250335354415,
+      "class": "governatooooor",
+      "description": "Dual swords favored by the most degen tribes endlessly searching for the highest yields\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_blue",
+      "rarity": 25,
+      "level": 41.0249762372652,
+      "class": "governatooooor",
+      "description": "Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "straps_golden",
+      "rarity": 7,
+      "level": 45.5529262132024,
+      "class": "governatooooor",
+      "description": "Straps glisten as gold under the harsh sunlight, energizing those who wear them\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "mohawk_red",
+      "rarity": 2,
+      "level": 87.52907503088856,
+      "class": "governatooooor",
+      "description": "Wild red hair like the color of battle makes others wary, for good reason or not\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_red",
+      "rarity": 10,
+      "level": 95.52898854075775,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_red",
+      "rarity": 5,
+      "level": 82.52838588581054,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_red",
+      "rarity": 20,
+      "level": 96.7124797573456,
+      "class": "governatooooor",
+      "description": "Red eyes convey passion and desire\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_red",
+      "rarity": 5,
+      "level": 40.64327836301294,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Red represents its creator's passion\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "3D glasses",
+      "rarity": 1,
+      "level": 13.67544814067938,
+      "class": "governatooooor",
+      "description": "Little is known about its origins, it is said to make visuals come to life\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 12.72715831243454,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

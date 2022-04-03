@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1624",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "blood_river",
+      "rarity": 10,
+      "level": 41.30269864427214,
+      "class": "governatooooor",
+      "description": "Blood river that is shown to those with a future of battle or strife\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 24.31394679260752,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pink",
+      "rarity": 25,
+      "level": 53.809402802094894,
+      "class": "governatooooor",
+      "description": "Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Deep Sleep Vitality Suit_draconic",
+      "rarity": 7,
+      "level": 24.8793784671393,
+      "class": "governatooooor",
+      "description": "Wearing this draconic suit makes you feel especially obedient. You also feel unaffected by heat\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "hair_mohawk_green",
+      "rarity": 2,
+      "level": 79.99834393769547,
+      "class": "governatooooor",
+      "description": "Elven hair that grows wild and untamed is a sign of raw magical potential\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_smile_blue",
+      "rarity": 10,
+      "level": 37.98487867588369,
+      "class": "governatooooor",
+      "description": "A smile conveys a world of meaning, yet its meaning isn’t always certain\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_neutral_red",
+      "rarity": 10,
+      "level": 13.537508962659327,
+      "class": "governatooooor",
+      "description": "Conveying but a neutral expression, giving nothing away\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_ice",
+      "rarity": 7,
+      "level": 92.96069957211772,
+      "class": "governatooooor",
+      "description": "Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_red",
+      "rarity": 5,
+      "level": 2.939162070670598,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Red represents its creator's passion\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "ki sensor",
+      "rarity": 2,
+      "level": 39.80935288519512,
+      "class": "governatooooor",
+      "description": "The latest research and innovation allows the wearer to ascertain another’s power level\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "necklace",
+      "rarity": 8,
+      "level": 74.10946934670626,
+      "class": "governatooooor",
+      "description": "A necklace worn by the attendants of court while plotting political plays\r"
+    }
+  ]
+}

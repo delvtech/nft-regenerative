@@ -1,0 +1,93 @@
+{
+  "name": "Elf #1839",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "carrot_vapor",
+      "rarity": 10,
+      "level": 85.39688625073607,
+      "class": "governatooooor",
+      "description": "Soothing vapors expand into the vast ether of existence\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 91.81859039766577,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 15.867182994631236,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "Deep Sleep Vitality Suit_golden",
+      "rarity": 7,
+      "level": 66.56221644786606,
+      "class": "governatooooor",
+      "description": "Wearing this golden suit makes you feel especially obedient. You’ll go to any lengths to follow orders\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "pony_green",
+      "rarity": 3,
+      "level": 29.07469014583306,
+      "class": "governatooooor",
+      "description": "Styled in the latest fashion, the wearer’s care and attention to detail is apparent\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_neutral_red",
+      "rarity": 10,
+      "level": 89.98034029821251,
+      "class": "governatooooor",
+      "description": "Seeking balance in all things, as with their emotions\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_angry_red",
+      "rarity": 5,
+      "level": 64.58499475299793,
+      "class": "governatooooor",
+      "description": "An elf is not quick to anger, so be wary of their consternation\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_small_left_ice",
+      "rarity": 20,
+      "level": 22.864657339116867,
+      "class": "governatooooor",
+      "description": "Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "sun_headset",
+      "rarity": 2,
+      "level": 12.912973706274379,
+      "class": "governatooooor",
+      "description": "A tribute to the life-giving sun, this heavy helmet is mostly worn by high priests at harvest festivals\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "draconic_mask",
+      "rarity": 8,
+      "level": 31.205693836962855,
+      "class": "governatooooor",
+      "description": "Worn for feasts and revelrie, or tricksters looking to give nothing away\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 0.019543565697976994,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}

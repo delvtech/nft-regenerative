@@ -1,0 +1,93 @@
+{
+  "name": "Elf #77",
+  "attributes": [
+    {
+      "trait_type": "00_background",
+      "value": "good_night",
+      "rarity": 10,
+      "level": 31.509420909978104,
+      "class": "governatooooor",
+      "description": "A starry night full of pinpoints of distant opportunity\r"
+    },
+    {
+      "trait_type": "01_weapons",
+      "value": "none",
+      "rarity": 80,
+      "level": 73.03296304021003,
+      "class": "governatooooor",
+      "description": "\r"
+    },
+    {
+      "trait_type": "02_bodies",
+      "value": "body_pale",
+      "rarity": 20,
+      "level": 9.209263222867436,
+      "class": "governatooooor",
+      "description": "The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow\r"
+    },
+    {
+      "trait_type": "03_clothes",
+      "value": "robes_red",
+      "rarity": 7,
+      "level": 77.30269918698582,
+      "class": "governatooooor",
+      "description": "Dyed with the crushed powder of their enemies’ bones, only the most crazen Degen wear them\r"
+    },
+    {
+      "trait_type": "04_hair",
+      "value": "mohawk_red",
+      "rarity": 2,
+      "level": 17.22147457191159,
+      "class": "governatooooor",
+      "description": "Wild red hair like the color of battle makes others wary, for good reason or not\r"
+    },
+    {
+      "trait_type": "05_mouth",
+      "value": "mouth_fish_red",
+      "rarity": 10,
+      "level": 3.834615654001605,
+      "class": "governatooooor",
+      "description": "An idle expression that hides the busiest of minds\r"
+    },
+    {
+      "trait_type": "06_eyebrows",
+      "value": "eyebrown_surprised_grey",
+      "rarity": 16,
+      "level": 86.39218774308628,
+      "class": "governatooooor",
+      "description": "Having been through much, few things surprise elves nowadays\r"
+    },
+    {
+      "trait_type": "07_eyes",
+      "value": "eyes_left",
+      "rarity": 20,
+      "level": 61.24377586823251,
+      "class": "governatooooor",
+      "description": "Some elves are always suspicious of their surroundings, and can’t be fooled\r"
+    },
+    {
+      "trait_type": "08_hats",
+      "value": "wizardhat_red",
+      "rarity": 5,
+      "level": 21.522682484733014,
+      "class": "governatooooor",
+      "description": "Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Red represents its creator's passion\r"
+    },
+    {
+      "trait_type": "09_eyewear",
+      "value": "none",
+      "rarity": 76,
+      "level": 1.7210923000851253,
+      "class": "governatooooor",
+      "description": "No need for eyewear, adventure is afoot\r"
+    },
+    {
+      "trait_type": "10_addons",
+      "value": "none",
+      "rarity": 88,
+      "level": 56.47270250758487,
+      "class": "governatooooor",
+      "description": "\r"
+    }
+  ]
+}
