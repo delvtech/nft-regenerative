@@ -9,10 +9,10 @@ clearBuildFolder()
 buildSetup()
 readProperties()
 listProperties()
-edition = 1 //10*1000
-createFiles(edition,to_draw=false, debug=false).then( () => {
+edition = 10 //10*1000
+createFiles(edition,to_draw=true, debug=false).then( () => {
   createMetaData()
-  //displayRarity()
+  displayRarity()
 });
 // showAllPossibleClashes(to_draw=true);
 

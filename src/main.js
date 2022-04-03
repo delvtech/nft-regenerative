@@ -63,11 +63,12 @@ function layersSetup(layersOrder) {
   }));
   var combinations = 0;
   numLayers = 0;
-  layers.forEach(layer => {
+  layers.forEach((layer,index) => {
     noneRarity = layer.elements.map(e => e.name=='none' ? e.rarity : 0).reduce((s,a)=>s+a,0); // include only 'none element
     actualRarity = layer.elements.map(e => e.name=='none' ? 0 : e.rarity).reduce((s,a)=>s+a,0); // excluding 'none' element
     layer.elements.forEach(e => {
       e.name=='none' ? e.adjustedRarity = e.rarity : e.adjustedRarity = e.rarity * (100 - noneRarity) / actualRarity
+      e.layer_id = index
     })
     layer.numElements = layer.elements.length;
     rarityCount.push(Array(layer.numElements).fill(0));
@@ -100,9 +101,9 @@ function saveLayer(_canvas, _edition, _name) {
 function addMetadata(_edition) {
   let dateTime = Date.now();
   let tempMetadata = {
-    hash: hash.join(""),
-    decodedHash: decodedHash,
-    id: _edition,
+    // hash: hash.join(""),
+    // decodedHash: decodedHash,
+    name: `Elf #${_edition}`,
     // date: dateTime,
     attributes: attributes,
   };
@@ -112,26 +113,19 @@ function addMetadata(_edition) {
   decodedHash = [];
 }
 
-function addAttributes(_element, _layer) {
-  let tempAttr = {
-    // property_id: _element.id,
-    trait_type: _layer.name,  // opensea standard
-    value: _element.name,     // opensea standard
-    rarity: _element.rarity,
-    level: Math.random()*100,
-    class: 'governatooooor',
-    description: _element.description
-  };
+function addAttributes(elements) {
+  for (const _element of elements) {
+    let tempAttr = {
+      trait_type: _element.layer_id  // opensea standard
+      ,value: _element.name     // opensea standard
+      ,rarity: _element.rarity
+      // ,level: Math.random()*100
+      // ,class: 'governatooooor'
+      ,description: _element.description
+    };
   attributes.push(tempAttr);
-  rarityCount[_layer.id][_element.id] += 1; // this should be done only after checking for dupes.. same with this whole function?
-  // console.log(`rarity count [${_layer.id}][${_element.id}] to ${rarityCount[_layer.id][_element.id]}`)
-  hash.push(_layer.id);
-  hash.push(_element.id);
-  decodedHash.push({ [_layer.id]: _element.id });
-}
-
-function addRarities(tempRarities) {
-  rarities.push(tempRarities);
+  rarityCount[_element.layer_id][_element.id] += 1; // this should be done only after checking for dupes.. same with this whole function?
+  };
 }
 
 async function drawLayer(ctx, _layer, _edition, _element, _name) {
@@ -187,20 +181,15 @@ async function calcRarity(layers) {
 }
 
 async function createFiles(edition, to_draw, rarity, name, debug) {
-  let numDupes = 0;
+  let numDupes = 0, tempElements = []
   var startTime = performance.now();
+
   for (let i = 1; i <= edition; i++) {
     let tempRarities = rarity ? rarity : await calcRarity(layers,debug);
     if (debug) console.log(tempRarities)
-    ctx = newCtx(format.width,format.height)
-    layers.forEach(async (layer, layerIdx) => {
-      let element = layer.elements[tempRarities[layerIdx]] ? layer.elements[tempRarities[layerIdx]] : null;
-      addAttributes(element, layer);
-      if (to_draw) r = await drawLayer(ctx, layer, i, element, name)
-    });
 
-    // by now it's fully created, so we check for duplicate
-    let key = hash.toString();
+    // check for duplicate and add to hash. if duplicat, decrement i and break
+    let key = tempRarities.toString();
     if (Exists.has(key)) { // we find a duplicate
       console.log(`Duplicate creation for edition ${i}. Same as edition ${Exists.get(key)}`);
       numDupes++;
@@ -208,17 +197,31 @@ async function createFiles(edition, to_draw, rarity, name, debug) {
       i--;
     } else { // it's unique
       Exists.set(key, i);
-      addMetadata(i);
-      addRarities(tempRarities);
+      addAttributes(tempElements);
+      addMetadata(i); // "attributes" variable is used here
+      rarities.push(tempRarities);
       if (i % 100 == 0) console.log("Created edition " + i + ' at ' + numberWithCommas(Math.round(i / (performance.now() - startTime) * 1000 * 60)) + ' Elfis/minute');
     }
-  }
+
+    // draw the damn thing
+    ctx = newCtx(format.width,format.height)
+    layers.forEach(async (layer, layerIdx) => {
+      let element = layer.elements[tempRarities[layerIdx]] ? layer.elements[tempRarities[layerIdx]] : null;
+      tempElements.push(element)
+      if (to_draw) r = await drawLayer(ctx, layer, i, element, name)
+    });
+    
+  } // end for i<=edition loop
+
   console.log('Created ' + edition + ' editions in ' + (performance.now() - startTime) / 1000 + ' seconds\n   numDupes=' + numDupes);
   return 1;
 }
 
 function createMetaData() {
   fs.writeFileSync(`${buildDir}\\${metDataFile}`, JSON.stringify(metadata, null, 2));
+  for (let i = 0; i < metadata.length; i++) {
+    fs.writeFileSync(`${buildDir}\\${i}.json`, JSON.stringify(metadata[i], null, 2));
+  }
 }
 
 function displayRarity() {
