@@ -8,12 +8,13 @@ const fs = require('fs')
 clearBuildFolder()
 buildSetup()
 readProperties()
-listProperties()
-edition = 10 //10*1000
-createFiles(edition,to_draw=true, debug=false).then( () => {
-  createMetaData()
-  displayRarity()
-});
+// listProperties()
+dumpProperties()
+// edition = 10 //10*1000
+// createFiles(edition,to_draw=true, debug=false).then( () => {
+//   createMetaData()
+//   // displayRarity() //show count of how many times each asset shows up and statistical test of likelihood
+// });
 // showAllPossibleClashes(to_draw=true);
 
 // // test some stuff

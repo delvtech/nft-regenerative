@@ -76,7 +76,7 @@ function layersSetup(layersOrder) {
     numLayers = numLayers + 1;
   });
   console.log('read in ' + layers.length + ' layers with ' + numberWithCommas(combinations) + ' unique combinations');
-  console.log(layers)
+  // console.log(layers)
 
   return layers;
 }
@@ -185,11 +185,12 @@ async function createFiles(edition, to_draw, rarity, name, debug) {
   var startTime = performance.now();
 
   for (let i = 1; i <= edition; i++) {
-    let tempRarities = rarity ? rarity : await calcRarity(layers,debug);
-    if (debug) console.log(tempRarities)
+    // creaete rarity
+    let rarities = rarity ? rarity : await calcRarity(layers,debug);
+    if (debug) console.log(rarities)
 
-    // check for duplicate and add to hash. if duplicat, decrement i and break
-    let key = tempRarities.toString();
+    // check for duplicate and add to hash. if duplicate, decrement i and break
+    let key = rarities.toString();
     if (Exists.has(key)) { // we find a duplicate
       console.log(`Duplicate creation for edition ${i}. Same as edition ${Exists.get(key)}`);
       numDupes++;
@@ -199,14 +200,14 @@ async function createFiles(edition, to_draw, rarity, name, debug) {
       Exists.set(key, i);
       addAttributes(tempElements);
       addMetadata(i); // "attributes" variable is used here
-      rarities.push(tempRarities);
+      rarities.push(rarities);
       if (i % 100 == 0) console.log("Created edition " + i + ' at ' + numberWithCommas(Math.round(i / (performance.now() - startTime) * 1000 * 60)) + ' Elfis/minute');
     }
 
     // draw the damn thing
     ctx = newCtx(format.width,format.height)
     layers.forEach(async (layer, layerIdx) => {
-      let element = layer.elements[tempRarities[layerIdx]] ? layer.elements[tempRarities[layerIdx]] : null;
+      let element = layer.elements[rarities[layerIdx]] ? layer.elements[rarities[layerIdx]] : null;
       tempElements.push(element)
       if (to_draw) r = await drawLayer(ctx, layer, i, element, name)
     });
@@ -255,12 +256,12 @@ async function showAllPossibleClashes(to_draw=false) {
             console.log(element.color!='none')
             console.log('*POSSIBLE COLOR CLASH* between [' + layer1.name + ':' + layer1.elements[lkupColor].name + '] and [' + layer2.name + ':' + element.name + ']')
             if (to_draw) {
-              tempRarities = Array(numLayers).fill(0)
-              tempRarities[layerIdx1]=lkupColor
-              tempRarities[layerIdx2]=elementIdx
+              rarities = Array(numLayers).fill(0)
+              rarities[layerIdx1]=lkupColor
+              rarities[layerIdx2]=elementIdx
               fileName = '' + layer1.name + '_' + layer1.elements[lkupColor].name + '-' + layer2.name + '_' + element.name + ''
               // console.log(fileName)
-              r = await createFiles(1, to_draw=true, rarities = tempRarities, fileName);
+              r = await createFiles(1, to_draw=true, rarities = rarities, fileName);
               console.log('success ' + fileName)
             } // end if to_draw
           }
@@ -295,14 +296,17 @@ function dumpProperties() {
     rows.push(...newRow)
   })
   let csvContent = 'layer,' + Object.keys(layers[0].elements[0]).join(',')+'\n'
-  csvContent += rows.map(e => {return e.join(',')+'\n'})
+  csvContent += rows.map(e => {
+    return '"'+e.join('","').replaceAll('\r','')+'"\n'
+  })
   csvContent = csvContent.replaceAll('\n,','\n')
-  fs.writeFileSync('layers.csv',csvContent)
+  console.log(csvContent)
+  fs.writeFileSync('assets_output.csv',csvContent)
   return {names,rows}
 }
 
 function readProperties() {
-  var l = fs.readFileSync('layers_with_descriptions.csv').toString().split('\n')
+  var l = fs.readFileSync('assets_input.csv').toString().split('\n')
   l=l.splice(1,l.length-2)
   l.forEach( (e,i) => {
     let row = e.split(',')
