@@ -53,7 +53,7 @@ function getElements(path,allowNone) {
 
 function layersSetup(layersOrder) {
   layers = layersOrder.map((layerObj, index) => ({
-    id: index,
+    layer_id: index,
     name: layerObj.name,
     location: `${layersDir}/${layerObj.name}/`,
     elements: getElements(`${layersDir}/${layerObj.name}/`,layerObj.allowNone),
@@ -61,6 +61,7 @@ function layersSetup(layersOrder) {
     size: { width: format.width, height: format.height },
     number: layerObj.number // their order from the back, 1 = backest
   }));
+
   var combinations = 0;
   numLayers = 0;
   layers.forEach((layer,index) => {
@@ -68,13 +69,15 @@ function layersSetup(layersOrder) {
     actualRarity = layer.elements.map(e => e.name=='none' ? 0 : e.rarity).reduce((s,a)=>s+a,0); // excluding 'none' element
     layer.elements.forEach(e => {
       e.name=='none' ? e.adjustedRarity = e.rarity : e.adjustedRarity = e.rarity * (100 - noneRarity) / actualRarity
-      e.layer_id = index
     })
     layer.numElements = layer.elements.length;
     rarityCount.push(Array(layer.numElements).fill(0));
     (combinations == 0) ? combinations = layer.numElements : combinations += layer.numElements
     numLayers = numLayers + 1;
   });
+
+  readProperties()
+
   console.log('read in ' + layers.length + ' layers with ' + numberWithCommas(combinations) + ' unique combinations');
   // console.log(layers)
 
@@ -310,9 +313,11 @@ function readProperties() {
   l=l.splice(1,l.length-2)
   l.forEach( (e,i) => {
     let row = e.split(',')
-    let layer = layers.find( (l) => {return l.id==row[0]})
+    let layer = layers.find( (l) => {return l.layer_id==row[0]})
     let element = layer.elements.find( (e) => {return e.id==row[1]})
     element.description = row.splice(7,row.length-6).join(',').replaceAll('"','')
+    element.rarity = row[5]
+    element.name = row[2]
   })
 }
 

@@ -7,8 +7,7 @@ const fs = require('fs')
 
 clearBuildFolder()
 buildSetup()
-readProperties()
-// listProperties()
+listProperties()
 dumpProperties()
 // edition = 10 //10*1000
 // createFiles(edition,to_draw=true, debug=false).then( () => {
