@@ -8,14 +8,14 @@ const layersOrder = [
     { name: '06_eyebrows', number: 1, allowNone: false },
     { name: '07_eyes', number: 1, allowNone: 1 },       // everyone has eyes
     { name: '08_hats', number: 3, allowNone: 70 },
-    { name: '09_eyewear', number: 2, allowNone: 52 },
+    { name: '09_eyewear', number: 2, allowNone: 76 },
     { name: '10_addons', number: 1, allowNone: 88 },
  
 ];
   
 const format = {
-    width: 800,
-    height: 800
+    width: 400,
+    height: 400
 };
 
 const rarity = [

@@ -3,36 +3,15 @@ const { createCanvas, loadImage } = require("canvas");
 const console = require("console");
 const { layersOrder, format, rarity } = require("./config.js");
 const { performance } = require('perf_hooks');
+const { newCtx, numberWithCommas, nthIndex} = require('./helpers.js');
+const jStat = require("jStat");
 
-// var { ctx, canvas } = newCtx();
-
-function newCtx() {
-  var canvas = createCanvas(format.width, format.height);
-  var ctx = canvas.getContext("2d");
-  return ctx;
-}
-
-function numberWithCommas(x) {
-  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
-
-if (!process.env.PWD) {
-  process.env.PWD = process.cwd();
-}
-
-function nthIndex(str, pat, n){
-  var L= str.length, i= -1;
-  while(n-- && i++<L){
-      i= str.indexOf(pat, i);
-      if (i < 0) continue
-      else besti = i;
-  }
-  return besti;
-}
+if (!process.env.PWD) { process.env.PWD = process.cwd(); }
 
 const buildDir = `${process.env.PWD}/build`;
 const metDataFile = '_metadata.json';
 const layersDir = `${process.env.PWD}/layers`;
+var rows = Array()
 
 let metadata = [];
 let attributes = [];
@@ -64,6 +43,7 @@ function getElements(path,allowNone) {
       elements.unshift({
         id: 0,
         name: 'none',
+        fileName: 'none',
         color: 'none',
         rarity: allowNone
       })
@@ -73,7 +53,7 @@ function getElements(path,allowNone) {
 
 function layersSetup(layersOrder) {
   layers = layersOrder.map((layerObj, index) => ({
-    id: index,
+    layer_id: index,
     name: layerObj.name,
     location: `${layersDir}/${layerObj.name}/`,
     elements: getElements(`${layersDir}/${layerObj.name}/`,layerObj.allowNone),
@@ -81,20 +61,25 @@ function layersSetup(layersOrder) {
     size: { width: format.width, height: format.height },
     number: layerObj.number // their order from the back, 1 = backest
   }));
+
   var combinations = 0;
   numLayers = 0;
-  layers.forEach(layer => {
+  layers.forEach((layer,index) => {
+    noneRarity = layer.elements.map(e => e.name=='none' ? e.rarity : 0).reduce((s,a)=>s+a,0); // include only 'none element
+    actualRarity = layer.elements.map(e => e.name=='none' ? 0 : e.rarity).reduce((s,a)=>s+a,0); // excluding 'none' element
+    layer.elements.forEach(e => {
+      e.name=='none' ? e.adjustedRarity = e.rarity : e.adjustedRarity = e.rarity * (100 - noneRarity) / actualRarity
+    })
     layer.numElements = layer.elements.length;
     rarityCount.push(Array(layer.numElements).fill(0));
-    if (combinations == 0) {
-      combinations = layer.numElements;
-    } else {
-      combinations = combinations * layer.numElements;
-    }
+    (combinations == 0) ? combinations = layer.numElements : combinations += layer.numElements
     numLayers = numLayers + 1;
   });
+
+  readProperties()
+
   console.log('read in ' + layers.length + ' layers with ' + numberWithCommas(combinations) + ' unique combinations');
-  console.log(layers)
+  // console.log(layers)
 
   return layers;
 }
@@ -119,10 +104,10 @@ function saveLayer(_canvas, _edition, _name) {
 function addMetadata(_edition) {
   let dateTime = Date.now();
   let tempMetadata = {
-    hash: hash.join(""),
-    decodedHash: decodedHash,
-    edition: _edition,
-    date: dateTime,
+    // hash: hash.join(""),
+    // decodedHash: decodedHash,
+    name: `Elf #${_edition}`,
+    // date: dateTime,
     attributes: attributes,
   };
   metadata.push(tempMetadata);
@@ -131,23 +116,19 @@ function addMetadata(_edition) {
   decodedHash = [];
 }
 
-function addAttributes(_element, _layer) {
-  let tempAttr = {
-    id: _element.id,
-    layer: _layer.name,
-    name: _element.name,
-    rarity: _element.rarity,
-  };
+function addAttributes(elements) {
+  for (const _element of elements) {
+    let tempAttr = {
+      trait_type: _element.layer_id  // opensea standard
+      ,value: _element.name     // opensea standard
+      ,rarity: _element.rarity
+      // ,level: Math.random()*100
+      // ,class: 'governatooooor'
+      ,description: _element.description
+    };
   attributes.push(tempAttr);
-  rarityCount[_layer.id][_element.id] += 1; // this should be done only after checking for dupes.. same with this whole function?
-  // console.log(`rarity count [${_layer.id}][${_element.id}] to ${rarityCount[_layer.id][_element.id]}`)
-  hash.push(_layer.id);
-  hash.push(_element.id);
-  decodedHash.push({ [_layer.id]: _element.id });
-}
-
-function addRarities(tempRarities) {
-  rarities.push(tempRarities);
+  rarityCount[_element.layer_id][_element.id] += 1; // this should be done only after checking for dupes.. same with this whole function?
+  };
 }
 
 async function drawLayer(ctx, _layer, _edition, _element, _name) {
@@ -175,25 +156,22 @@ async function calcRarity(layers) {
   await layers.forEach(async (layer) => {
     let colorClash = true;
     while (colorClash) {
-      //randNum = Math.floor(Math.random() * layer.numElements);
       randNum = Math.random()
       cumsum=0
       i = 0
       while (cumsum < randNum*100) {
-        cumsum = cumsum + layer.elements[i].rarity
-        console.log(cumsum)
-        console.log(randNum*100)
+        cumsum = cumsum + layer.elements[i].adjustedRarity
         chosenElement=i
         i++
       }
       tempElement = layer.elements[chosenElement];
-      console.log(`${cumsum} vs. ${randNum*100} gives ${layer.name}:${tempElement.name}`)
+      if (debug) console.log(`${cumsum} vs. ${randNum*100} gives ${layer.name}:${tempElement.name}`)
       tempColor = tempElement.color;
-      console.log(tempColor);
-      console.log(colors);
+      if (debug) console.log(tempColor)
+      if (debug) console.log(colors)
       lkupColor = colors.indexOf(tempColor);
       if (lkupColor < -1) { // ignore matches to background and weapons
-        console.log('**COLOR CLASH** between [' + layers[lkupColor].name + ':' + layers[lkupColor].elements[elements[lkupColor]].name + '] and [' + layer.name + ':' + tempElement.name + '] redrawing...');
+        if (debug) console.log('**COLOR CLASH** between [' + layers[lkupColor].name + ':' + layers[lkupColor].elements[elements[lkupColor]].name + '] and [' + layer.name + ':' + tempElement.name + '] redrawing...')
       }
       else {
         elements.push(chosenElement); // from 0 to n instead of from 1 to n+1 to allow simpler indexing
@@ -205,72 +183,66 @@ async function calcRarity(layers) {
   return elements;
 }
 
-async function createFiles(edition, to_draw, rarity, name) {
-  let numDupes = 0;
+async function createFiles(edition, to_draw, rarity, name, debug) {
+  let numDupes = 0, tempElements = []
   var startTime = performance.now();
-  for (let i = 1; i <= edition; i++) {
-    let tempRarities = rarity ? rarity : await calcRarity(layers);
-    console.log(tempRarities);
-    ctx = newCtx()
-    // console.log('drawing ' + name)
-    layers.forEach(async (layer, layerIdx) => {
-      // console.log(i + ' layer:')
-      // console.log(layer)
-      let element = layer.elements[tempRarities[layerIdx]] ? layer.elements[tempRarities[layerIdx]] : null;
-      // console.log(element)
-      addAttributes(element, layer);
-      if (to_draw) { 
-        r = await drawLayer(ctx, layer, i, element, name); 
-      }
-    });
 
-    // by now it's fully created, so we check for duplicate
-    let key = hash.toString();
-    if (Exists.has(key)) {
-      console.log(
-        `Duplicate creation for edition ${i}. Same as edition ${Exists.get(
-          key
-        )}`
-      );
+  for (let i = 1; i <= edition; i++) {
+    // creaete rarity
+    let rarities = rarity ? rarity : await calcRarity(layers,debug);
+    if (debug) console.log(rarities)
+
+    // check for duplicate and add to hash. if duplicate, decrement i and break
+    let key = rarities.toString();
+    if (Exists.has(key)) { // we find a duplicate
+      console.log(`Duplicate creation for edition ${i}. Same as edition ${Exists.get(key)}`);
       numDupes++;
-      if (numDupes > edition)
-        break; //prevents infinite loop if no more unique items can be created
+      if (numDupes > edition) break; //prevents infinite loop if no more unique items can be created
       i--;
-    } else {
+    } else { // it's unique
       Exists.set(key, i);
-      addMetadata(i);
-      addRarities(tempRarities);
-      console.log(performance.now())
-      console.log(startTime)
-      console.log(performance.now() - startTime)
-      console.log("Created edition " + i + ' at ' + numberWithCommas(Math.round(i / (performance.now() - startTime) * 1000 * 60)) + ' Elfis/minute');
+      addAttributes(tempElements);
+      addMetadata(i); // "attributes" variable is used here
+      rarities.push(rarities);
+      if (i % 100 == 0) console.log("Created edition " + i + ' at ' + numberWithCommas(Math.round(i / (performance.now() - startTime) * 1000 * 60)) + ' Elfis/minute');
     }
-  }
+
+    // draw the damn thing
+    ctx = newCtx(format.width,format.height)
+    layers.forEach(async (layer, layerIdx) => {
+      let element = layer.elements[rarities[layerIdx]] ? layer.elements[rarities[layerIdx]] : null;
+      tempElements.push(element)
+      if (to_draw) r = await drawLayer(ctx, layer, i, element, name)
+    });
+    
+  } // end for i<=edition loop
+
   console.log('Created ' + edition + ' editions in ' + (performance.now() - startTime) / 1000 + ' seconds\n   numDupes=' + numDupes);
   return 1;
 }
 
 function createMetaData() {
   fs.writeFileSync(`${buildDir}\\${metDataFile}`, JSON.stringify(metadata, null, 2));
+  for (let i = 0; i < metadata.length; i++) {
+    fs.writeFileSync(`${buildDir}\\${i}.json`, JSON.stringify(metadata[i], null, 2));
+  }
 }
 
-function countRarity() {
-  // const filledArray = Array(3,3,3).fill(0);
-  // let n = metadata.length;
-  //   console.log(n)
-  //   for (var elfi of metadata) {
-  //   }
-
-  // const rarityCount = Array(numLayers).fill(0);
-  console.log('counting rarities');
+function displayRarity() {
+  totalNum = 0;
+  console.log('== displaying rarities ==');
   layers.forEach(async (layer, layerIdx) => {
-    // console.log('counting layer ' + layer.id)
+    console.log(`= displaying rarities for layer ${layer.id} =`)
     layer.elements.forEach(async (element, elementIdx) => {
-      // console.log('counting element ' + element.id);
       numRarity = rarityCount[layer.id][element.id];
-      console.log(element.name + ' ' + numRarity + '/' + rarities.length + '=' + numRarity/rarities.length*100 + '%');
+      if (layerIdx==0) totalNum += numRarity;
+      z = (numRarity / rarities.length - element.adjustedRarity/100)/Math.sqrt((element.adjustedRarity/100)*(1-element.adjustedRarity/100)/rarities.length)
+      pvalue = 1 - jStat.normal.cdf(Math.abs(z),0,1);
+      res = pvalue < 0.05 ? ' *REJECT' : '';
+      console.log(`${element.name} actual: ${numRarity}/${rarities.length}=${numRarity / rarities.length * 100}%, raw: ${element.rarity}, adjusted: ${element.adjustedRarity}, pvalue: ${pvalue}${res}`);
     });
   });
+  console.log(`total elements counted: ${totalNum}`)
 }
 
 async function showAllPossibleClashes(to_draw=false) {
@@ -287,12 +259,12 @@ async function showAllPossibleClashes(to_draw=false) {
             console.log(element.color!='none')
             console.log('*POSSIBLE COLOR CLASH* between [' + layer1.name + ':' + layer1.elements[lkupColor].name + '] and [' + layer2.name + ':' + element.name + ']')
             if (to_draw) {
-              tempRarities = Array(numLayers).fill(0)
-              tempRarities[layerIdx1]=lkupColor
-              tempRarities[layerIdx2]=elementIdx
+              rarities = Array(numLayers).fill(0)
+              rarities[layerIdx1]=lkupColor
+              rarities[layerIdx2]=elementIdx
               fileName = '' + layer1.name + '_' + layer1.elements[lkupColor].name + '-' + layer2.name + '_' + element.name + ''
               // console.log(fileName)
-              r = await createFiles(1, to_draw=true, rarities = tempRarities, fileName);
+              r = await createFiles(1, to_draw=true, rarities = rarities, fileName);
               console.log('success ' + fileName)
             } // end if to_draw
           }
@@ -303,7 +275,7 @@ async function showAllPossibleClashes(to_draw=false) {
   }) // end for each layer1
 }
 
-async function getColors() {
+function getColors() {
   var res = {}
   layers.map( (l) => {
     m = [...new Set(l.elements.map( e => {
@@ -314,4 +286,49 @@ async function getColors() {
   return res
 }
 
-module.exports = { clearBuildFolder, buildSetup, createFiles, createMetaData, countRarity, showAllPossibleClashes, getColors };
+function dumpProperties() {
+  var names = {}
+  layers.map( (l) => {
+    let newRow = l.elements.map( e => {
+      res = []
+      res.push(l.id)
+      res.push(...Object.values(e))
+      return res
+    })
+    names[l.name]=newRow[0]
+    rows.push(...newRow)
+  })
+  let csvContent = 'layer,' + Object.keys(layers[0].elements[0]).join(',')+'\n'
+  csvContent += rows.map(e => {
+    return '"'+e.join('","').replaceAll('\r','')+'"\n'
+  })
+  csvContent = csvContent.replaceAll('\n,','\n')
+  console.log(csvContent)
+  fs.writeFileSync('assets_output.csv',csvContent)
+  return {names,rows}
+}
+
+function readProperties() {
+  var l = fs.readFileSync('assets_input.csv').toString().split('\n')
+  l=l.splice(1,l.length-2)
+  l.forEach( (e,i) => {
+    let row = e.split(',')
+    let layer = layers.find( (l) => {return l.layer_id==row[0]})
+    let element = layer.elements.find( (e) => {return e.id==row[1]})
+    element.description = row.splice(7,row.length-6).join(',').replaceAll('"','')
+    element.rarity = row[5]
+    element.name = row[2]
+  })
+}
+
+function listProperties() {
+  layers.forEach( (l) => {
+    l.elements.forEach( (e) => {
+      console.log(e)
+    })
+  })
+}
+
+function getLayers() {return layers}
+
+module.exports = { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, displayRarity, showAllPossibleClashes, getColors , getLayers, listProperties, readProperties };
