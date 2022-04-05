@@ -21,6 +21,7 @@ let hash = [];
 let decodedHash = [];
 let layers = [];
 let numLayers = 0;
+let numClashes = 0;
 const Exists = new Map();
 
 function getElements(path,allowNone) {
@@ -32,6 +33,7 @@ function getElements(path,allowNone) {
       let rarity = cleanedName.substring(nthIndex(cleanedName,'_',99)+2)
       cleanedName = cleanedName.substring(0,nthIndex(cleanedName,'_',99))
       return {
+        layer_id: -1,
         id: allowNone ? index + 1 : index, // from 0 to n instead of 1 to n+1 for simpler indexing
         name: cleanedName,
         fileName: i,
@@ -41,6 +43,7 @@ function getElements(path,allowNone) {
     });
     if (allowNone) {
       elements.unshift({
+        layer_id: -1,
         id: 0,
         name: 'none',
         fileName: 'none',
@@ -51,7 +54,7 @@ function getElements(path,allowNone) {
   return elements
 }
 
-function layersSetup(layersOrder) {
+function layersSetup(layersOrder,debug) {
   layers = layersOrder.map((layerObj, index) => ({
     layer_id: index,
     name: layerObj.name,
@@ -62,21 +65,27 @@ function layersSetup(layersOrder) {
     number: layerObj.number // their order from the back, 1 = backest
   }));
 
+  readProperties()
+
   var combinations = 0;
   numLayers = 0;
   layers.forEach((layer,index) => {
-    noneRarity = layer.elements.map(e => e.name=='none' ? e.rarity : 0).reduce((s,a)=>s+a,0); // include only 'none element
-    actualRarity = layer.elements.map(e => e.name=='none' ? 0 : e.rarity).reduce((s,a)=>s+a,0); // excluding 'none' element
+    console.log('adjusting rarity for layer ' + index)
+    noneRarity = layer.elements.map(e => e.name=='none' ? e.rarity : 0).reduce((s,a) => s+parseInt(a),0); // include only 'none element
+    actualRarity = layer.elements.map(e => e.name=='none' ? 0 : e.rarity).reduce((s,a) => s+parseInt(a), 0) // excluding 'none' element
     layer.elements.forEach(e => {
-      e.name=='none' ? e.adjustedRarity = e.rarity : e.adjustedRarity = e.rarity * (100 - noneRarity) / actualRarity
+      e.name == 'none' ? e.adjustedRarity = parseInt(e.rarity) : e.adjustedRarity = e.rarity * (100 - noneRarity) / actualRarity
+      e.layer_id = index
     })
+    if (debug) {
+      console.log(layer.elements.map(e => e.adjustedRarity))
+      console.log(layer.elements.map(e => e.adjustedRarity).reduce((s,a) => s + a,0))
+    }
     layer.numElements = layer.elements.length;
     rarityCount.push(Array(layer.numElements).fill(0));
     (combinations == 0) ? combinations = layer.numElements : combinations += layer.numElements
     numLayers = numLayers + 1;
   });
-
-  readProperties()
 
   console.log('read in ' + layers.length + ' layers with ' + numberWithCommas(combinations) + ' unique combinations');
   // console.log(layers)
@@ -127,6 +136,7 @@ function addAttributes(elements) {
       ,description: _element.description
     };
   attributes.push(tempAttr);
+  if (debug) console.log(_element)
   rarityCount[_element.layer_id][_element.id] += 1; // this should be done only after checking for dupes.. same with this whole function?
   };
 }
@@ -149,11 +159,11 @@ async function drawLayer(ctx, _layer, _edition, _element, _name) {
   }
 }
 
-async function calcRarity(layers) {
+async function calcRarity(layers,debug,currentID) {
   // pick an asset
   elements = [];
   colors = [];
-  await layers.forEach(async (layer) => {
+  await layers.forEach(async (layer,layerIdx) => {
     let colorClash = true;
     while (colorClash) {
       randNum = Math.random()
@@ -164,33 +174,62 @@ async function calcRarity(layers) {
         chosenElement=i
         i++
       }
+
+      // hand-pick element
+      // if (layerIdx == 8) chosenElement = 7
+
       tempElement = layer.elements[chosenElement];
       if (debug) console.log(`${cumsum} vs. ${randNum*100} gives ${layer.name}:${tempElement.name}`)
       tempColor = tempElement.color;
       if (debug) console.log(tempColor)
       if (debug) console.log(colors)
       lkupColor = colors.indexOf(tempColor);
-      if (lkupColor < -1) { // ignore matches to background and weapons
-        if (debug) console.log('**COLOR CLASH** between [' + layers[lkupColor].name + ':' + layers[lkupColor].elements[elements[lkupColor]].name + '] and [' + layer.name + ':' + tempElement.name + '] redrawing...')
+      if ((lkupColor > 1) & (tempColor!='none')) { // ignore matches to background and weapons
+        // we have a color clash!
+        numClashes++
+        console.log('**COLOR CLASH** at ID=' + currentID + ' between [' + layers[lkupColor].name + ':' + layers[lkupColor].elements[elements[lkupColor]].name + '] and [' + layer.name + ':' + tempElement.name + '] redrawing...')
       }
-      else {
+      // else { // 
         elements.push(chosenElement); // from 0 to n instead of from 1 to n+1 to allow simpler indexing
         colors.push(tempColor);
         colorClash = false;
+      // } // end if clash
+    } // end while colorclash
+  }); // end forEach
+
+  // tweak results
+  if (elements[8]!=0) {
+    // reroll hair to have no bun
+    while ([1,2,3,4,5,6,12,13,14,15,16,17,18,19,20].includes(elements[4])) {
+      randNum = Math.random()
+      cumsum=0
+      i = 0
+      while (cumsum < randNum*100) {
+        cumsum = cumsum + layers[4].elements[i].adjustedRarity
+        chosenElement=i
+        i++
       }
+      console.log('reassigning layer 4 for currentID=' + currentID + ' from id ' + elements[4] + ' to id ' + chosenElement)
+      elements[4] = chosenElement;
     }
-  });
+  }
+
   return elements;
 }
 
-async function createFiles(edition, to_draw, rarity, name, debug) {
+async function createFiles(edition, to_draw, provide_rarity=false, name, debug) {
   let numDupes = 0, tempElements = []
   var startTime = performance.now();
 
   for (let i = 1; i <= edition; i++) {
-    // creaete rarity
-    let rarities = rarity ? rarity : await calcRarity(layers,debug);
+    tempElements = []
+    // create rarity
+    let rarities = provide_rarity ? rarity : await calcRarity(layers,debug,i);
     if (debug) console.log(rarities)
+    layers.forEach(async (layer, layerIdx) => {
+      let element = layer.elements[rarities[layerIdx]] ? layer.elements[rarities[layerIdx]] : null;
+      tempElements.push(element)
+    });
 
     // check for duplicate and add to hash. if duplicate, decrement i and break
     let key = rarities.toString();
@@ -209,15 +248,22 @@ async function createFiles(edition, to_draw, rarity, name, debug) {
 
     // draw the damn thing
     ctx = newCtx(format.width,format.height)
-    layers.forEach(async (layer, layerIdx) => {
+    if (rarities[9] == 3) layerDrawOrder = [0,1,2,3,4,5,6,7,9,8,10]
+    else layerDrawOrder = [0,1,2,3,4,5,6,7,8,9,10]
+    for (const layerIdx of layerDrawOrder) {
+    // layers.forEach(async (layer, layerIdx) => {
+      let layer = layers[layerIdx]
       let element = layer.elements[rarities[layerIdx]] ? layer.elements[rarities[layerIdx]] : null;
-      tempElements.push(element)
-      if (to_draw) r = await drawLayer(ctx, layer, i, element, name)
-    });
+      if ((to_draw) & (element.fileName!='none')) {
+        // console.log(element)
+        r = await drawLayer(ctx, layer, i, element, name)
+      }
+    };
     
   } // end for i<=edition loop
 
   console.log('Created ' + edition + ' editions in ' + (performance.now() - startTime) / 1000 + ' seconds\n   numDupes=' + numDupes);
+  console.log('  number of color clashes: ' + numClashes);
   return 1;
 }
 
@@ -291,19 +337,18 @@ function dumpProperties() {
   layers.map( (l) => {
     let newRow = l.elements.map( e => {
       res = []
-      res.push(l.id)
       res.push(...Object.values(e))
       return res
     })
     names[l.name]=newRow[0]
     rows.push(...newRow)
   })
-  let csvContent = 'layer,' + Object.keys(layers[0].elements[0]).join(',')+'\n'
+  let csvContent = Object.keys(layers[0].elements[0]).join(',')+'\n'
   csvContent += rows.map(e => {
     return '"'+e.join('","').replaceAll('\r','')+'"\n'
   })
   csvContent = csvContent.replaceAll('\n,','\n')
-  console.log(csvContent)
+  // console.log(csvContent)
   fs.writeFileSync('assets_output.csv',csvContent)
   return {names,rows}
 }

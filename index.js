@@ -7,19 +7,17 @@ const fs = require('fs')
 
 clearBuildFolder()
 buildSetup()
-listProperties()
+// listProperties() // for info only
 dumpProperties()
-// edition = 10 //10*1000
-// createFiles(edition,to_draw=true, debug=false).then( () => {
-//   createMetaData()
-//   // displayRarity() //show count of how many times each asset shows up and statistical test of likelihood
-// });
+edition = 4000
+createFiles(edition,to_draw=true, provide_rarity=false, '', debug=false).then( () => {
+  createMetaData()
+  // displayRarity() // show count of how many times each asset shows up and statistical test of likelihood
+});
 // showAllPossibleClashes(to_draw=true);
 
 // // test some stuff
 // c = getColors()
 // console.log(c)
-
-let {names,rows} = dumpProperties()
 
 console.log('break to inspect at the end')

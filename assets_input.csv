@@ -11,11 +11,11 @@ layer,id,name,fileName,color,rarity,adjustedRarity,description
 0,9,Purple Mist,00_purple_vapor_r10.png,vapor,10,9.09090909090909,The skies glimmer with mysterious purple vapors
 0,10,Sunrise,00_warm_morning_r10.png,morning,10,9.09090909090909,Sunrise across Principal Valley to signify a new light and journey
 1,0,None,none,none,80,80,Those without weapons are the economic backbone of Elf society
-1,1,Dark Bow,01_Bow_dark_r02.png,dark,2,0.677966101694915,"Dark bows draw no attention, allowing their user to slither in the night"
-1,2,Draconic Bow,01_Bow_draconic_r02.png,draconic,2,0.677966101694915,Draconic markings bode ill for those standing in its way
-1,3,Golden Bow,01_Bow_golden_r02.png,golden,2,0.677966101694915,Gold-plated bows wielded by those of high status
+1,1,Dark Bow,01_Bow_dark_r02.png,dark,5.5314,0.677966101694915,"Dark bows draw no attention, allowing their user to slither in the night"
+1,2,Draconic Bow,01_Bow_draconic_r02.png,draconic,5.5314,0.677966101694915,Draconic markings bode ill for those standing in its way
+1,3,Golden Bow,01_Bow_golden_r02.png,golden,5.5314,0.677966101694915,Gold-plated bows wielded by those of high status
 1,4,Ice Lance,01_ice lance_r02.png,,2,0.677966101694915,"Songs of old told of weapons made of unbreakable, never-melting ice, carried by elite soldiers"
-1,5,Jade Bow,01_jade bow_r02.png,,2,0.677966101694915,Markings of tradition adorn this ceremonial bow
+1,5,Jade Bow,01_jade bow_r02.png,,2.7657,0.677966101694915,Markings of tradition adorn this ceremonial bow
 1,6,Draconic Lance,01_Lance_draconic_r02.png,draconic,2,0.677966101694915,Draconic lances wielded by tribes of elves as fierce and wild as their prey
 1,7,Golden Lance,01_Lance_golden_r02.png,golden,2,0.677966101694915,Lances dripping with gold leaf lull opponents into a false sense of security
 1,8,Quartz Sword,01_left quarz sword_r08.png,,8,2.71186440677966,"Elves possess unparalleled quartz craftsmanship, through which they imbue their weapons with eternal sharpness"
@@ -34,7 +34,7 @@ layer,id,name,fileName,color,rarity,adjustedRarity,description
 2,2,Pale,02_body_pale_r20.png,pale,20,20,The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow
 2,3,Pink,02_body_pink_r25.png,pink,25,25,Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink
 2,4,Red,02_body_red_r05.png,red,5,5,"Red Elves are believed to be descendants of the Ancestral Degens, whose skin was tempered by the fiery forges of the Degen Inferno"
-2,5,Yello,02_body_yellow_r05.png,yellow,5,5,"Yellow elves are believed to be descendants of the Ancient Proposers, whose rules of governance still guide to this day"
+2,5,Yellow,02_body_yellow_r05.png,yellow,5,5,"Yellow elves are believed to be descendants of the Ancient Proposers, whose rules of governance still guide to this day"
 3,0,None,none,none,2,2,Some elves shun the moral rigitude of society in favor of being one with nature
 3,1,Blue Breastplate,03_Breastplate_blue_r03.png,blue,3,1.26724137931034,"Full-body armor made of magical quartz. Movement is somewhat restricted, but it’s highly protective against Degen magics"
 3,2,Draconic Breastplate,03_Breastplate_Draconic_r03.png,draconic,3,1.26724137931034,"Full-body armor made with the scales of ancient dragons. Although said to still roam the land, nobody has seen them since the fall of Mount Qogs"
@@ -44,9 +44,9 @@ layer,id,name,fileName,color,rarity,adjustedRarity,description
 3,6,Red Uniform,03_clothes_colonist_red_r15.png,red,15,6.33620689655172,"Light clothing, good for fast travel. Its red color is obtained from the leaves of Copium plants, commonly found on the Bearish Mountains"
 3,7,White Uniform,03_clothes_colonist_white_r05.png,white,5,2.11206896551724,"Light clothing, good for fast travel. The white color is reserved for explorers who have proven themselves in the Degen Trials"
 3,8,Yellow Uniform,03_clothes_colonist_yellow_r15.png,yellow,15,6.33620689655172,"Light clothing, good for fast travel. Its yellow color is obtained from the golden sands of the deserts of Etcal"
-3,9,Blue Uniform,03_clothes_garmet_blue_r15.png,blue,15,6.33620689655172,Ritualistic attire comes to life as individual facets intertwine both moonlight and campfire
-3,10,Red Uniform,03_clothes_garmet_red_r05.png,red,5,2.11206896551724,Traditional ritualistic attire favored by warriors as well as researchers innovating novel farming methods
-3,11,Yellow Uniform,03_clothes_garmet_yellow_r05.png,yellow,5,2.11206896551724,Traditional ritualistic attire whose yellow color symbolizes the sharing of wisdom
+3,9,Blue Cape,03_clothes_garmet_blue_r15.png,blue,15,6.33620689655172,Ritualistic attire comes to life as individual facets intertwine both moonlight and campfire
+3,10,Red Cape,03_clothes_garmet_red_r05.png,red,5,2.11206896551724,Traditional ritualistic attire favored by warriors as well as researchers innovating novel farming methods
+3,11,Yellow Cape,03_clothes_garmet_yellow_r05.png,yellow,5,2.11206896551724,Traditional ritualistic attire whose yellow color symbolizes the sharing of wisdom
 3,12,Dark Suit of Straps,03_Deep Sleep Vitality Suit_dark_r07.png,dark,7,2.95689655172414,"Wearing this quartz-infused suit makes you feel especially obedient. You feel lighter when wearing it, unburdened by responsbility"
 3,13,Draconic Suit of Straps,03_Deep Sleep Vitality Suit_draconic_r07.png,draconic,7,2.95689655172414,Wearing this draconic suit makes you feel especially obedient. You also feel unaffected by heat
 3,14,Golden Suit of Straps,03_Deep Sleep Vitality Suit_golden_r07.png,golden,7,2.95689655172414,Wearing this golden suit makes you feel especially obedient. You’ll go to any lengths to follow orders
@@ -71,7 +71,7 @@ layer,id,name,fileName,color,rarity,adjustedRarity,description
 4,2,Green Hair Bun,04_hair_bun_green_r15.png,green,15,6.42857142857143,"Long hair tied in a bun, to combat the heat of labour. Green in color, often worn by those who experiment with farming"
 4,3,Grey Hair Bun,04_hair_bun_grey_r20.png,grey,20,8.57142857142857,"Long hair tied in a bun, to combat the heat of labour. Grey in color, often worn by those who have a way with words"
 4,4,Red Hair Bun,04_hair_bun_red_r10.png,red,10,4.28571428571429,"Long hair tied in a bun, to combat the heat of labour. Red in color, often worn by those who possess great stamina"
-4,5,Yellow Hair bun,04_hair_bun_yellow_r20.png,yellow,20,8.57142857142857,"Long hair tied in a bun, to combat the heat of labour. Yellow in color, often worn by those adept at precision work"
+4,5,Yellow Hair Bun,04_hair_bun_yellow_r20.png,yellow,20,8.57142857142857,"Long hair tied in a bun, to combat the heat of labour. Yellow in color, often worn by those adept at precision work"
 4,6,Green Mohawk,04_hair_mohawk_green_r02.png,green,2,0.857142857142857,Elven hair that grows wild and untamed is a sign of raw magical potential
 4,7,Blue Long Hair,04_long hair_blue_r10.png,blue,10,4.28571428571429,Long hair worn worn loosely as if unconcerned with worldly matters. Blue like the depth of the Sea of Liquidity
 4,8,Green Long Hair,04_long hair_green_r10.png,green,10,4.28571428571429,Long hair worn worn loosely as if unconcerned with worldly matters. Green like the spoils of a fresh harvest
@@ -92,8 +92,8 @@ layer,id,name,fileName,color,rarity,adjustedRarity,description
 4,23,White Short Hair,04_short_white_r05.png,white,5,2.14285714285714,"Short hair is less frivolous and more practical, showing a focus on substance over style"
 4,24,Yellow Short Hair,04_short_yellow_r05.png,yellow,5,2.14285714285714,"Short hair is less frivolous and more practical, showing a focus on substance over style"
 5,0,None,none,none,2,2,Those who feel no need to speak sometimes have the most wisdom to impart
-5,1,mouth_fish_blue,05_mouth_fish_blue_r10.png,blue,10,7,An idle expression that hides the busiest of minds
-5,2,mouth_fish_red,05_mouth_fish_red_r10.png,red,10,7,An idle expression that hides the busiest of minds
+5,1,Pursed Lips,05_mouth_fish_blue_r10.png,blue,10,7,An idle expression that hides the busiest of minds
+5,2,Pursed Lips,05_mouth_fish_red_r10.png,red,10,7,An idle expression that hides the busiest of minds
 5,3,Neutral Blue,05_mouth_neutral_blue_r10.png,blue,10,7,"Seeking balance in all things, as with their emotions"
 5,4,Neutral Pink,05_mouth_neutral_pink_r10.png,pink,10,7,"Seeking balance in all things, as with their emotions"
 5,5,Neutral Red,05_mouth_neutral_red_r10.png,red,10,7,"Seeking balance in all things, as with their emotions"
@@ -141,7 +141,7 @@ layer,id,name,fileName,color,rarity,adjustedRarity,description
 7,16,Small Ice Looking Right,07_eyes_small_right_ice_r20.png,ice,20,5.92814371257485,"Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw"
 7,17,Small Red Looking Right,07_eyes_small_right_red_r20.png,red,20,5.92814371257485,Red eyes convey passion and desire
 7,18,Small Yellow Looking Right,07_eyes_small_right_yellow_r20.png,yellow,20,5.92814371257485,Yellow eyes shine with warmth that makes others more obedient
-8,0,none,none,none,70,70,Headwear is reserved for those with the means and desire to show off
+8,0,None,none,none,70,70,Headwear is reserved for those with the means and desire to show off
 8,1,Crown,08_cleric_crown_r02.png,crown,2,1,"Gem-studded crown used by high priests for ancient rituals, heightening their already impressive powers"
 8,2,Cap,08_floating_bonet_r09.png,bonet,9,4.5,"Somehow lighter than a feather, the magical stones used in this cap make you feel constantly energized"
 8,3,Dark Helmet,08_helmet_dark_r09.png,dark,9,4.5,Battle-tested helmet that invokes fear in their opponents
@@ -157,8 +157,8 @@ layer,id,name,fileName,color,rarity,adjustedRarity,description
 9,2,Draconic Mask,09_draconic_mask_r08.png,mask,8,8,"Worn for feasts and revelrie, or tricksters looking to give nothing away"
 9,3,Eye Patch,09_eye_patch_r05.png,patch,5,5,Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck
 9,4,Ki Sensor,09_ki sensor_r02.png,,2,2,The latest research and innovation allows the wearer to ascertain another’s power level
-9,5,Pointeau Mask,09_pointeau mask_r08.png,,8,8,"Privacy is an utmost priority for all, even those who have nothing to hide"
-10,0,none,none,none,88,88,
+9,5,Pointeau Mask,09_pointeau mask_r08.png,,0,8,"Privacy is an utmost priority for all, even those who have nothing to hide"
+10,0,None,none,none,88,88,
 10,1,Dark Battle Mask,10_air mask_dark_r05.png,dark,5,1.13207547169811,"Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness"
 10,2,Draconic Battle Mask,10_air mask_draconic_r10.png,draconic,10,2.26415094339623,"Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness"
 10,3,Golden Battle Mask,10_air mask_golden_r05.png,golden,5,1.13207547169811,"Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness"
@@ -166,5 +166,5 @@ layer,id,name,fileName,color,rarity,adjustedRarity,description
 10,5,Earrings,10_earping_r03.png,,8,0.679245283018868,"A subdued style, only an astute eye will notice these earrings are adorned with the rarest gems"
 10,6,Golden Earrings,10_earring_r08.png,,3,1.81132075471698,"Studded with golden gems, these earrings make a bold statement "
 10,7,Necklace,10_necklace_r08.png,,8,1.81132075471698,A necklace worn by the attendants of court while plotting political plays
-10,8,Air Filter,10_nose air_dark_r03.png,dark,3,0.679245283018868,Enhanced oxygen filtration conveys a distinct advantage on the battlefield
-10,9,Air Filter,10_nose air_white_r08.png,white,8,1.81132075471698,Enhanced oxygen filtration conveys a distinct advantage on the battlefield
+10,8,Naso-Tube,10_nose air_dark_r03.png,dark,3,0.679245283018868,Enhanced oxygen filtration conveys a distinct advantage on the battlefield
+10,9,Naso-Tube,10_nose air_white_r08.png,white,8,1.81132075471698,Enhanced oxygen filtration conveys a distinct advantage on the battlefield
