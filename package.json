@@ -10,6 +10,7 @@
   "author": "Tina Haibodi",
   "license": "Apache License",
   "dependencies": {
-    "canvas": "^2.8.0"
+    "canvas": "^2.8.0",
+    "object-hash": "^3.0.0"
   }
 }

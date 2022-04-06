@@ -1,10 +1,11 @@
 const fs = require("fs");
+const hashFunction = require('object-hash');
 const { createCanvas, loadImage } = require("canvas");
 const console = require("console");
 const { layersOrder, format, rarity } = require("./config.js");
 const { performance } = require('perf_hooks');
 const { newCtx, numberWithCommas, nthIndex} = require('./helpers.js');
-const jStat = require("jStat");
+// const jStat = require("jStat");
 
 if (!process.env.PWD) { process.env.PWD = process.cwd(); }
 
@@ -38,7 +39,8 @@ function getElements(path,allowNone) {
         name: cleanedName,
         fileName: i,
         color: cleanedName.substring(nthIndex(cleanedName,'_',99)+1).toLowerCase(),
-        rarity: parseInt(rarity)
+        rarity: parseInt(rarity),
+        adjustedRarity: parseInt(rarity)
       };
     });
     if (allowNone) {
@@ -48,7 +50,8 @@ function getElements(path,allowNone) {
         name: 'none',
         fileName: 'none',
         color: 'none',
-        rarity: allowNone
+        rarity: allowNone,
+        adjustedRarity: allowNone
       })
     }
   return elements
@@ -57,9 +60,10 @@ function getElements(path,allowNone) {
 function layersSetup(layersOrder,debug) {
   layers = layersOrder.map((layerObj, index) => ({
     layer_id: index,
-    name: layerObj.name,
-    location: `${layersDir}/${layerObj.name}/`,
-    elements: getElements(`${layersDir}/${layerObj.name}/`,layerObj.allowNone),
+    fileName: layerObj.fileName,
+    name: layerObj.fileName.charAt(3).toUpperCase() + layerObj.fileName.slice(4),
+    location: `${layersDir}/${layerObj.fileName}/`,
+    elements: getElements(`${layersDir}/${layerObj.fileName}/`,layerObj.allowNone),
     position: { x: 0, y: 0 },
     size: { width: format.width, height: format.height },
     number: layerObj.number // their order from the back, 1 = backest
@@ -111,13 +115,11 @@ function saveLayer(_canvas, _edition, _name) {
 }
 
 function addMetadata(_edition) {
-  let dateTime = Date.now();
   let tempMetadata = {
-    // hash: hash.join(""),
-    // decodedHash: decodedHash,
     name: `Elf #${_edition}`,
-    // date: dateTime,
     attributes: attributes,
+    hash: hashFunction(rarities),
+    elements: '[' + rarities.join(",") + ']',
   };
   metadata.push(tempMetadata);
   attributes = [];
@@ -128,11 +130,9 @@ function addMetadata(_edition) {
 function addAttributes(elements) {
   for (const _element of elements) {
     let tempAttr = {
-      trait_type: _element.layer_id  // opensea standard
+      trait_type: layers[_element.layer_id].name  // opensea standard
       ,value: _element.name     // opensea standard
-      ,rarity: _element.rarity
-      // ,level: Math.random()*100
-      // ,class: 'governatooooor'
+      // ,rarity: _element.rarity
       ,description: _element.description
     };
   attributes.push(tempAttr);
@@ -224,7 +224,7 @@ async function createFiles(edition, to_draw, provide_rarity=false, name, debug) 
   for (let i = 1; i <= edition; i++) {
     tempElements = []
     // create rarity
-    let rarities = provide_rarity ? rarity : await calcRarity(layers,debug,i);
+    rarities = provide_rarity ? rarity : await calcRarity(layers,debug,i);
     if (debug) console.log(rarities)
     layers.forEach(async (layer, layerIdx) => {
       let element = layer.elements[rarities[layerIdx]] ? layer.elements[rarities[layerIdx]] : null;
@@ -241,7 +241,7 @@ async function createFiles(edition, to_draw, provide_rarity=false, name, debug) 
     } else { // it's unique
       Exists.set(key, i);
       addAttributes(tempElements);
-      addMetadata(i); // "attributes" variable is used here
+      addMetadata(i); // pushes "attributes" into "metadata"
       rarities.push(rarities);
       if (i % 100 == 0) console.log("Created edition " + i + ' at ' + numberWithCommas(Math.round(i / (performance.now() - startTime) * 1000 * 60)) + ' Elfis/minute');
     }
@@ -259,6 +259,9 @@ async function createFiles(edition, to_draw, provide_rarity=false, name, debug) 
         r = await drawLayer(ctx, layer, i, element, name)
       }
     };
+
+    // export its metadata
+    fs.writeFileSync(`${buildDir}\\${i}.json`, JSON.stringify(metadata[i-1], null, 2));
     
   } // end for i<=edition loop
 
@@ -269,9 +272,9 @@ async function createFiles(edition, to_draw, provide_rarity=false, name, debug) 
 
 function createMetaData() {
   fs.writeFileSync(`${buildDir}\\${metDataFile}`, JSON.stringify(metadata, null, 2));
-  for (let i = 0; i < metadata.length; i++) {
-    fs.writeFileSync(`${buildDir}\\${i}.json`, JSON.stringify(metadata[i], null, 2));
-  }
+  // for (let i = 1; i <= metadata.length; i++) {
+  //   fs.writeFileSync(`${buildDir}\\${i}.json`, JSON.stringify(metadata[i-1], null, 2));
+  // }
 }
 
 function displayRarity() {
@@ -308,7 +311,7 @@ async function showAllPossibleClashes(to_draw=false) {
               rarities = Array(numLayers).fill(0)
               rarities[layerIdx1]=lkupColor
               rarities[layerIdx2]=elementIdx
-              fileName = '' + layer1.name + '_' + layer1.elements[lkupColor].name + '-' + layer2.name + '_' + element.name + ''
+              fileName = '' + layer1.fileName + '_' + layer1.elements[lkupColor].name + '-' + layer2.fileName + '_' + element.name + ''
               // console.log(fileName)
               r = await createFiles(1, to_draw=true, rarities = rarities, fileName);
               console.log('success ' + fileName)
@@ -327,7 +330,7 @@ function getColors() {
     m = [...new Set(l.elements.map( e => {
       return e.color
     }))]
-    res[l.name]=m
+    res[l.layer_id]=m
   })
   return res
 }
@@ -353,6 +356,18 @@ function dumpProperties() {
   return {names,rows}
 }
 
+function renameFiles() {
+  layers.forEach( l => {
+    l.elements.forEach( e => {
+      if (e.fileName!='none') {
+        let newName = e.name.replaceAll(' ','_').replaceAll('/','_').replaceAll('\\','_').replaceAll('-','_').replaceAll('.','_')
+        fs.renameSync(`${process.env.PWD}\\layers\\${l.fileName}\\${e.fileName}`,`${process.env.PWD}\\layers\\${l.fileName}\\${newName}.png`)
+        e.fileName = newName
+      }
+    })
+  })
+}
+
 function readProperties() {
   var l = fs.readFileSync('assets_input.csv').toString().split('\n')
   l=l.splice(1,l.length-2)
@@ -376,4 +391,4 @@ function listProperties() {
 
 function getLayers() {return layers}
 
-module.exports = { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, displayRarity, showAllPossibleClashes, getColors , getLayers, listProperties, readProperties };
+module.exports = { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, displayRarity, showAllPossibleClashes, getColors , getLayers, listProperties, readProperties, renameFiles };

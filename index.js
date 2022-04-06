@@ -1,5 +1,5 @@
 const myArgs = process.argv.slice(2);
-const { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, displayRarity, showAllPossibleClashes, getColors, getLayers, listProperties, readProperties } = require("./src/main.js");
+const { dumpProperties, clearBuildFolder, buildSetup, createFiles, createMetaData, displayRarity, showAllPossibleClashes, getColors, getLayers, listProperties, readProperties, renameFiles } = require("./src/main.js");
 const { defaultEdition } = require("./src/config.js");
 var edition = myArgs.length > 0 ? Number(myArgs[0]) : defaultEdition;
 const { performance } = require('perf_hooks');
@@ -7,10 +7,11 @@ const fs = require('fs')
 
 clearBuildFolder()
 buildSetup()
+// renameFiles()
 // listProperties() // for info only
 dumpProperties()
-edition = 4000
-createFiles(edition,to_draw=true, provide_rarity=false, '', debug=false).then( () => {
+edition = 10
+createFiles(edition,to_draw=false, provide_rarity=false, '', debug=false).then( () => {
   createMetaData()
   // displayRarity() // show count of how many times each asset shows up and statistical test of likelihood
 });
