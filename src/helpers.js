@@ -1,5 +1,4 @@
 const { createCanvas, loadImage } = require("canvas");
-// const jStat = require("jStat");
 
 function newCtx(width,height) {
     var canvas = createCanvas(width, height);

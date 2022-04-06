@@ -1,111 +1,111 @@
 layer_id,id,name,fileName,color,rarity,adjustedRarity,description
 0,0,Blood River,Blood_River.png,river,10,9.090909091,Blood river that is shown to those with a future of battle or strife
-0,1,Blue Portal,Blue_Mist.png,portal,10,9.090909091,Blue portal that transfers users across the many Valleys of Yield and Principal
-0,2,Blue Mist,Blue_Portal.png,vapor,10,9.090909091,Soothing skies belie unknown futures
-0,3,Red Portal,Clear_Skies.png,portal,10,9.090909091,A red portal signifies strife and battle
-0,4,Orange Mist,Good_Night.png,vapor,10,9.090909091,Soothing vapors expand into the vast ether of existence
-0,5,Clear Skies,Green_Mist.png,clouds,10,9.090909091,Clear skies signal peace and tranquility
-0,6,Good Night,Green_Portal.png,night,10,9.090909091,A starry night full of pinpoints of distant opportunity
-0,7,Green Portal,Orange_Mist.png,portal,10,9.090909091,A green portal signifies balance in all things
-0,8,Green Mist,Purple_Mist.png,vapor,10,9.090909091,The skies simmer with soothing green vapors
-0,9,Purple Mist,Red_Portal.png,vapor,10,9.090909091,The skies glimmer with mysterious purple vapors
+0,1,Blue Mist,Blue_Mist.png,vapor,10,9.090909091,Soothing skies belie unknown futures
+0,2,Blue Portal,Blue_Portal.png,portal,10,9.090909091,Blue portal that transfers users across the many Valleys of Yield and Principal
+0,3,Clear Skies,Clear_Skies.png,clouds,10,9.090909091,Clear skies signal peace and tranquility
+0,4,Good Night,Good_Night.png,night,10,9.090909091,A starry night full of pinpoints of distant opportunity
+0,5,Green Mist,Green_Mist.png,vapor,10,9.090909091,The skies simmer with soothing green vapors
+0,6,Green Portal,Green_Portal.png,portal,10,9.090909091,A green portal signifies balance in all things
+0,7,Orange Mist,Orange_Mist.png,vapor,10,9.090909091,Soothing vapors expand into the vast ether of existence
+0,8,Purple Mist,Purple_Mist.png,vapor,10,9.090909091,The skies glimmer with mysterious purple vapors
+0,9,Red Portal,Red_Portal.png,portal,10,9.090909091,A red portal signifies strife and battle
 0,10,Warm Sunrise,Warm_Sunrise.png,morning,10,9.090909091,Sunrise across Principal Valley to signify a new light and journey
-1,0,None,none,none,80,54.05405405,Those without weapons are the economic backbone of Elf society
-1,1,Dark Bow,Blue_Bow.png,dark,6.666666667,3.737432432,"Dark bows draw no attention, allowing their user to slither in the night"
-1,2,Draconic Bow,Dark_Bow.png,draconic,3.333333333,3.737432432,Draconic markings bode ill for those standing in its way
-1,3,Golden Bow,Dark_Longsword.png,golden,3.333333333,3.737432432,Gold-plated bows wielded by those of high status
-1,4,Ice Lance,Draconic_Bow.png,,4,1.351351351,"Songs of old told of weapons made of unbreakable, never-melting ice, carried by elite soldiers"
-1,5,Blue Bow,Draconic_Lance.png,,6.666666667,1.868716216,Markings of tradition adorn this ceremonial bow
-1,6,Draconic Lance,Draconic_Staff.png,draconic,2,1.351351351,Draconic lances wielded by tribes of elves as fierce and wild as their prey
-1,7,Golden Lance,Golden_Bow.png,golden,2,1.351351351,Lances dripping with gold leaf lull opponents into a false sense of security
-1,8,Left Quartz Sword,Golden_Dual_Swords.png,,8,5.405405405,"Elves possess unparalleled quartz craftsmanship, through which they imbue their weapons with eternal sharpness"
-1,9,Dark Longsword,Golden_Lance.png,dark,3,2.027027027,Massive broadsword ready to fell anything in its path
+1,0,None,none,none,80,80,Those without weapons are the economic backbone of Elf society
+1,1,Blue Bow,Blue_Bow.png,,4.7904191611976,1.868716216,Markings of tradition adorn this ceremonial bow
+1,2,Dark Bow,Dark_Bow.png,dark,4.7904191611976,3.737432432,"Dark bows draw no attention, allowing their user to slither in the night"
+1,3,Dark Longsword,Dark_Longsword.png,dark,3,2.027027027,Massive broadsword ready to fell anything in its path
+1,4,Draconic Bow,Draconic_Bow.png,draconic,2.3952095805988,3.737432432,Draconic markings bode ill for those standing in its way
+1,5,Draconic Lance,Draconic_Lance.png,draconic,2,1.351351351,Draconic lances wielded by tribes of elves as fierce and wild as their prey
+1,6,Draconic Staff,Draconic_Staff.png,draconic,1,0.6756756757,A staff adorned with the bones of dire beasts exhorts power and influence
+1,7,Golden Bow,Golden_Bow.png,golden,2.3952095805988,3.737432432,Gold-plated bows wielded by those of high status
+1,8,Golden Dual Swords,Golden_Dual_Swords.png,golden,2,3.378378378,Dual swords favored by the most degen tribes endlessly searching for the highest yields
+1,9,Golden Lance,Golden_Lance.png,golden,2,1.351351351,Lances dripping with gold leaf lull opponents into a false sense of security
 1,10,Golden Longsword,Golden_Longsword.png,golden,3,2.027027027,A golden blade wielded by someone of high status; or someone who cut them down for it
-1,11,Red Longsword,Golden_Staff.png,red,3,2.027027027,An ominous blade that shimmers with imbued power and incantation
-1,12,Right Quartz Sword,Green_Dual_Swords.png,,8,5.405405405,"Elves possess unparalleled quartz craftsmanship, through which they imbue their weapons with eternal sharpness"
-1,13,Draconic Staff,Ice_Lance.png,draconic,1,0.6756756757,A staff adorned with the bones of dire beasts exhorts power and influence
-1,14,Golden Staff,Jade_Staff.png,golden,1,0.6756756757,A gold-plated staff passed down through generations now serves as a symbol of diplomacy
-1,15,Jade Staff,Left_Quartz_Sword.png,jade,3,2.027027027,Only the finest tribes of artisans ever possessed the ability to craft such opulent weapons
-1,16,Golden Dual Swords,Red_Dual_Swords.png,golden,2,3.378378378,Dual swords favored by the most degen tribes endlessly searching for the highest yields
-1,17,Green Dual Swords,Red_Longsword.png,green,5,3.378378378,Dual swords favored by the most degen tribes endlessly searching for the highest yields
-1,18,Red Dual Swords,Right_Quartz_Sword.png,red,5,3.378378378,Dual swords favored by the most degen tribes endlessly searching for the highest yields
+1,11,Golden Staff,Golden_Staff.png,golden,1,0.6756756757,A gold-plated staff passed down through generations now serves as a symbol of diplomacy
+1,12,Green Dual Swords,Green_Dual_Swords.png,green,5,3.378378378,Dual swords favored by the most degen tribes endlessly searching for the highest yields
+1,13,Ice Lance,Ice_Lance.png,,4,1.351351351,"Songs of old told of weapons made of unbreakable, never-melting ice, carried by elite soldiers"
+1,14,Jade Staff,Jade_Staff.png,jade,3,2.027027027,Only the finest tribes of artisans ever possessed the ability to craft such opulent weapons
+1,15,Left Quartz Sword,Left_Quartz_Sword.png,,8,5.405405405,"Elves possess unparalleled quartz craftsmanship, through which they imbue their weapons with eternal sharpness"
+1,16,Red Dual Swords,Red_Dual_Swords.png,red,5,3.378378378,Dual swords favored by the most degen tribes endlessly searching for the highest yields
+1,17,Red Longsword,Red_Longsword.png,red,3,2.027027027,An ominous blade that shimmers with imbued power and incantation
+1,18,Right Quartz Sword,Right_Quartz_Sword.png,,8,5.405405405,"Elves possess unparalleled quartz craftsmanship, through which they imbue their weapons with eternal sharpness"
 2,0,Blue,Blue.png,blue,25,25,Elves whose kin have been exposed to the deep blue waters of the Sea of Liquidity bear a blue tinge
-2,1,Pale,Light.png,green,10,20,The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green
-2,2,Light,Pale.png,pale,15,20,The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow
+2,1,Light,Light.png,pale,15,20,The icy peaks of the Bearish Mountains are said to be home to Elfis whose skin is paler than snow
+2,2,Pale,Pale.png,green,10,20,The skin of Elfis whose generations have spent their time among the trees of the Forests of Yield has become green
 2,3,Pink,Pink.png,pink,25,25,Exposure to the red arid soil of the Bullish Valleys has made the skin of each new generation become slightly more pink
 2,4,Red,Red.png,red,5,5,"Red Elves are believed to be descendants of the Ancestral Degens, whose skin was tempered by the fiery forges of the Degen Inferno"
 2,5,Yellow,Yellow.png,yellow,5,5,"Yellow elves are believed to be descendants of the Ancient Proposers, whose rules of governance still guide to this day"
-3,0,None,none,none,2,0.8547008547,Some elves shun the moral rigitude of society in favor of being one with nature
-3,1,Blue Breastplate,Blue_Blouse.png,blue,3,1.282051282,"Full-body armor made of magical quartz. Movement is somewhat restricted, but it’s highly protective against Degen magics"
-3,2,Draconic Breastplate,Blue_Breastplate.png,draconic,1,1.282051282,"Full-body armor made with the scales of ancient dragons. Although said to still roam the land, nobody has seen them since the fall of Mount Qogs"
-3,3,Golden Breastplace,Blue_Cape.png,golden,1,1.282051282,Full-body armor made of gold and worn by elite warriors. The magical quartz infused in it makes it lighter than fabric
-3,4,Blue Uniform,Blue_Robes.png,blue,20,8.547008547,"Light clothing, good for fast travel. Its blue color is obtained from Liquidity Flowers, found near all kinds of shores"
-3,5,Green Uniform,Blue_Uniform.png,green,10,4.273504274,"Light clothing, good for fast travel. Its green color is obtained from the peels of Yield Fruits, which thrive during the summer"
-3,6,Red Uniform,Dark_Exoskeleton.png,red,15,6.41025641,"Light clothing, good for fast travel. Its red color is obtained from the leaves of Copium plants, commonly found on the Bearish Mountains"
-3,7,White Uniform,Dark_Panoply.png,white,5,2.136752137,"Light clothing, good for fast travel. The white color is reserved for explorers who have proven themselves in the Degen Trials"
-3,8,Yellow Uniform,Dark_Straps.png,yellow,15,6.41025641,"Light clothing, good for fast travel. Its yellow color is obtained from the golden sands of the deserts of Etcal"
-3,9,Blue Cape,Dark_Tunic.png,blue,15,6.41025641,Ritualistic attire comes to life as individual facets intertwine both moonlight and campfire
-3,10,Red Cape,Draconic_Breastplate.png,red,5,2.136752137,Traditional ritualistic attire favored by warriors as well as researchers innovating novel farming methods
-3,11,Yellow Cape,Draconic_Exoskeleton.png,yellow,5,2.136752137,Traditional ritualistic attire whose yellow color symbolizes the sharing of wisdom
-3,12,Dark Panoply,Draconic_Panoply.png,dark,2,2.991452991,This quartz-infused suit hardens you for battle. You feel lighter when wearing it.
-3,13,Draconic Panoply,Draconic_Straps.png,draconic,1,2.991452991,This quartz-infused suit hardens you for battle. You also feel unaffected by heat
-3,14,Golden Panoply,Draconic_Tunic.png,golden,1,2.991452991,This quartz-infused suit hardens you for battle. You’ll go to any lengths to follow orders
-3,15,Dark Tunic,Golden_Blouse.png,dark,7,2.991452991,"This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather. You feel weightless when wearing this"
-3,16,Draconic Tunic,Golden_Breastplace.png,draconic,7,2.991452991,"This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather"
-3,17,Golden Tunic,Golden_Exoskeleton.png,golden,7,2.991452991,"This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather. It gives off a particular shine, as if emitting its own light"
-3,18,Blue Blouse,Golden_Panoply.png,blue,3.5,2.991452991,Clothes worn by nobility on diplomatic events. Blue represents liquidity and mastery of diplomacy
-3,19,Golden Blouse,Golden_Straps.png,golden,3.5,2.991452991,Clothes worn by nobility on diplomatic events. Yellow is both opulent and ostentatious
-3,20,Red Blouse,Golden_Tunic.png,red,3.5,2.991452991,"Clothes worn by nobility on diplomatic events. Red used to represent the Degen faction, but now is worn by all"
-3,21,Blue Robes,Green_Uniform.png,blue,7,2.991452991,"Made from a fabric of magically-treated quartz, these robes are said to amplify their wearer’s magical output"
-3,22,Red Robes,Red_Blouse.png,red,7,2.991452991,"Dyed with the crushed powder of their enemies’ bones, only the most crazen Degen wear them"
-3,23,White Robes,Red_Cape.png,white,7,2.991452991,"Infused with the magical properties of moonlight, these robes are said to improve the effects of healing magics"
-3,24,Yellow Robes,Red_Robes.png,yellow,7,2.991452991,"Made from a fabric of woven gold, these robes allow their wearer to channel the power of the sun much more effectively"
-3,25,Dark Straps,Red_Uniform.png,dark,10,2.991452991,"Dark straps provide flexibility and function for all kinds of tasks, both day and night"
-3,26,Draconic Straps,White_Robes.png,draconic,5,2.991452991,"These straps aid with farming even in unwelcoming conditions, raising untapped potential from the earth"
-3,27,Golden Straps,White_Uniform.png,golden,5,2.991452991,"Straps glisten as gold under the harsh sunlight, energizing those who wear them"
-3,28,Dark Exoskeleton,Yellow_Cape.png,dark,4,2.991452991,A hardened exoskeleton of armor readies you for battle. You feel empowered and weightless.
-3,29,Draconic Exoskeleton,Yellow_Robes.png,draconic,2,2.991452991,A hardened exoskeleton of armor readies you for battle. You feel empowered and impervious to heat.
-3,30,Golden Exoskeleton,Yellow_Uniform.png,golden,2,2.991452991,A hardened exoskeleton of armor readies you for battle. You feel empowered and elegant.
-4,0,None,none,none,25,12.5,The freedom of not having hair allows one to be more productive with their day
+3,0,None,none,none,2,2,Some elves shun the moral rigitude of society in favor of being one with nature
+3,1,Blue Blouse,Blue_Blouse.png,blue,3.5,2.991452991,Clothes worn by nobility on diplomatic events. Blue represents liquidity and mastery of diplomacy
+3,2,Blue Breastplate,Blue_Breastplate.png,blue,3,1.282051282,"Full-body armor made of magical quartz. Movement is somewhat restricted, but it’s highly protective against Degen magics"
+3,3,Blue Cape,Blue_Cape.png,blue,15,6.41025641,Ritualistic attire comes to life as individual facets intertwine both moonlight and campfire
+3,4,Blue Robes,Blue_Robes.png,blue,5,2.991452991,"Made from a fabric of magically-treated quartz, these robes are said to amplify their wearer’s magical output"
+3,5,Blue Uniform,Blue_Uniform.png,blue,20,8.547008547,"Light clothing, good for fast travel. Its blue color is obtained from Liquidity Flowers, found near all kinds of shores"
+3,6,Dark Exoskeleton,Dark_Exoskeleton.png,dark,4,2.991452991,A hardened exoskeleton of armor readies you for battle. You feel empowered and weightless.
+3,7,Dark Panoply,Dark_Panoply.png,dark,2,2.991452991,This quartz-infused suit hardens you for battle. You feel lighter when wearing it.
+3,8,Dark Straps,Dark_Straps.png,dark,10,2.991452991,"Dark straps provide flexibility and function for all kinds of tasks, both day and night"
+3,9,Dark Tunic,Dark_Tunic.png,dark,7,2.991452991,"This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather. You feel weightless when wearing this"
+3,10,Draconic Breastplate,Draconic_Breastplate.png,draconic,1,1.282051282,"Full-body armor made with the scales of ancient dragons. Although said to still roam the land, nobody has seen them since the fall of Mount Qogs"
+3,11,Draconic Exoskeleton,Draconic_Exoskeleton.png,draconic,2,2.991452991,A hardened exoskeleton of armor readies you for battle. You feel empowered and impervious to heat.
+3,12,Draconic Panoply,Draconic_Panoply.png,draconic,1,2.991452991,This quartz-infused suit hardens you for battle. You also feel unaffected by heat
+3,13,Draconic Straps,Draconic_Straps.png,draconic,5,2.991452991,"These straps aid with farming even in unwelcoming conditions, raising untapped potential from the earth"
+3,14,Draconic Tunic,Draconic_Tunic.png,draconic,7,2.991452991,"This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather"
+3,15,Golden Blouse,Golden_Blouse.png,golden,3.5,2.991452991,Clothes worn by nobility on diplomatic events. Yellow is both opulent and ostentatious
+3,16,Golden Breastplace,Golden_Breastplace.png,golden,1,1.282051282,Full-body armor made of gold and worn by elite warriors. The magical quartz infused in it makes it lighter than fabric
+3,17,Golden Exoskeleton,Golden_Exoskeleton.png,golden,2,2.991452991,A hardened exoskeleton of armor readies you for battle. You feel empowered and elegant.
+3,18,Golden Panoply,Golden_Panoply.png,golden,1,2.991452991,This quartz-infused suit hardens you for battle. You’ll go to any lengths to follow orders
+3,19,Golden Straps,Golden_Straps.png,golden,5,2.991452991,"Straps glisten as gold under the harsh sunlight, energizing those who wear them"
+3,20,Golden Tunic,Golden_Tunic.png,golden,7,2.991452991,"This tight-fitting outfit is reserved for night-time missions, as sunlight tends to damage leather. It gives off a particular shine, as if emitting its own light"
+3,21,Green Uniform,Green_Uniform.png,green,10,4.273504274,"Light clothing, good for fast travel. Its green color is obtained from the peels of Yield Fruits, which thrive during the summer"
+3,22,Red Blouse,Red_Blouse.png,red,4,2.991452991,"Clothes worn by nobility on diplomatic events. Red used to represent the Degen faction, but now is worn by all"
+3,23,Red Cape,Red_Cape.png,red,5,2.136752137,Traditional ritualistic attire favored by warriors as well as researchers innovating novel farming methods
+3,24,Red Robes,Red_Robes.png,red,5,2.991452991,"Dyed with the crushed powder of their enemies’ bones, only the most crazen Degen wear them"
+3,25,Red Uniform,Red_Uniform.png,red,15,6.41025641,"Light clothing, good for fast travel. Its red color is obtained from the leaves of Copium plants, commonly found on the Bearish Mountains"
+3,26,White Robes,White_Robes.png,white,5,2.991452991,"Infused with the magical properties of moonlight, these robes are said to improve the effects of healing magics"
+3,27,White Uniform,White_Uniform.png,white,5,2.136752137,"Light clothing, good for fast travel. The white color is reserved for explorers who have proven themselves in the Degen Trials"
+3,28,Yellow Cape,Yellow_Cape.png,yellow,5,2.136752137,Traditional ritualistic attire whose yellow color symbolizes the sharing of wisdom
+3,29,Yellow Robes,Yellow_Robes.png,yellow,5,2.991452991,"Made from a fabric of woven gold, these robes allow their wearer to channel the power of the sun much more effectively"
+3,30,Yellow Uniform,Yellow_Uniform.png,yellow,15,6.41025641,"Light clothing, good for fast travel. Its yellow color is obtained from the golden sands of the deserts of Etcal"
+4,0,None,none,none,7,7,The freedom of not having hair allows one to be more productive with their day
 4,1,Blue Hair Bun,Blue_Hair_Bun.png,blue,15,7.5,"Long hair tied in a bun, to combat the heat of labour. Blue in color, often worn by scholarly individuals"
-4,2,Green Hair Bun,Blue_Long_Hair.png,green,15,7.5,"Long hair tied in a bun, to combat the heat of labour. Green in color, often worn by those who experiment with farming"
-4,3,Grey Hair Bun,Blue_Mohawk.png,grey,20,10,"Long hair tied in a bun, to combat the heat of labour. Grey in color, often worn by those who have a way with words"
-4,4,Red Hair Bun,Blue_Ponytail.png,red,10,5,"Long hair tied in a bun, to combat the heat of labour. Red in color, often worn by those who possess great stamina"
-4,5,Yellow Hair Bun,Green_Hair_Bun.png,yellow,20,10,"Long hair tied in a bun, to combat the heat of labour. Yellow in color, often worn by those adept at precision work"
-4,6,Green Mohawk,Green_Long_Hair.png,green,2,1,Elven hair that grows wild and untamed is a sign of raw magical potential
-4,7,Blue Long Hair,Green_Mohawk.png,blue,10,5,Long hair worn worn loosely as if unconcerned with worldly matters. Blue like the depth of the Sea of Liquidity
-4,8,Green Long Hair,Green_Ponytail.png,green,10,5,Long hair worn worn loosely as if unconcerned with worldly matters. Green like the spoils of a fresh harvest
-4,9,Red Long Hair,Green_Short_Hair.png,red,10,5,Long hair worn worn loosely as if unconcerned with worldly matters. Red is favored by those quick to action
-4,10,White Long Hair,Grey_Hair_Bun.png,white,10,5,Long hair worn worn loosely as if unconcerned with worldly matters. White with wisdom and ancient knowledge
-4,11,Yellow Long Hair,Red_Hair_Bun.png,yellow,10,5,Long hair worn worn loosely as if unconcerned with worldly matters. Yellow is a mark of status but also of greed
-4,12,Blue Mohawk,Red_Long_Hair.png,blue,2,1,Unruly blue hair is characteristic of the most profound researchers in arcane types of liquidity
+4,2,Blue Long Hair,Blue_Long_Hair.png,blue,10,5,Long hair worn worn loosely as if unconcerned with worldly matters. Blue like the depth of the Sea of Liquidity
+4,3,Blue Mohawk,Blue_Mohawk.png,blue,2,1,Unruly blue hair is characteristic of the most profound researchers in arcane types of liquidity
+4,4,Blue Ponytail,Blue_Ponytail.png,blue,3,1.5,"Styled in the latest fashion, the wearer’s care and attention to detail is apparent"
+4,5,Green Hair Bun,Green_Hair_Bun.png,green,15,7.5,"Long hair tied in a bun, to combat the heat of labour. Green in color, often worn by those who experiment with farming"
+4,6,Green Long Hair,Green_Long_Hair.png,green,10,5,Long hair worn worn loosely as if unconcerned with worldly matters. Green like the spoils of a fresh harvest
+4,7,Green Mohawk,Green_Mohawk.png,green,2,1,Elven hair that grows wild and untamed is a sign of raw magical potential
+4,8,Green Ponytail,Green_Ponytail.png,green,3,1.5,"Styled in the latest fashion, the wearer’s care and attention to detail is apparent"
+4,9,Green Short Hair,Green_Short_Hair.png,green,5,2.5,"Short hair is less frivolous and more practical, showing a focus on substance over style"
+4,10,Grey Hair Bun,Grey_Hair_Bun.png,grey,20,10,"Long hair tied in a bun, to combat the heat of labour. Grey in color, often worn by those who have a way with words"
+4,11,Red Hair Bun,Red_Hair_Bun.png,red,10,5,"Long hair tied in a bun, to combat the heat of labour. Red in color, often worn by those who possess great stamina"
+4,12,Red Long Hair,Red_Long_Hair.png,red,10,5,Long hair worn worn loosely as if unconcerned with worldly matters. Red is favored by those quick to action
 4,13,Red Mohawk,Red_Mohawk.png,red,2,1,"Wild red hair like the color of battle makes others wary, for good reason or not"
-4,14,White Mohawk,Red_Ponytail.png,white,2,1,Untamed white hair channels the wisdom of the Ancients
-4,15,Yellow Mohawk,Red_Short_Hair.png,yellow,2,1,"Chaotic golden locks symbolize great power over others, how it’s used remains to be seen"
-4,16,Blue Ponytail,White_Long_Hair.png,blue,3,1.5,"Styled in the latest fashion, the wearer’s care and attention to detail is apparent"
-4,17,Green Ponytail,White_Mohawk.png,green,3,1.5,"Styled in the latest fashion, the wearer’s care and attention to detail is apparent"
-4,18,Red Ponytail,White_Ponytail.png,red,3,1.5,"Styled in the latest fashion, the wearer’s care and attention to detail is apparent"
-4,19,White Ponytail,White_Short_Hair.png,white,3,1.5,"Styled in the latest fashion, the wearer’s care and attention to detail is apparent"
-4,20,Yellow Ponytail,Yellow_Hair_Bun.png,yellow,3,1.5,"Styled in the latest fashion, the wearer’s care and attention to detail is apparent"
-4,21,Green Short Hair,Yellow_Long_Hair.png,green,5,2.5,"Short hair is less frivolous and more practical, showing a focus on substance over style"
-4,22,Red Short Hair,Yellow_Mohawk.png,red,5,2.5,"Short hair is less frivolous and more practical, showing a focus on substance over style"
-4,23,White Short Hair,Yellow_Ponytail.png,white,5,2.5,"Short hair is less frivolous and more practical, showing a focus on substance over style"
+4,14,Red Ponytail,Red_Ponytail.png,red,3,1.5,"Styled in the latest fashion, the wearer’s care and attention to detail is apparent"
+4,15,Red Short Hair,Red_Short_Hair.png,red,5,2.5,"Short hair is less frivolous and more practical, showing a focus on substance over style"
+4,16,White Long Hair,White_Long_Hair.png,white,10,5,Long hair worn worn loosely as if unconcerned with worldly matters. White with wisdom and ancient knowledge
+4,17,White Mohawk,White_Mohawk.png,white,2,1,Untamed white hair channels the wisdom of the Ancients
+4,18,White Ponytail,White_Ponytail.png,white,3,1.5,"Styled in the latest fashion, the wearer’s care and attention to detail is apparent"
+4,19,White Short Hair,White_Short_Hair.png,white,5,2.5,"Short hair is less frivolous and more practical, showing a focus on substance over style"
+4,20,Yellow Hair Bun,Yellow_Hair_Bun.png,yellow,20,10,"Long hair tied in a bun, to combat the heat of labour. Yellow in color, often worn by those adept at precision work"
+4,21,Yellow Long Hair,Yellow_Long_Hair.png,yellow,10,5,Long hair worn worn loosely as if unconcerned with worldly matters. Yellow is a mark of status but also of greed
+4,22,Yellow Mohawk,Yellow_Mohawk.png,yellow,2,1,"Chaotic golden locks symbolize great power over others, how it’s used remains to be seen"
+4,23,Yellow Ponytail,Yellow_Ponytail.png,yellow,3,1.5,"Styled in the latest fashion, the wearer’s care and attention to detail is apparent"
 4,24,Yellow Short Hair,Yellow_Short_Hair.png,yellow,5,2.5,"Short hair is less frivolous and more practical, showing a focus on substance over style"
-5,0,None,none,none,2,1.408450704,Those who feel no need to speak sometimes have the most wisdom to impart
-5,1,Stoic Blue,Blue_Smile.png,blue,10,7.042253521,An idle expression that hides the busiest of minds
-5,2,Stoic Red,Green_Smile.png,red,10,7.042253521,An idle expression that hides the busiest of minds
+5,0,None,none,none,2,2,Those who feel no need to speak sometimes have the most wisdom to impart
+5,1,Blue Smile,Blue_Smile.png,blue,10,7.042253521,"A smile conveys a world of meaning, yet its meaning isn’t always certain"
+5,2,Green Smile,Green_Smile.png,green,10,7.042253521,"A smile conveys a world of meaning, yet its meaning isn’t always certain"
 5,3,Neutral Blue,Neutral_Blue.png,blue,10,7.042253521,"Seeking balance in all things, as with their emotions"
 5,4,Neutral Pink,Neutral_Pink.png,pink,10,7.042253521,"Seeking balance in all things, as with their emotions"
 5,5,Neutral Red,Neutral_Red.png,red,10,7.042253521,"Seeking balance in all things, as with their emotions"
-5,6,Sad Blue,Red_Smile.png,blue,10,7.042253521,Those who don’t smile are their own harshest critics
-5,7,Sad Pink,Sad_Blue.png,pink,10,7.042253521,Those who don’t smile are their own harshest critics
-5,8,Sad Red,Sad_Pink.png,red,10,7.042253521,Those who don’t smile are their own harshest critics
-5,9,Blue Smile,Sad_Red.png,blue,10,7.042253521,"A smile conveys a world of meaning, yet its meaning isn’t always certain"
-5,10,Green Smile,Stoic_Blue.png,green,10,7.042253521,"A smile conveys a world of meaning, yet its meaning isn’t always certain"
-5,11,Red Smile,Stoic_Red.png,red,10,7.042253521,"A smile conveys a world of meaning, yet its meaning isn’t always certain"
-5,12,Yellow Smile,Talking_Blue.png,yellow,10,7.042253521,"A smile conveys a world of meaning, yet its meaning isn’t always certain"
-5,13,Talking Blue,Talking_Pink.png,blue,10,7.042253521,Be wary of those who always have a story to tell
-5,14,Talking Pink,Yellow_Smile.png,pink,10,7.042253521,Be wary of those who always have a story to tell
+5,6,Red Smile,Red_Smile.png,red,10,7.042253521,"A smile conveys a world of meaning, yet its meaning isn’t always certain"
+5,7,Sad Blue,Sad_Blue.png,blue,10,7.042253521,Those who don’t smile are their own harshest critics
+5,8,Sad Pink,Sad_Pink.png,pink,10,7.042253521,Those who don’t smile are their own harshest critics
+5,9,Sad Red,Sad_Red.png,red,10,7.042253521,Those who don’t smile are their own harshest critics
+5,10,Stoic Blue,Stoic_Blue.png,blue,10,7.042253521,An idle expression that hides the busiest of minds
+5,11,Stoic Red,Stoic_Red.png,red,10,7.042253521,An idle expression that hides the busiest of minds
+5,12,Talking Blue,Talking_Blue.png,blue,10,7.042253521,Be wary of those who always have a story to tell
+5,13,Talking Pink,Talking_Pink.png,pink,10,7.042253521,Be wary of those who always have a story to tell
+5,14,Yellow Smile,Yellow_Smile.png,yellow,10,7.042253521,"A smile conveys a world of meaning, yet its meaning isn’t always certain"
 6,0,Angry Blue,Angry_Blue.png,blue,20,10.58201058,"An elf is not quick to anger, so be wary of their consternation"
 6,1,Angry Grey,Angry_Grey.png,grey,20,10.58201058,"An elf is not quick to anger, so be wary of their consternation"
 6,2,Angry Red,Angry_Red.png,red,5,2.645502646,"An elf is not quick to anger, so be wary of their consternation"
@@ -114,57 +114,57 @@ layer_id,id,name,fileName,color,rarity,adjustedRarity,description
 6,5,Doubting Red,Doubting_Red.png,red,5,2.645502646,"Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales"
 6,6,Doubting White,Doubting_White.png,white,10,5.291005291,"Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales"
 6,7,Doubting Yellow,Doubting_Yellow.png,yellow,5,2.645502646,"Elves are a naturally inquisitive lot, always doing their own research, skeptical of tall tales"
-6,8,Neutral Blue,Neutral_Blue.png,blue,20,10.58201058,"Conveying but a neutral expression, giving nothing away"
+6,8,Neutral Blue,Neutral_Blue.png,blue,10,7.042253521,"Seeking balance in all things, as with their emotions"
 6,9,Neutral Grey,Neutral_Grey.png,grey,10,5.291005291,"Conveying but a neutral expression, giving nothing away"
-6,10,Neutral Red,Neutral_Red.png,red,10,5.291005291,"Conveying but a neutral expression, giving nothing away"
+6,10,Neutral Red,Neutral_Red.png,red,10,7.042253521,"Seeking balance in all things, as with their emotions"
 6,11,Neutral Yellow,Neutral_Yellow.png,yellow,10,5.291005291,"Conveying but a neutral expression, giving nothing away"
 6,12,Surprised Blue,Surprised_Blue.png,blue,20,10.58201058,"Having been through much, few things surprise elves nowadays"
 6,13,Surprised Grey,Surprised_Grey.png,grey,16,8.465608466,"Having been through much, few things surprise elves nowadays"
 6,14,Surprised Red,Surprised_Red.png,red,16,8.465608466,"Having been through much, few things surprise elves nowadays"
 6,15,Surprised Yellow,Surprised_Yellow.png,yellow,2,1.058201058,"Having been through much, few things surprise elves nowadays"
-7,0,None,none,none,1,0.2985074627,Those with no eyes sometimes see most clearly
+7,0,None,none,none,1,1,Those with no eyes sometimes see most clearly
 7,1,Big Blue,Big_Blue.png,blue,20,5.970149254,Big blue eyes full of wonder at the mysteries lying in wait
 7,2,Big Dark,Big_Dark.png,dark,20,5.970149254,"Big dark eyes ready to take in all the world has to offer, yet give nothing back"
-7,3,Big Yellow,Big_Red.png,yellow,20,5.970149254,Big golden eyes shine with glee and enthusiasm
-7,4,Fire,Big_Yellow.png,fire,7,2.089552239,Fire eyes that burn like the flames in the forges of the Ancient Builders
-7,5,Gold,Blue_Side_Eye.png,gold,20,5.970149254,"Eyes as gold as sunlight convey friendliness, but don’t mistake it for complacency"
-7,6,Ice,Dark_Glance_.png,ice,7,2.089552239,"Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw"
-7,7,Blue Side Eye,Dark_Side_Eye.png,left,20,5.970149254,"Some elves are always suspicious of their surroundings, and can’t be fooled"
-7,8,Big Red,Fire.png,red,20,5.970149254,Red eyes convey passion and desire
-7,9,Dark Side Eye,Fire_Glance.png,dark,20,5.970149254,Dark eyes are better for not drawing attention and capture more detail in the night
+7,3,Big Red,Big_Red.png,red,20,5.970149254,Red eyes convey passion and desire
+7,4,Big Yellow,Big_Yellow.png,yellow,20,5.970149254,Big golden eyes shine with glee and enthusiasm
+7,5,Blue Side Eye,Blue_Side_Eye.png,left,20,5.970149254,"Some elves are always suspicious of their surroundings, and can’t be fooled"
+7,6,Dark Glance,Dark_Glance_.png,dark,20,5.970149254,Dark eyes are better for not drawing attention and capture more detail in the night
+7,7,Dark Side Eye,Dark_Side_Eye.png,dark,20,5.970149254,Dark eyes are better for not drawing attention and capture more detail in the night
+7,8,Fire,Fire.png,fire,7,2.089552239,Fire eyes that burn like the flames in the forges of the Ancient Builders
+7,9,Fire Glance,Fire_Glance.png,fire,20,5.970149254,Fire eyes that burn like the flames in the forges of the Ancient Builders
 7,10,Fire Side Eye,Fire_Side_Eye.png,fire,20,5.970149254,Fire eyes that burn like the flames in the forges of the Ancient Builders
-7,11,Ice Side Eye,Gold.png,ice,20,5.970149254,"Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw"
-7,12,Red Side Eye,Ice.png,red,20,5.970149254,Red eyes convey passion and desire
-7,13,Yellow Side Eye,Ice_Glance.png,yellow,20,5.970149254,Yellow eyes shine with warmth that makes others more obedientambition
-7,14,Dark Glance ,Ice_Side_Eye.png,dark,20,5.970149254,Dark eyes are better for not drawing attention and capture more detail in the night
-7,15,Fire Glance,Red_Glance.png,fire,20,5.970149254,Fire eyes that burn like the flames in the forges of the Ancient Builders
-7,16,Ice Glance,Red_Side_Eye.png,ice,20,5.970149254,"Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw"
-7,17,Red Glance,Yellow_Glance.png,red,20,5.970149254,Red eyes convey passion and desire
-7,18,Yellow Glance,Yellow_Side_Eye.png,yellow,20,5.970149254,Yellow eyes shine with warmth that makes others more obedient
-8,0,None,none,none,70,53.84615385,Headwear is reserved for those with the means and desire to show off
-8,1,Crown,Blue_Mage_Hat.png,crown,2,1.538461538,"Gem-studded crown used by high priests for ancient rituals, heightening their already impressive powers"
+7,11,Gold,Gold.png,gold,20,5.970149254,"Eyes as gold as sunlight convey friendliness, but don’t mistake it for complacency"
+7,12,Ice,Ice.png,ice,7,2.089552239,"Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw"
+7,13,Ice Glance,Ice_Glance.png,ice,20,5.970149254,"Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw"
+7,14,Ice Side Eye,Ice_Side_Eye.png,ice,20,5.970149254,"Eyes as cold as ice are seen as unwelcoming, leading those who bear them to withdraw"
+7,15,Red Glance,Red_Glance.png,red,20,5.970149254,Red eyes convey passion and desire
+7,16,Red Side Eye,Red_Side_Eye.png,red,20,5.970149254,Red eyes convey passion and desire
+7,17,Yellow Glance,Yellow_Glance.png,yellow,20,5.970149254,Yellow eyes shine with warmth that makes others more obedient
+7,18,Yellow Side Eye,Yellow_Side_Eye.png,yellow,20,5.970149254,Yellow eyes shine with warmth that makes others more obedientambition
+8,0,None,none,none,70,70,Headwear is reserved for those with the means and desire to show off
+8,1,Blue Mage Hat,Blue_Mage_Hat.png,blue,2.275,3.846153846,"Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Blue represents its creator's depth of knowledge"
 8,2,Cap,Cap.png,bonet,9,6.923076923,"Somehow lighter than a feather, the magical stones used in this cap make you feel constantly energized"
-8,3,Dark Helmet,Crown.png,dark,9,6.923076923,Battle-tested helmet that invokes fear in their opponents
-8,4,Draconic Helmet,Dark_Helmet.png,draconic,9,6.923076923,Battle-tested helmet that invokes fear in their opponents
-8,5,Golden Helmet,Draconic_Helmet.png,golden,9,6.923076923,Battle-tested helmet that invokes fear in their opponents
-8,6,Headdress,Golden_Helmet.png,headset,2,1.538461538,"A tribute to the life-giving sun, this heavy helmet is mostly worn by high priests at harvest festivals"
-8,7,Blue Mage Hat,Headdress.png,blue,5,3.846153846,"Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Blue represents its creator's depth of knowledge"
-8,8,Red Mage Hat,Red_Mage_Hat.png,red,5,3.846153846,"Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Red represents its creator's passion"
-8,9,White Mage Hat,White_Mage_Hat.png,white,5,3.846153846,"Woven by the owner's magic, it imbues a fragment of the Wizard's soul. White represents its creator's power over others"
-8,10,Yellow Mage Hat,Yellow_Mage_Hat.png,yellow,5,3.846153846,"Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Yellow represents its creator's ambition"
-9,0,none,none,none,89,76,"No need for eyewear, adventure is afoot"
+8,3,Crown,Crown.png,crown,2,1.538461538,"Gem-studded crown used by high priests for ancient rituals, heightening their already impressive powers"
+8,4,Dark Helmet,Dark_Helmet.png,dark,9,6.923076923,Battle-tested helmet that invokes fear in their opponents
+8,5,Draconic Helmet,Draconic_Helmet.png,draconic,9,6.923076923,Battle-tested helmet that invokes fear in their opponents
+8,6,Golden Helmet,Golden_Helmet.png,golden,9,6.923076923,Battle-tested helmet that invokes fear in their opponents
+8,7,Headdress,Headdress.png,headset,2,1.538461538,"A tribute to the life-giving sun, this heavy helmet is mostly worn by high priests at harvest festivals"
+8,8,Red Mage Hat,Red_Mage_Hat.png,red,2.275,3.846153846,"Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Red represents its creator's passion"
+8,9,White Mage Hat,White_Mage_Hat.png,white,2.275,3.846153846,"Woven by the owner's magic, it imbues a fragment of the Wizard's soul. White represents its creator's power over others"
+8,10,Yellow Mage Hat,Yellow_Mage_Hat.png,yellow,2.275,3.846153846,"Woven by the owner's magic, it imbues a fragment of the Wizard's soul. Yellow represents its creator's ambition"
+9,0,None,none,none,89,89,"No need for eyewear, adventure is afoot"
 9,1,3D Glasses,3D_Glasses.png,,1,1.5,"Little is known about its origins, it is said to make visuals come to life"
 9,2,Draconic Mask,Draconic_Mask.png,mask,2,12,"Worn for feasts and revelrie, or tricksters looking to give nothing away"
 9,3,Eye Patch,Eye_Patch.png,patch,3,7.5,Many elves use eyepatches to attune their vision to darkness. Some say it also improves their luck
 9,4,Hunter Scope,Hunter_Scope.png,,2,3,The latest research and innovation allows the wearer to ascertain another’s degen level
 9,5,Pointeau Mask,Pointeau_Mask.png,,0,0,"Privacy is an utmost priority for all, even those who have nothing to hide"
-10,0,None,none,none,88,62.41134752,
+10,0,None,none,none,88,88,
 10,1,Dark Battle Mask,Dark_Battle_Mask.png,dark,10,3.546099291,"Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness"
-10,2,Draconic Battle Mask,Dark_Nasotube.png,draconic,5,7.092198582,"Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness"
-10,3,Golden Battle Mask,Draconic_Battle_Mask.png,golden,5,3.546099291,"Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness"
-10,4,Golden Veil,Earrings.png,veil,3,2.127659574,"Luxurious veil worn in celebratory fashion, each golden strand represents their wearer's lineage"
-10,5,Earrings,Golden_Battle_Mask.png,,8,5.673758865,"A subdued style, only an astute eye will notice these earrings are adorned with the rarest gems"
+10,2,Dark Nasotube,Dark_Nasotube.png,dark,4,2.127659574,Enhanced oxygen filtration conveys a distinct advantage on the battlefield
+10,3,Draconic Battle Mask,Draconic_Battle_Mask.png,draconic,5,7.092198582,"Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness"
+10,4,Earrings,Earrings.png,,8,5.673758865,"A subdued style, only an astute eye will notice these earrings are adorned with the rarest gems"
+10,5,Golden Battle Mask,Golden_Battle_Mask.png,golden,5,3.546099291,"Battle mask covering the wearer's mouth, it enhances oxygen intake and fearsomeness"
 10,6,Golden Earrings,Golden_Earrings.png,,3,2.127659574,"Studded with golden gems, these earrings make a bold statement"
-10,7,Necklace,Golden_Veil.png,,8,5.673758865,A necklace worn by the attendants of court while plotting political plays
-10,8,Dark Nasotube,Necklace.png,dark,3,2.127659574,Enhanced oxygen filtration conveys a distinct advantage on the battlefield
-10,9,White Nasotube,White_Nasotube.png,white,8,5.673758865,Enhanced oxygen filtration conveys a distinct advantage on the battlefield
+10,7,Golden Veil,Golden_Veil.png,veil,3,2.127659574,"Luxurious veil worn in celebratory fashion, each golden strand represents their wearer's lineage"
+10,8,Necklace,Necklace.png,,8,5.673758865,A necklace worn by the attendants of court while plotting political plays
+10,9,White Nasotube,White_Nasotube.png,white,4,5.673758865,Enhanced oxygen filtration conveys a distinct advantage on the battlefield

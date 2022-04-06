@@ -5,7 +5,7 @@ const console = require("console");
 const { layersOrder, format, rarity } = require("./config.js");
 const { performance } = require('perf_hooks');
 const { newCtx, numberWithCommas, nthIndex} = require('./helpers.js');
-// const jStat = require("jStat");
+const jStat = require("jStat");
 
 if (!process.env.PWD) { process.env.PWD = process.cwd(); }
 
@@ -18,8 +18,6 @@ let metadata = [];
 let attributes = [];
 let rarityCount = [];
 let rarities = [];
-let hash = [];
-let decodedHash = [];
 let layers = [];
 let numLayers = 0;
 let numClashes = 0;
@@ -87,11 +85,11 @@ function layersSetup(layersOrder,debug) {
     }
     layer.numElements = layer.elements.length;
     rarityCount.push(Array(layer.numElements).fill(0));
-    (combinations == 0) ? combinations = layer.numElements : combinations += layer.numElements
+    (combinations == 0) ? combinations = layer.numElements : combinations = combinations * layer.numElements
     numLayers = numLayers + 1;
   });
 
-  console.log('read in ' + layers.length + ' layers with ' + numberWithCommas(combinations) + ' unique combinations');
+  console.log('read in ' + layers.length + ' layers with ' + numberWithCommas(layers.map(l=>l.numElements).reduce((p,c)=>p*c,1)) + ' unique combinations from ' + numberWithCommas(layers.map(l=>l.numElements).reduce((s,a)=>s+a)) + ' assets');
   // console.log(layers)
 
   return layers;
@@ -99,7 +97,8 @@ function layersSetup(layersOrder,debug) {
 
 function clearBuildFolder() {
   if (fs.existsSync(buildDir)) {
-    fs.rmSync(buildDir, { recursive: true });
+    fs.rmSync(buildDir, { recursive: true, force: true });
+    try { fs.mkdirSync(buildDir); } catch {}
   }
   else { fs.mkdirSync(buildDir); };
 }
@@ -115,8 +114,17 @@ function saveLayer(_canvas, _edition, _name) {
 }
 
 function addMetadata(_edition) {
+  // calculate class based on rarities
+  let elfClass = 'Adventurer'
+  if (['Bow','Dual'].some(el => layers[1].elements[rarities[1]].name.includes(el))) elfClass = 'Ranger'
+  else if (['word'].some(el => layers[1].elements[rarities[1]].name.includes(el))) elfClass = 'Warrior'
+  else if (['Golden Lance', 'Ice Lance', 'Golden Staff', 'Jade Staff'].some(el => layers[1].elements[rarities[1]].name.includes(el))) elfClass = 'Cleric'
+  else if (['Robe'].some(el => layers[3].elements[rarities[3]].name.includes(el))) elfClass = 'Cleric'
+  else if (['Draconic Lance', 'Draconic Staff'].some(el => layers[1].elements[rarities[1]].name.includes(el))) elfClass = 'Mage'
+  if (['Mage'].some(el => layers[8].elements[rarities[8]].name.includes(el))) elfClass = 'Mage'
   let tempMetadata = {
     name: `Elf #${_edition}`,
+    class: elfClass,
     attributes: attributes,
     hash: hashFunction(rarities),
     elements: '[' + rarities.join(",") + ']',
@@ -198,9 +206,9 @@ async function calcRarity(layers,debug,currentID) {
   }); // end forEach
 
   // tweak results
-  if (elements[8]!=0) {
-    // reroll hair to have no bun
-    while ([1,2,3,4,5,6,12,13,14,15,16,17,18,19,20].includes(elements[4])) {
+  if (elements[8]!=0) { // if wearing a hat
+    // reroll hair to fit under a hat: remove bun, long hair, mohawk, ponytail
+    while (layers[4].elements[elements[4]].name.match('Bun','Long','Mohawk','Pony') != null) {
       randNum = Math.random()
       cumsum=0
       i = 0
@@ -209,7 +217,7 @@ async function calcRarity(layers,debug,currentID) {
         chosenElement=i
         i++
       }
-      console.log('reassigning layer 4 for currentID=' + currentID + ' from id ' + elements[4] + ' to id ' + chosenElement)
+      if (debug) console.log('reassigning layer 4 for currentID=' + currentID + ' from id ' + elements[4] + ' to id ' + chosenElement)
       elements[4] = chosenElement;
     }
   }
@@ -246,22 +254,20 @@ async function createFiles(edition, to_draw, provide_rarity=false, name, debug) 
       if (i % 100 == 0) console.log("Created edition " + i + ' at ' + numberWithCommas(Math.round(i / (performance.now() - startTime) * 1000 * 60)) + ' Elfis/minute');
     }
 
+    // export its metadata
+    fs.writeFileSync(`${buildDir}\\${i}.json`, JSON.stringify(metadata[i-1], null, 2));
+
     // draw the damn thing
     ctx = newCtx(format.width,format.height)
     if (rarities[9] == 3) layerDrawOrder = [0,1,2,3,4,5,6,7,9,8,10]
     else layerDrawOrder = [0,1,2,3,4,5,6,7,8,9,10]
     for (const layerIdx of layerDrawOrder) {
-    // layers.forEach(async (layer, layerIdx) => {
       let layer = layers[layerIdx]
       let element = layer.elements[rarities[layerIdx]] ? layer.elements[rarities[layerIdx]] : null;
       if ((to_draw) & (element.fileName!='none')) {
-        // console.log(element)
         r = await drawLayer(ctx, layer, i, element, name)
       }
     };
-
-    // export its metadata
-    fs.writeFileSync(`${buildDir}\\${i}.json`, JSON.stringify(metadata[i-1], null, 2));
     
   } // end for i<=edition loop
 
@@ -272,9 +278,6 @@ async function createFiles(edition, to_draw, provide_rarity=false, name, debug) 
 
 function createMetaData() {
   fs.writeFileSync(`${buildDir}\\${metDataFile}`, JSON.stringify(metadata, null, 2));
-  // for (let i = 1; i <= metadata.length; i++) {
-  //   fs.writeFileSync(`${buildDir}\\${i}.json`, JSON.stringify(metadata[i-1], null, 2));
-  // }
 }
 
 function displayRarity() {
@@ -283,15 +286,20 @@ function displayRarity() {
   layers.forEach(async (layer, layerIdx) => {
     console.log(`= displaying rarities for layer ${layer.id} =`)
     layer.elements.forEach(async (element, elementIdx) => {
-      numRarity = rarityCount[layer.id][element.id];
+      numRarity = rarityCount[layer.layer_id][element.id];
       if (layerIdx==0) totalNum += numRarity;
-      z = (numRarity / rarities.length - element.adjustedRarity/100)/Math.sqrt((element.adjustedRarity/100)*(1-element.adjustedRarity/100)/rarities.length)
+      z = (numRarity / metadata.length - element.adjustedRarity/100)/Math.sqrt((element.adjustedRarity/100)*(1-element.adjustedRarity/100)/metadata.length)
       pvalue = 1 - jStat.normal.cdf(Math.abs(z),0,1);
       res = pvalue < 0.05 ? ' *REJECT' : '';
-      console.log(`${element.name} actual: ${numRarity}/${rarities.length}=${numRarity / rarities.length * 100}%, raw: ${element.rarity}, adjusted: ${element.adjustedRarity}, pvalue: ${pvalue}${res}`);
+      console.log(`${element.name} actual: ${numRarity}/${metadata.length}=${numRarity / metadata.length * 100}%, raw: ${element.rarity}, adjusted: ${element.adjustedRarity}, pvalue: ${pvalue}${res}`);
     });
   });
   console.log(`total elements counted: ${totalNum}`)
+  console.log('== displaying classes ==');
+  classNames = ['Ranger','Warrior','Cleric','Mage','Adventurer']
+  numClasses = Array(5).fill(0);
+  for (const item of metadata) numClasses[classNames.indexOf(item.class)]++;
+  for (const item of classNames) console.log(`  Number of ${item}: ${numClasses[classNames.indexOf(item)]} (${Math.round(numClasses[classNames.indexOf(item)]/metadata.length*100)}%)`);
 }
 
 async function showAllPossibleClashes(to_draw=false) {
@@ -375,7 +383,7 @@ function readProperties() {
     let row = e.split(',')
     let layer = layers.find( (l) => {return l.layer_id==row[0]})
     let element = layer.elements.find( (e) => {return e.id==row[1]})
-    element.description = row.splice(7,row.length-6).join(',').replaceAll('"','')
+    element.description = row.splice(7,row.length-6).join(',').replaceAll('"','').replaceAll('\r','')
     element.rarity = row[5]
     element.name = row[2]
   })
