@@ -206,19 +206,30 @@ async function calcRarity(layers,debug,currentID) {
   }); // end forEach
 
   // tweak results
-  if (elements[8]!=0) { // if wearing a hat
+  checkLayer   = layers.map(l => l.name).indexOf('Hat')
+  replaceLayer = layers.map(l => l.name).indexOf('Hair')
+  if (elements[checkLayer]!=0) { // if wearing a hat
+    if (debug) {
+      hat = layers[checkLayer].elements[elements[checkLayer]].name
+      firstHair = layers[replaceLayer].elements[elements[replaceLayer]].name
+    }
     // reroll hair to fit under a hat: remove bun, long hair, mohawk, ponytail
-    while (layers[4].elements[elements[4]].name.match('Bun','Long','Mohawk','Pony') != null) {
+    while (layers[replaceLayer].elements[elements[replaceLayer]].name.match('(Bun|Long|Mohawk|Pony)')!=null) {
       randNum = Math.random()
       cumsum=0
       i = 0
       while (cumsum < randNum*100) {
-        cumsum = cumsum + layers[4].elements[i].adjustedRarity
+        cumsum = cumsum + layers[replaceLayer].elements[i].adjustedRarity
         chosenElement=i
         i++
       }
-      if (debug) console.log('reassigning layer 4 for currentID=' + currentID + ' from id ' + elements[4] + ' to id ' + chosenElement)
-      elements[4] = chosenElement;
+      if (debug) console.log(`changing ${layers[replaceLayer].name} for #${currentID} from ${layers[replaceLayer].elements[elements[replaceLayer]].name} to ${layers[replaceLayer].elements[chosenElement].name}`)
+      elements[replaceLayer] = chosenElement;
+    }
+    if (debug) {
+      secondHair = layers[replaceLayer].elements[elements[replaceLayer]].name
+      if (secondHair!=firstHair) { console.log(`elf has ${hat}: changed hair from ${firstHair} to ${secondHair}`) }
+      else { console.log(`elf has ${hat}: kept ${firstHair}`) }
     }
   }
 

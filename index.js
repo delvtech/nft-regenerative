@@ -13,7 +13,7 @@ dumpProperties()
 edition = 12000
 createFiles(edition,to_draw=true, provide_rarity=false, '', debug=false).then( () => {
   createMetaData()
-  displayRarity() // show count of how many times each asset shows up and statistical test of likelihood 
+  // displayRarity() // show count of how many times each asset shows up and statistical test of likelihood 
 });
 // showAllPossibleClashes(to_draw=true);
 
