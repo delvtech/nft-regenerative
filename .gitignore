@@ -1,4 +1,5 @@
 build/*
+build12k/*
 layers/*
 package-lock.json
 node_modules/
